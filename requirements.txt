@@ -1,0 +1,5 @@
+# stdlib-only core. Optional providers:
+# openai>=1.0 ; anthropic>=0.30 ; requests
+pytest>=7
+openai>=1.40
+anthropic>=0.34

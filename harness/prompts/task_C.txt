@@ -1,0 +1,6 @@
+Target medication: {drug}
+Record:
+<<<
+{record}
+>>>
+Return the JSON object. Do NOT compute mg/kg/dose or mg/kg/day; leave those fields out. Extract only.

@@ -1,0 +1,23 @@
+drug,rxnorm_ingredient,indication,route,formulation,concentration_mg_per_ml,dose_basis,dose_min,dose_max,frequency_per_day_options,max_per_dose_mg,max_per_day_mg,age_min_days,age_max_days,source_type,source_id,source_version,retrieval_date,notes,verified
+amoxicillin,,otitis media or pharyngitis,oral,suspension,,mg/kg/day,,,,,,,,FDA_label,,,,"Read D&A pediatric table: mg/kg/day divided q8h or q12h; note the age floor (3 months) and any max; concentration from DOSAGE FORMS (e.g. 250 mg/5 mL = 50 mg/mL or 400 mg/5 mL = 80 mg/mL)",false
+amoxicillin,,otitis media or pharyngitis,oral,suspension,,mg/kg/dose,,,,,,,,FDA_label,,,,"Only if the label states a per-dose figure; otherwise delete this row (per-dose for amoxicillin is usually guideline, not label)",false
+amoxicillin-clavulanate,,otitis media,oral,suspension,,mg/kg/day,,,,,,,,FDA_label,,,,"Amoxicillin component mg/kg/day divided q12h; age floor; check adult max per dose",false
+cephalexin,,skin infection,oral,suspension,,mg/kg/day,,,,,,,,FDA_label,,,,"Pediatric mg/kg/day in divided doses; concentration 250 mg/5 mL",false
+cefdinir,,otitis media,oral,suspension,,mg/kg/day,,,,,,,,FDA_label,,,,"14 mg/kg/day once or divided q12h per label; max 600 mg/day (cap); age 6 months+",false
+azithromycin,,community-acquired pneumonia,oral,suspension,,mg/kg/dose,,,,,,,,FDA_label,,,,"Day-1 10 mg/kg then 5 mg/kg days 2-5 (dose change challenge) or 10 mg/kg x3 days; max 500 mg day 1; age floor 6 months",false
+clindamycin,,skin infection,oral,solution,,mg/kg/day,,,,,,,,FDA_label,,,,"Oral solution mg/kg/day divided q6-8h; pediatric range stated in label",false
+fluconazole,,oral candidiasis,oral,suspension,,mg/kg/day,,,,,,,,FDA_label,,,,"Pediatric mg/kg/day once daily; adult max as cap; neonatal interval differs (exclude neonates unless label supports)",false
+ampicillin,,sepsis evaluation,IV,solution,,mg/kg/day,,,,,,,,FDA_label,,,,"Pediatric mg/kg/day divided q6h; neonatal dosing differs by age/weight",false
+ceftriaxone,,serious infection,IV,solution,,mg/kg/day,,,,,,,,FDA_label,,,,"50-75 mg/kg/day once daily or divided q12h; serious infection up to 100 mg/kg/day; max 4 g/day (cap); neonatal cautions",false
+gentamicin,,serious gram-negative infection,IV,solution,,mg/kg/dose,,,,,,,,FDA_label,,,,"Pediatric 2-2.5 mg/kg q8h per label; neonatal dosing differs",false
+vancomycin,,MRSA infection,IV,solution,,mg/kg/dose,,,,,,,,FDA_label,,,,"Pediatric 10 mg/kg q6h per label (check current label; some list 15 mg/kg)",false
+acetaminophen,,pain or fever,IV,solution,10,mg/kg/dose,,,,,,,,FDA_label,,,,"IV: 12.5 mg/kg q4h or 15 mg/kg q6h; max per dose and 75 mg/kg/day (cap); 10 mg/mL",false
+ibuprofen,,fever,oral,suspension,20,mg/kg/dose,,,,,,,,FDA_label,,,,"Rx suspension 100 mg/5 mL: 5-10 mg/kg q6-8h; max 40 mg/kg/day (cap); age 6 months+",false
+ondansetron,,chemotherapy-induced nausea,IV,solution,2,mg/kg/dose,,,,,,,,FDA_label,,,,"Pediatric 0.15 mg/kg per dose (max 16 mg/dose per current label; check); age 6 months+",false
+dexamethasone,,croup or airway edema,oral,solution,,mg/kg/dose,,,,,,,,FDA_label,,,,"Label gives mg/kg/day ranges; per-dose use is guideline; keep whichever the label supports",false
+prednisolone,,asthma exacerbation,oral,solution,3,mg/kg/day,,,,,,,,FDA_label,,,,"Label mg/kg/day range; 15 mg/5 mL = 3 mg/mL",false
+famotidine,,GERD,oral,suspension,8,mg/kg/day,,,,,,,,FDA_label,,,,"Pediatric 0.5-1 mg/kg/day divided; max per label; 40 mg/5 mL = 8 mg/mL",false
+levothyroxine,,congenital hypothyroidism,oral,tablet,,mcg/kg/day,,,,,,,,FDA_label,,,,"mcg/kg/day by age band table (mcg drug); once daily",false
+digoxin,,heart failure,oral,solution,0.05,mcg/kg/day,,,,,,,,FDA_label,,,,"Pediatric oral maintenance mcg/kg/day table by age (mcg drug); divided BID in younger children; 0.05 mg/mL = 50 mcg/mL",false
+fentanyl,,procedural analgesia,IV,solution,0.05,mcg/kg/dose,,,,,,,,FDA_label,,,,"1-2 mcg/kg per dose (mcg drug); label pediatric section covers 2+ years; 50 mcg/mL",false
+midazolam,,procedural sedation,IV,solution,1,mg/kg/dose,,,,,,,,FDA_label,,,,"Pediatric IV 0.05-0.1 mg/kg (age-banded); per-dose caps in label; oral syrup 0.25-0.5 mg/kg max 20 mg is a second pattern",false

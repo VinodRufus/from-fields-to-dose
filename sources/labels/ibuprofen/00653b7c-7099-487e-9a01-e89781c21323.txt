@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 00653b7c-7099-487e-9a01-e89781c21323
+SPL VERSION: 17
+EFFECTIVE_TIME: 20260429
+BRAND: Ibuprofen Dye Free
+MANUFACTURER: CVS Pharmacy
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00653b7c-7099-487e-9a01-e89781c21323
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps the common cold muscular aches minor pain of arthritis temporarily reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions do not take more than directed the smallest effective dose should be used adults and children 12 years and over: take 1 tablet every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 tablet, 2 tablets may be used do not exceed 6 tablets in 24 hours, unless directed by a doctor children under 12 years: ask a doctor
+

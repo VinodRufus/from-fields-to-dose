@@ -1,0 +1,16 @@
+DRUG: levothyroxine
+ROUTE QUERY: oral
+SET_ID: 03dc86d3-575f-4c65-b06d-2613efbcd943
+SPL VERSION: 2
+EFFECTIVE_TIME: 20181222
+BRAND: GUNA-GERIATRICS
+MANUFACTURER: Guna spa
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03dc86d3-575f-4c65-b06d-2613efbcd943
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+USES TAKE 15 MINUTES BEFORE MEALS
+
+===== DOSAGE_AND_ADMINISTRATION =====
+DIRECTIONS Take 15 minutes before meals Adults : 20 drops in a little water, 2 times per day
+

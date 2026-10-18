@@ -1,0 +1,74 @@
+====================================================================================================
+RECORD test-dexamethasone-mg_kg_day-neonate-L1-v0-r0
+--- NOTE ---
+Patient: 17-day-old male.
+On 2026-03-10, the patient's weight was recorded as 4.52 kg.
+Medication order (2026-03-10): dexamethasone 0.02 mg/kg/day PO, with each dose divided four times daily (0.02 mg per dose); solution concentration is 0.1 mg/mL.
+--- SCENARIO ---
+  abstention_case: False
+  age_band: neonate
+  age_days: 17
+  birth_weight_kg: None
+  challenges: ['weight_tail', 'per_day_basis', 'concentration_volume']
+  complexity: 1
+  concentration_mg_per_ml: 0.1
+  conflict_fields: []
+  current_weight_unit: kg
+  current_weight_value: 4.52
+  distractor_orders: []
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: dexamethasone
+  expected_dose_per_admin_mg: 0.02
+  expected_mg_per_kg_per_day: 0.02
+  expected_mg_per_kg_per_dose: 0.005
+  expected_volume_ml: 0.2
+  formulation: solution
+  frequency_per_day: 4
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: croup or airway edema
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: []
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: None
+  prior_weight_unit: None
+  prior_weight_value: None
+  route: oral
+  scenario_id: test-dexamethasone-mg_kg_day-neonate-L1-v0
+  sex: M
+  weight_normalized_dose: 0.02
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 0.2, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.0044, "mg_per_kg_per_day": 0.02, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "B", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": ["arithmetic_inconsistency"], "obs_mg_per_kg_per_dose": 0.0044, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.11999999999999997, "dev_day": 0.0, "dosing_consistent": false, "dose_consequential": true, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": false}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 0.2, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "C", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": true}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.0226, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 0.226, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.005, "mg_per_kg_per_day": 0.02, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "B", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.875, "complete_regimen": false, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": false}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "C", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": true}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.0226, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.005, "mg_per_kg_per_day": 0.02, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.0226, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.005, "mg_per_kg_per_day": 0.02, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "B", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.875, "complete_regimen": false, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": false}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "C", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": true}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.02, "mg_per_kg_per_day": 0.02, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "B", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": ["arithmetic_inconsistency"], "obs_mg_per_kg_per_dose": 0.02, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 3.0, "dev_day": 0.0, "dosing_consistent": false, "dose_consequential": true, "dose_consequential_sens": true, "exceeds_labeled_max": false, "primary_endpoint": false}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 4.52, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.02, "dose_unit": "mg", "dose_per_admin_mg": 0.02, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-neonate-L1-v0", "workflow": "C", "run_id": "run1", "age_band": "neonate", "complexity": 1, "abstention_case": false, "conflict_case": false, "challenges": ["weight_tail", "per_day_basis", "concentration_volume"], "generation_method": "paraphrase:qwen2.5:14b", "malformed": false, "fields": {"drug": true, "current_weight_kg": true, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 1.0, "complete_regimen": true, "codes": [], "obs_mg_per_kg_per_dose": 0.005, "obs_mg_per_kg_per_day": 0.02, "dev_dose": 0.0, "dev_day": 0.0, "dosing_consistent": true, "dose_consequential": false, "dose_consequential_sens": false, "exceeds_labeled_max": false, "primary_endpoint": true}

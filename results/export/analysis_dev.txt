@@ -1,0 +1,79 @@
+
+== Primary endpoint (complete dose-consistent regimen accuracy), non-abstention records ==
+claude-sonnet-5 wf=B  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+claude-sonnet-5 wf=C  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+deepseek-v4-pro wf=B  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+deepseek-v4-pro wf=C  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+gemini-3.1-pro-preview wf=B  primary=0.981 [0.942,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.019 [0.000,0.058]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.062, 3: 0.0}
+                    by band: {'adolescent': 0.143, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 0.964}
+                    malformed outputs: 0/60
+                    top error codes: {'arithmetic_inconsistency': 1}
+gemini-3.1-pro-preview wf=C  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+gpt-5.5-2026-04-23 wf=B  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+gpt-5.5-2026-04-23 wf=C  primary=1.000 [1.000,1.000]  field_acc=1.000  complete_regimen=1.000 [1.000,1.000]  dose_consequential=0.000 [0.000,0.000]  (H1 gap=+0.000)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.0, 2: 0.0, 3: 0.0}
+                    by band: {'adolescent': 0.0, 'infant': 0.0, 'neonate': 0.0, 'school_age': 0.0, 'toddler': 0.0}
+                    by generation method (exploratory): {'paraphrase': 1.0, 'template': 1.0}
+                    malformed outputs: 0/60
+                    top error codes: {}
+llama3.1:8b  wf=B  primary=0.269 [0.154,0.404]  field_acc=0.998  complete_regimen=0.981 [0.942,1.000]  dose_consequential=0.712 [0.577,0.827]  (H1 gap=+0.017)
+                    abstention: appropriate=0.750 [0.500,1.000]  hallucinated=0.125  n=8
+                    by complexity: {1: 0.706, 2: 0.75, 3: 0.684}
+                    by band: {'adolescent': 0.714, 'infant': 0.875, 'neonate': 0.667, 'school_age': 0.625, 'toddler': 0.722}
+                    by generation method (exploratory): {'paraphrase': 0.333, 'template': 0.214}
+                    malformed outputs: 0/60
+                    top error codes: {'arithmetic_inconsistency': 37, 'frequency': 1}
+llama3.1:8b  wf=C  primary=0.077 [0.019,0.154]  field_acc=0.750  complete_regimen=0.077 [0.019,0.154]  dose_consequential=0.923 [0.846,0.981]  (H1 gap=+0.673)
+                    abstention: appropriate=0.875 [0.625,1.000]  hallucinated=0.000  n=8
+                    by complexity: {1: 1.0, 2: 0.938, 3: 0.842}
+                    by band: {'adolescent': 0.714, 'infant': 0.875, 'neonate': 1.0, 'school_age': 1.0, 'toddler': 0.944}
+                    by generation method (exploratory): {'paraphrase': 0.167, 'template': 0.0}
+                    malformed outputs: 0/60
+                    top error codes: {'extraction:dose_wrong': 48, 'adult_fixed_dose_assumption': 46, 'extraction:weight_missing': 2, 'normalization:dose_basis': 1, 'unit_scale': 1, 'frequency': 1, 'route': 1}
+
+== Primary comparison H3: Workflow C minus B on dose-consequential error rate (negative favors hybrid) ==
+claude-sonnet-5 diff=+0.000 [+0.000,+0.000]  supported=no
+gemini-3.1-pro-preview diff=-0.019 [-0.058,+0.000]  supported=no
+deepseek-v4-pro diff=+0.000 [+0.000,+0.000]  supported=no
+gpt-5.5-2026-04-23 diff=+0.000 [+0.000,+0.000]  supported=no
+llama3.1:8b  diff=+0.212 [+0.058,+0.365]  supported=no

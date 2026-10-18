@@ -1,0 +1,69 @@
+# Pinned model lineup for From Fields to Dose. Ids copied from the flagship pre-registration
+# (peds-abstraction-benchmark/config/prereg_peds_abstraction.yaml, pinned 2026-09-25) so both studies use the same
+# snapshots. API only. The generator and auditor family (qwen) differs from every evaluated family; the runner enforces it.
+# Reasoning models count thinking tokens against the output cap (seen in the flagship), so caps are generous; they are caps, not targets.
+
+generator:            # paraphrases template records (Protocol 7.1). Local Ollama; family must not be under test.
+  id: "qwen2.5:14b"   # on a 16 GB Mac use "qwen2.5:7b" here and in auditor
+  provider: "openai_compatible"
+  base_url: "http://localhost:11434/v1"
+  api_key_env: "OLLAMA_KEY"     # Ollama ignores the key but the client needs a non-empty value; OLLAMA_KEY=ollama in .env
+  family: "qwen"
+  temperature: 0.7
+  max_output_tokens: 1200
+
+auditor:              # realism audit (Protocol 8.2)
+  id: "qwen2.5:14b"
+  provider: "openai_compatible"
+  base_url: "http://localhost:11434/v1"
+  api_key_env: "OLLAMA_KEY"
+  family: "qwen"
+  temperature: 0
+  max_output_tokens: 400
+
+models:
+  - id: "gpt-5.5-2026-04-23"            # OpenAI dated snapshot (flagship core set)
+    provider: "openai"
+    family: "openai"
+    temperature: null                   # GPT-5.x rejects a fixed temperature; provider default, recorded in logs
+    seed: 20260923
+    max_output_tokens: 4000
+  - id: "claude-sonnet-5"               # Anthropic (flagship core set)
+    provider: "anthropic"
+    family: "anthropic"
+    temperature: 0
+    max_output_tokens: 4000
+  - id: "gemini-3.1-pro-preview"        # Google, via the OpenAI-compatible endpoint; GOOGLE_API_KEY as in the flagship .env
+    provider: "openai_compatible"
+    base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+    api_key_env: "GOOGLE_API_KEY"
+    family: "google"
+    temperature: 0
+    max_output_tokens: 6000             # thinking tokens count against this cap
+  - id: "deepseek-v4-pro"               # DeepSeek (open-weight, API); flagship saw truncation at 4000, so 8000
+    provider: "openai_compatible"
+    base_url: "https://api.deepseek.com"
+    api_key_env: "DEEPSEEK_API_KEY"
+    family: "deepseek"
+    temperature: 0
+    max_output_tokens: 8000
+  - id: "llama3.1:8b"                   # small open-weight reference, local Ollama (flagship extended set)
+    provider: "openai_compatible"
+    base_url: "http://localhost:11434/v1"
+    api_key_env: "OLLAMA_KEY"
+    family: "llama"
+    temperature: 0
+    max_output_tokens: 1500
+
+# Optional sixth model (frontier arm outside the core, as in the flagship): uncomment if XAI_API_KEY is in .env.
+#  - id: "grok-4.6"
+#    provider: "openai_compatible"
+#    base_url: "https://api.x.ai/v1"
+#    api_key_env: "XAI_API_KEY"
+#    family: "xai"
+#    temperature: 0
+#    max_output_tokens: 4000
+
+budget_usd_ceiling: 200
+repeat_subset_fraction: 0.30
+repeat_runs: 3

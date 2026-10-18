@@ -1,0 +1,35 @@
+{
+  "_note": "Bands follow the NICHD pediatric terminology (Williams et al., Pediatrics 2012;129(Suppl 3):S153-S160) with two NICHD categories collapsed: toddler (13 months to 2 years) and early childhood (2 to 5 years) form one band, toddler and young child (366 to 2190 days). Neonate 0 to 27 days; infant 28 to 365 days; school-age child 2191 to 4380 days (NICHD middle childhood); adolescent 4381 to 6574 days.",
+  "bands": [
+    {
+      "id": "neonate",
+      "label": "Neonate",
+      "min_days": 0,
+      "max_days": 27
+    },
+    {
+      "id": "infant",
+      "label": "Infant",
+      "min_days": 28,
+      "max_days": 365
+    },
+    {
+      "id": "toddler",
+      "label": "Toddler and young child",
+      "min_days": 366,
+      "max_days": 2190
+    },
+    {
+      "id": "school_age",
+      "label": "School-age child",
+      "min_days": 2191,
+      "max_days": 4380
+    },
+    {
+      "id": "adolescent",
+      "label": "Adolescent",
+      "min_days": 4381,
+      "max_days": 6574
+    }
+  ]
+}

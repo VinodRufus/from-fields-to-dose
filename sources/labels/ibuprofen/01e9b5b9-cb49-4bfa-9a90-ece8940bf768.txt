@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 01e9b5b9-cb49-4bfa-9a90-ece8940bf768
+SPL VERSION: 6
+EFFECTIVE_TIME: 20250211
+BRAND: Equate Ibuprofen
+MANUFACTURER: Wal-Mart Stores Inc
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01e9b5b9-cb49-4bfa-9a90-ece8940bf768
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses • temporarily relieves minor aches and pains due to: • headache • muscular aches • minor pain of arthritis • toothache • backache • the common cold • menstrual cramps • temporarily reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions • do not take more than directed • the smallest effective dose should be used Adults and children 12 years and older: • take 1 tablet every 4 to 6 hours while symptoms persist • if pain or fever does not respond to 1 tablet, 2 tablets may be used • do not exceed 6 tablets in 24 hours, unless directed by a doctor Children under 12 years: ask a doctor
+

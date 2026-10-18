@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": ["drug", "current_weight_kg", "dose_basis", "weight_normalized_dose", "dose_unit",
+               "dose_per_admin_mg", "frequency_per_day", "route", "insufficient_information"],
+  "properties": {
+    "drug": {"type": ["string", "null"]},
+    "current_weight_kg": {"type": ["number", "null"]},
+    "dose_basis": {"type": ["string", "null"], "enum": ["mg/kg/dose", "mg/kg/day", "mcg/kg/dose", "mcg/kg/day", "fixed", null]},
+    "weight_normalized_dose": {"type": ["number", "null"]},
+    "dose_unit": {"type": ["string", "null"], "enum": ["mg", "mcg", null]},
+    "dose_per_admin_mg": {"type": ["number", "null"]},
+    "frequency_per_day": {"type": ["integer", "null"]},
+    "route": {"type": ["string", "null"]},
+    "concentration_mg_per_ml": {"type": ["number", "null"]},
+    "volume_ml": {"type": ["number", "null"]},
+    "max_per_dose_mg": {"type": ["number", "null"]},
+    "max_per_day_mg": {"type": ["number", "null"]},
+    "mg_per_kg_per_dose": {"type": ["number", "null"], "description": "Workflow B only"},
+    "mg_per_kg_per_day": {"type": ["number", "null"], "description": "Workflow B only"},
+    "insufficient_information": {"type": "array", "items": {"type": "string"},
+      "description": "Names of fields that cannot be determined from the record"}
+  }
+}

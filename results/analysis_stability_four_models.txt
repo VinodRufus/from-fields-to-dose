@@ -1,0 +1,104 @@
+## gpt-5.5-2026-04-23 wf=C
+model=gpt-5.5-2026-04-23 wf=C runs=3 shared_records=108
+complete_regimen stable:   1.000
+dosing_consistent stable:  1.000
+dose_consequential stable: 1.000
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 1.000
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## gpt-5.5-2026-04-23 wf=B
+model=gpt-5.5-2026-04-23 wf=B runs=3 shared_records=108
+complete_regimen stable:   0.981
+dosing_consistent stable:  0.991
+dose_consequential stable: 0.991
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 0.981
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## claude-sonnet-5 wf=C
+model=claude-sonnet-5 wf=C runs=3 shared_records=108
+complete_regimen stable:   0.972
+dosing_consistent stable:  1.000
+dose_consequential stable: 1.000
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 0.972
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## claude-sonnet-5 wf=B
+model=claude-sonnet-5 wf=B runs=3 shared_records=108
+complete_regimen stable:   1.000
+dosing_consistent stable:  0.991
+dose_consequential stable: 0.991
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 1.000
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## deepseek-v4-pro wf=C
+model=deepseek-v4-pro wf=C runs=3 shared_records=108
+complete_regimen stable:   0.991
+dosing_consistent stable:  1.000
+dose_consequential stable: 1.000
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 0.991
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## deepseek-v4-pro wf=B
+model=deepseek-v4-pro wf=B runs=3 shared_records=108
+complete_regimen stable:   0.991
+dosing_consistent stable:  0.991
+dose_consequential stable: 0.991
+  field drug                     stable: 0.991
+  field current_weight_kg        stable: 0.991
+  field dose_basis               stable: 0.991
+  field weight_normalized_dose   stable: 0.991
+  field dose_unit                stable: 0.991
+  field dose_per_admin_mg        stable: 0.991
+  field frequency_per_day        stable: 0.991
+  field route                    stable: 0.991
+## llama3.1_8b wf=C
+model=llama3.1:8b wf=C runs=3 shared_records=108
+complete_regimen stable:   1.000
+dosing_consistent stable:  1.000
+dose_consequential stable: 1.000
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 1.000
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000
+## llama3.1_8b wf=B
+model=llama3.1:8b wf=B runs=3 shared_records=108
+complete_regimen stable:   1.000
+dosing_consistent stable:  1.000
+dose_consequential stable: 1.000
+  field drug                     stable: 1.000
+  field current_weight_kg        stable: 1.000
+  field dose_basis               stable: 1.000
+  field weight_normalized_dose   stable: 1.000
+  field dose_unit                stable: 1.000
+  field dose_per_admin_mg        stable: 1.000
+  field frequency_per_day        stable: 1.000
+  field route                    stable: 1.000

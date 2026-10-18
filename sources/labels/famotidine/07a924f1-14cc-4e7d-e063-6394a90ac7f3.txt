@@ -1,0 +1,16 @@
+DRUG: famotidine
+ROUTE QUERY: oral
+SET_ID: 07a924f1-14cc-4e7d-e063-6394a90ac7f3
+SPL VERSION: 2
+EFFECTIVE_TIME: 20240513
+BRAND: Maximum Strength Acid Reducer
+MANUFACTURER: TARGET CORPORATION
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07a924f1-14cc-4e7d-e063-6394a90ac7f3
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 10 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor
+

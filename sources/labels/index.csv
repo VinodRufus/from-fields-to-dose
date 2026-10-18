@@ -1,0 +1,453 @@
+drug,route,set_id,spl_version,effective_time,brand,manufacturer,file,retrieved
+amoxicillin,oral,00b86913-50c8-443f-8467-f4f499d358af,2,20260723,amoxicillin and clavulanate potassium,"Chartwell RX, LLC",sources/labels/amoxicillin/00b86913-50c8-443f-8467-f4f499d358af.txt,2026-10-02
+amoxicillin,oral,00cf4429-e37c-4490-b22d-3cd796124296,4,20240430,AMOXICILLIN AND CLAVULANATE POTASSIUM,A-S Medication Solutions,sources/labels/amoxicillin/00cf4429-e37c-4490-b22d-3cd796124296.txt,2026-10-02
+amoxicillin,oral,00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54,14,20231218,Amoxicillin,A-S Medication Solutions,sources/labels/amoxicillin/00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54.txt,2026-10-02
+amoxicillin,oral,0173e9de-a995-4386-bb65-8fc2bbf347f9,5,20240109,AMOXICILLIN,DIRECT RX,sources/labels/amoxicillin/0173e9de-a995-4386-bb65-8fc2bbf347f9.txt,2026-10-02
+cephalexin,oral,02b5cd6f-3df8-43c1-879d-217fcf55231a,16,20250211,Cephalexin,A-S Medication Solutions,sources/labels/cephalexin/02b5cd6f-3df8-43c1-879d-217fcf55231a.txt,2026-10-02
+cephalexin,oral,0384c418-b4d4-4c06-9ed9-13e864b1980b,101,20260716,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/0384c418-b4d4-4c06-9ed9-13e864b1980b.txt,2026-10-02
+cephalexin,oral,03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d,14,20260729,Cephalexin,AvKARE,sources/labels/cephalexin/03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d.txt,2026-10-02
+cephalexin,oral,06c2fb2e-0539-4f16-bac4-e15a575ca802,108,20260403,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/06c2fb2e-0539-4f16-bac4-e15a575ca802.txt,2026-10-02
+cefdinir,oral,06fbdb63-d32f-4212-9962-f1de15597dda,13,20240214,Cefdinir,Aurobindo Pharma Limited,sources/labels/cefdinir/06fbdb63-d32f-4212-9962-f1de15597dda.txt,2026-10-02
+cefdinir,oral,0d1212c9-604f-4999-8f7d-e7cf300705ef,3,20260324,Cefdinir,Preferred Pharmaceuticals Inc.,sources/labels/cefdinir/0d1212c9-604f-4999-8f7d-e7cf300705ef.txt,2026-10-02
+cefdinir,oral,0eeac6df-bad7-413e-8b41-0660f3a99373,6,20260820,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/0eeac6df-bad7-413e-8b41-0660f3a99373.txt,2026-10-02
+cefdinir,oral,10bf69e7-5f7e-4448-9f22-777f137d9666,5,20231225,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/10bf69e7-5f7e-4448-9f22-777f137d9666.txt,2026-10-02
+azithromycin,oral,003307c5-3f73-4a5d-a704-bfdea3c656e8,7,20260316,Azithromycin,Preferred Pharmaceuticals Inc.,sources/labels/azithromycin/003307c5-3f73-4a5d-a704-bfdea3c656e8.txt,2026-10-02
+azithromycin,oral,01649d79-4677-4577-a3e4-e054f3f9fc3b,10,20260820,azithromycin,"Lupin Pharmaceuticals, Inc.",sources/labels/azithromycin/01649d79-4677-4577-a3e4-e054f3f9fc3b.txt,2026-10-02
+azithromycin,oral,0b63649d-558c-4250-90ee-af6e1e5c6d2c,5,20250109,Azithromycin,Zydus Lifesciences Limited,sources/labels/azithromycin/0b63649d-558c-4250-90ee-af6e1e5c6d2c.txt,2026-10-02
+azithromycin,oral,0c926669-62b2-4ad3-8289-173c5818a9c1,7,20260729,Azithromycin Dihydrate,"PD-Rx Pharmaceuticals, Inc.",sources/labels/azithromycin/0c926669-62b2-4ad3-8289-173c5818a9c1.txt,2026-10-02
+clindamycin,oral,07f5d841-9c58-4dd1-b0bc-e12553931c8e,8,20230206,CLINDAMYCIN HYDROCHLORIDE,A-S Medication Solutions,sources/labels/clindamycin/07f5d841-9c58-4dd1-b0bc-e12553931c8e.txt,2026-10-02
+clindamycin,oral,0800afad-e4cd-4f70-aaa1-a14547be4729,7,20250424,CLINDAMYCIN PALMITATE HYDROCHLORIDE (Pediatric),"Rising Pharma Holdings, Inc.",sources/labels/clindamycin/0800afad-e4cd-4f70-aaa1-a14547be4729.txt,2026-10-02
+clindamycin,oral,09eea0ad-702f-4eea-bfb9-81effc76b22b,5,20251007,Clindamycin Hydrochloride,A-S Medication Solutions,sources/labels/clindamycin/09eea0ad-702f-4eea-bfb9-81effc76b22b.txt,2026-10-02
+clindamycin,oral,0a0fbeae-2bc2-2402-e063-6394a90a97a0,3,20251225,Clindamycin Hydrochloride,Redpharm Drug,sources/labels/clindamycin/0a0fbeae-2bc2-2402-e063-6394a90a97a0.txt,2026-10-02
+fluconazole,oral,01df20c4-7b94-044e-e063-6394a90a406a,3,20251117,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/01df20c4-7b94-044e-e063-6394a90a406a.txt,2026-10-02
+fluconazole,oral,068623f9-0f87-50bc-e063-6294a90aea00,3,20250114,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/068623f9-0f87-50bc-e063-6294a90aea00.txt,2026-10-02
+fluconazole,oral,06f8f4b9-5289-2d59-e063-6294a90a7209,2,20250122,Fluconazole,Direct_Rx,sources/labels/fluconazole/06f8f4b9-5289-2d59-e063-6294a90a7209.txt,2026-10-02
+fluconazole,oral,08a54805-4fdf-48fd-bc3e-e9fa38f3c691,3,20230206,fluconazole,A-S Medication Solutions,sources/labels/fluconazole/08a54805-4fdf-48fd-bc3e-e9fa38f3c691.txt,2026-10-02
+ampicillin,IV,006f9a3f-b4e3-4aa5-ac65-6cc3d3e2582d,3,20260722,Ampicillin and Sulbactam,Meitheal Pharmaceuticals Inc.,sources/labels/ampicillin/006f9a3f-b4e3-4aa5-ac65-6cc3d3e2582d.txt,2026-10-02
+ampicillin,IV,06ca924c-5f3a-4924-90f4-5ba623daaa0e,7,20260430,AMPICILLIN,"Henry Schein, Inc.",sources/labels/ampicillin/06ca924c-5f3a-4924-90f4-5ba623daaa0e.txt,2026-10-02
+ampicillin,IV,12b6ac82-ca74-4f88-99ea-ae4a1c419b70,17,20260622,Ampicillin,"WG Critical Care, LLC",sources/labels/ampicillin/12b6ac82-ca74-4f88-99ea-ae4a1c419b70.txt,2026-10-02
+ampicillin,IV,12eeb72a-403d-41be-bae4-4cb930862884,40,20260709,UNASYN,Roerig,sources/labels/ampicillin/12eeb72a-403d-41be-bae4-4cb930862884.txt,2026-10-02
+ceftriaxone,IV,03283208-8616-4117-9d2b-aa8046017a4f,21,20260119,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/03283208-8616-4117-9d2b-aa8046017a4f.txt,2026-10-02
+ceftriaxone,IV,128bb292-d174-4769-b3e6-9f16617f31e3,21,20260122,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/128bb292-d174-4769-b3e6-9f16617f31e3.txt,2026-10-02
+ceftriaxone,IV,19141ccd-e66c-49a2-a794-0616028495a7,5,20260119,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/19141ccd-e66c-49a2-a794-0616028495a7.txt,2026-10-02
+ceftriaxone,IV,1aa0a4ee-1b39-4c3d-a7a3-33dded6fe28c,13,20240131,Ceftriaxone Sodium,A-S Medication Solutions,sources/labels/ceftriaxone/1aa0a4ee-1b39-4c3d-a7a3-33dded6fe28c.txt,2026-10-02
+gentamicin,IV,09cf88af-59da-f147-e063-6294a90aac99,1,20231110,Gentamicin,"Medical Purchasing Solutions, LLC",sources/labels/gentamicin/09cf88af-59da-f147-e063-6294a90aac99.txt,2026-10-02
+gentamicin,IV,0cce2238-28d3-4280-b520-ffc3067a2ffa,4,20231031,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/0cce2238-28d3-4280-b520-ffc3067a2ffa.txt,2026-10-02
+gentamicin,IV,3532bb39-a1a6-9d67-e063-6294a90abc0c,1,20250515,Gentamicin Sulfate,"Medical Purchasing Solutions, LLC",sources/labels/gentamicin/3532bb39-a1a6-9d67-e063-6294a90abc0c.txt,2026-10-02
+gentamicin,IV,449c9a41-d61e-49fd-b5e3-d76f74b92acf,20,20230126,Gentamicin Sulfate in Sodium Chloride,Baxter Healthcare Corporation,sources/labels/gentamicin/449c9a41-d61e-49fd-b5e3-d76f74b92acf.txt,2026-10-02
+vancomycin,IV,00946db3-d6c5-4534-a870-1ec6e63eda43,10,20260130,Vancomycin Hydrochloride,Gland Pharma Limited,sources/labels/vancomycin/00946db3-d6c5-4534-a870-1ec6e63eda43.txt,2026-10-02
+vancomycin,IV,033efc76-11d5-4a93-91de-56ed41bab9c3,6,20260708,Vancomycin Hydrochloride,Meitheal Pharmaceuticals Inc.,sources/labels/vancomycin/033efc76-11d5-4a93-91de-56ed41bab9c3.txt,2026-10-02
+vancomycin,IV,0543b2b5-b1c7-4ad6-b38c-3be0086f0e06,3,20251223,Vancomycin Hydrochloride,"GLENMARK PHARMACEUTICALS INC., USA",sources/labels/vancomycin/0543b2b5-b1c7-4ad6-b38c-3be0086f0e06.txt,2026-10-02
+vancomycin,IV,0576803d-95de-4a48-806a-69ae3fcaf6b0,8,20230817,VANCOMYCIN HYDROCHLORIDE,"Fresenius Kabi USA, LLC",sources/labels/vancomycin/0576803d-95de-4a48-806a-69ae3fcaf6b0.txt,2026-10-02
+acetaminophen,IV,0f67c1bd-915b-4681-88dd-22f5154a80b3,8,20240506,Acetaminophen,Baxter Healthcare Corporation,sources/labels/acetaminophen/0f67c1bd-915b-4681-88dd-22f5154a80b3.txt,2026-10-02
+acetaminophen,IV,1b5ca3e0-ce08-4e11-9385-9ec22e5abb5b,2,20220215,Acetaminophen,"Civica, Inc.",sources/labels/acetaminophen/1b5ca3e0-ce08-4e11-9385-9ec22e5abb5b.txt,2026-10-02
+acetaminophen,IV,1c8fef8f-2ff5-4bea-bccb-90c2c8544c21,3,20260423,Acetaminophen,"Camber Pharmaceuticals, Inc.",sources/labels/acetaminophen/1c8fef8f-2ff5-4bea-bccb-90c2c8544c21.txt,2026-10-02
+acetaminophen,IV,1d456d07-fca2-4d43-92c0-f3b3c8b54420,5,20260320,Acetaminophen,Mylan Institutional LLC,sources/labels/acetaminophen/1d456d07-fca2-4d43-92c0-f3b3c8b54420.txt,2026-10-02
+ibuprofen,oral,00653b7c-7099-487e-9a01-e89781c21323,17,20260429,Ibuprofen Dye Free,CVS Pharmacy,sources/labels/ibuprofen/00653b7c-7099-487e-9a01-e89781c21323.txt,2026-10-02
+ibuprofen,oral,006adf23-21ab-4a4e-aae9-c4e587777165,7,20250603,care one ibuprofen,American Sales Company,sources/labels/ibuprofen/006adf23-21ab-4a4e-aae9-c4e587777165.txt,2026-10-02
+ibuprofen,oral,00872852-680a-41b3-901b-b991b12a176d,6,20250214,Ibuprofen,Aurobindo Pharma Limited,sources/labels/ibuprofen/00872852-680a-41b3-901b-b991b12a176d.txt,2026-10-02
+ibuprofen,oral,009dde4c-d944-4206-8c9f-35bc8fd92715,5,20250626,leader Ibuprofen,"Cardinal Health 110, LLC. dba Leader",sources/labels/ibuprofen/009dde4c-d944-4206-8c9f-35bc8fd92715.txt,2026-10-02
+ondansetron,IV,1a44601b-c31c-4779-a688-28cc4cc75e8b,8,20260723,ONDANSETRON,"Henry Schein, Inc.",sources/labels/ondansetron/1a44601b-c31c-4779-a688-28cc4cc75e8b.txt,2026-10-02
+ondansetron,IV,1b9c2d9f-62a8-4d26-a041-a598bc59e300,14,20260626,Ondansetron,"Cardinal Health 107, LLC",sources/labels/ondansetron/1b9c2d9f-62a8-4d26-a041-a598bc59e300.txt,2026-10-02
+ondansetron,IV,1cc94c7a-617c-4238-8248-e3fabc9612c7,11,20240102,Ondansetron,Eugia US LLC,sources/labels/ondansetron/1cc94c7a-617c-4238-8248-e3fabc9612c7.txt,2026-10-02
+ondansetron,IV,2c68d202-fdf7-4b6a-dd7f-82624fcdbd4a,12,20250826,ONDANSETRON,Apotex Corp.,sources/labels/ondansetron/2c68d202-fdf7-4b6a-dd7f-82624fcdbd4a.txt,2026-10-02
+dexamethasone,oral,01cfaa3e-5e30-18fa-e063-6394a90a084e,3,20251029,Dexamethasone,"Advanced Rx Pharmacy of Tennessee, LLC",sources/labels/dexamethasone/01cfaa3e-5e30-18fa-e063-6394a90a084e.txt,2026-10-02
+dexamethasone,oral,02f7bf9c-1aa3-4734-8a3e-1f49498055d7,1,20251112,DEXAMETHASONE,Kanchan Healthcare Inc,sources/labels/dexamethasone/02f7bf9c-1aa3-4734-8a3e-1f49498055d7.txt,2026-10-02
+dexamethasone,oral,044d7898-4ab6-a0b3-e063-6294a90acdba,2,20250122,Dexamethasone,Direct_Rx,sources/labels/dexamethasone/044d7898-4ab6-a0b3-e063-6294a90acdba.txt,2026-10-02
+dexamethasone,oral,05c77a4c-c508-babd-e063-6294a90a450a,3,20240308,Dexamethasone,NorthStar Rx LLC,sources/labels/dexamethasone/05c77a4c-c508-babd-e063-6294a90a450a.txt,2026-10-02
+prednisolone,oral,070f1937-50a5-457f-bef5-4e597014e26d,2,20240216,PREDNISOLONE,Aurobindo Pharma Limited,sources/labels/prednisolone/070f1937-50a5-457f-bef5-4e597014e26d.txt,2026-10-02
+prednisolone,oral,14b7f41b-4df1-42cb-bd1b-c74b28de2670,4,20210101,Prednisolone Sodium Phosphate,Proficient Rx LP,sources/labels/prednisolone/14b7f41b-4df1-42cb-bd1b-c74b28de2670.txt,2026-10-02
+prednisolone,oral,16d4e064-66d3-4497-8c7d-3aa355f91e1d,1,20240815,PREDNISOLONE,"Hisun Pharmaceuticals USA, Inc.",sources/labels/prednisolone/16d4e064-66d3-4497-8c7d-3aa355f91e1d.txt,2026-10-02
+prednisolone,oral,1793e218-7b49-497d-879f-1020de6e6d68,14,20251217,Prednisolone Sodium Phosphate,Edenbridge Pharmaceuticals LLC.,sources/labels/prednisolone/1793e218-7b49-497d-879f-1020de6e6d68.txt,2026-10-02
+famotidine,oral,002875d2-8c30-2d2e-e063-6294a90ae01e,9,20251022,Famotidine,"PD-Rx Pharmaceuticals, Inc.",sources/labels/famotidine/002875d2-8c30-2d2e-e063-6294a90ae01e.txt,2026-10-02
+famotidine,oral,018b02e8-1005-4736-a4fc-962881f52adf,7,20250315,Famotidine,"Wal-Mart Stores, Inc.",sources/labels/famotidine/018b02e8-1005-4736-a4fc-962881f52adf.txt,2026-10-02
+famotidine,oral,03503cd5-bd8e-4bff-b90d-1a71c5225b91,3,20251226,Famotidine,"Northwind Health Company, LLC",sources/labels/famotidine/03503cd5-bd8e-4bff-b90d-1a71c5225b91.txt,2026-10-02
+famotidine,oral,03733e49-7db4-4d98-b363-d0d23686ec72,1,20230315,IBUPROFEN AND FAMOTIDINE,"Ascent Pharmaceuticals, Inc.",sources/labels/famotidine/03733e49-7db4-4d98-b363-d0d23686ec72.txt,2026-10-02
+levothyroxine,oral,008de8fd-150f-4022-8ccb-c8bfa94875c7,8,20260324,Levothyroxine sodium,A-S Medication Solutions,sources/labels/levothyroxine/008de8fd-150f-4022-8ccb-c8bfa94875c7.txt,2026-10-02
+levothyroxine,oral,00a4fc0b-7162-455e-8ed3-56efdbbe182e,2,20251001,levothyroxine sodium,Proficient Rx LP,sources/labels/levothyroxine/00a4fc0b-7162-455e-8ed3-56efdbbe182e.txt,2026-10-02
+levothyroxine,oral,0210a600-747e-433a-8ba9-11692ecfb54a,102,20260407,Levothyroxine Sodium,Bryant Ranch Prepack,sources/labels/levothyroxine/0210a600-747e-433a-8ba9-11692ecfb54a.txt,2026-10-02
+levothyroxine,oral,0235176b-ec39-44c4-a9e1-e0729a7989fa,1,20260401,Levothyroxine Sodium,Proficient Rx LP,sources/labels/levothyroxine/0235176b-ec39-44c4-a9e1-e0729a7989fa.txt,2026-10-02
+digoxin,oral,03612934-62f4-4002-85af-6c66cd172acb,100,20240904,Digoxin,Bryant Ranch Prepack,sources/labels/digoxin/03612934-62f4-4002-85af-6c66cd172acb.txt,2026-10-02
+digoxin,oral,0a88434e-4a1b-4ade-a51e-38145e22a232,1,20230814,Digoxin,A-S Medication Solutions,sources/labels/digoxin/0a88434e-4a1b-4ade-a51e-38145e22a232.txt,2026-10-02
+digoxin,oral,1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf,18,20250410,Digoxin,Hikma Pharmaceuticals USA Inc.,sources/labels/digoxin/1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf.txt,2026-10-02
+digoxin,oral,1cfd4e43-56f0-d182-e063-6394a90ad231,1,20240711,Digoxin,AvPAK,sources/labels/digoxin/1cfd4e43-56f0-d182-e063-6394a90ad231.txt,2026-10-02
+fentanyl,IV,0c10e465-4117-48ba-a454-23ccb7a3fcc7,6,20250924,Fentanyl Citrate,"Fresenius Kabi USA, LLC",sources/labels/fentanyl/0c10e465-4117-48ba-a454-23ccb7a3fcc7.txt,2026-10-02
+fentanyl,IV,1ed25b2c-334e-4021-ada1-3396f07630dc,17,20260407,FENTANYL CITRATE,"Hospira, Inc.",sources/labels/fentanyl/1ed25b2c-334e-4021-ada1-3396f07630dc.txt,2026-10-02
+fentanyl,IV,38d0c14a-a0c1-44cc-a939-0304eb8037d6,10,20241231,Fentanyl Citrate,"Fresenius Kabi USA, LLC",sources/labels/fentanyl/38d0c14a-a0c1-44cc-a939-0304eb8037d6.txt,2026-10-02
+fentanyl,IV,58dcd3f7-e3d8-4929-a186-8f680a51ff11,10,20251223,Fentanyl Citrate,Phlow Corp.,sources/labels/fentanyl/58dcd3f7-e3d8-4929-a186-8f680a51ff11.txt,2026-10-02
+midazolam,IV,06e4f754-72df-4eb4-aaed-b538524f5277,1,20231205,Midazolam,"SOMERSET THERAPEUTICS, LLC",sources/labels/midazolam/06e4f754-72df-4eb4-aaed-b538524f5277.txt,2026-10-02
+midazolam,IV,1abda8b8-48a8-4995-af86-39220d1aa240,35,20260812,Midazolam,"Hospira, Inc.",sources/labels/midazolam/1abda8b8-48a8-4995-af86-39220d1aa240.txt,2026-10-02
+midazolam,IV,1cc9ba6e-fa1b-405e-9de8-720c567b2a73,16,20240101,Midazolam,"Fresenius Kabi USA, LLC",sources/labels/midazolam/1cc9ba6e-fa1b-405e-9de8-720c567b2a73.txt,2026-10-02
+midazolam,IV,23f4df96-1151-4815-8f01-4d79e5aa2145,12,20221111,Midazolam hydrochloride,Gland Pharma Limited,sources/labels/midazolam/23f4df96-1151-4815-8f01-4d79e5aa2145.txt,2026-10-02
+amoxicillin-clavulanate,oral,00b86913-50c8-443f-8467-f4f499d358af,2,20260723,amoxicillin and clavulanate potassium,"Chartwell RX, LLC",sources/labels/amoxicillin-clavulanate/00b86913-50c8-443f-8467-f4f499d358af.txt,2026-10-02
+amoxicillin-clavulanate,oral,00cf4429-e37c-4490-b22d-3cd796124296,4,20240430,AMOXICILLIN AND CLAVULANATE POTASSIUM,A-S Medication Solutions,sources/labels/amoxicillin-clavulanate/00cf4429-e37c-4490-b22d-3cd796124296.txt,2026-10-02
+amoxicillin-clavulanate,oral,01b30abb-db63-4257-9fe2-9107bb0bd69c,3,20191101,Amoxicillin and Clavulanate Potassium,Proficient Rx LP,sources/labels/amoxicillin-clavulanate/01b30abb-db63-4257-9fe2-9107bb0bd69c.txt,2026-10-02
+amoxicillin-clavulanate,oral,029a49f2-2132-4160-a0d6-2d108a456a22,2,20230302,Amoxicillin and Clavulanate Potassium,A-S Medication Solutions,sources/labels/amoxicillin-clavulanate/029a49f2-2132-4160-a0d6-2d108a456a22.txt,2026-10-02
+amoxicillin,oral,00b86913-50c8-443f-8467-f4f499d358af,2,20260723,amoxicillin and clavulanate potassium,"Chartwell RX, LLC",sources/labels/amoxicillin/00b86913-50c8-443f-8467-f4f499d358af.txt,2026-10-02
+amoxicillin,oral,00cf4429-e37c-4490-b22d-3cd796124296,4,20240430,AMOXICILLIN AND CLAVULANATE POTASSIUM,A-S Medication Solutions,sources/labels/amoxicillin/00cf4429-e37c-4490-b22d-3cd796124296.txt,2026-10-02
+amoxicillin,oral,00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54,14,20231218,Amoxicillin,A-S Medication Solutions,sources/labels/amoxicillin/00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54.txt,2026-10-02
+amoxicillin,oral,0173e9de-a995-4386-bb65-8fc2bbf347f9,5,20240109,AMOXICILLIN,DIRECT RX,sources/labels/amoxicillin/0173e9de-a995-4386-bb65-8fc2bbf347f9.txt,2026-10-02
+amoxicillin,oral,01b30abb-db63-4257-9fe2-9107bb0bd69c,3,20191101,Amoxicillin and Clavulanate Potassium,Proficient Rx LP,sources/labels/amoxicillin/01b30abb-db63-4257-9fe2-9107bb0bd69c.txt,2026-10-02
+amoxicillin,oral,029a49f2-2132-4160-a0d6-2d108a456a22,2,20230302,Amoxicillin and Clavulanate Potassium,A-S Medication Solutions,sources/labels/amoxicillin/029a49f2-2132-4160-a0d6-2d108a456a22.txt,2026-10-02
+amoxicillin,oral,039d2677-b04f-436c-e063-6294a90ac519,21,20251020,Amoxicillin,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/039d2677-b04f-436c-e063-6294a90ac519.txt,2026-10-02
+amoxicillin,oral,0425932a-f6e1-49a6-8480-720f179ace14,27,20251014,Amoxicillin and Clavulanate Potassium,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/0425932a-f6e1-49a6-8480-720f179ace14.txt,2026-10-02
+amoxicillin,oral,04a31a42-d79e-bbb4-e063-6394a90a63ee,4,20240516,Augmentin,"Allegis Holdings, LLC",sources/labels/amoxicillin/04a31a42-d79e-bbb4-e063-6394a90a63ee.txt,2026-10-02
+amoxicillin,oral,05b9b595-05d9-469f-82a3-c2bc94c50be2,13,20250130,Amoxicillin,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/05b9b595-05d9-469f-82a3-c2bc94c50be2.txt,2026-10-02
+amoxicillin,oral,05e88717-2ce3-4b1a-88af-c3f61a2d8cd5,6,20241104,Amoxicillin,A-S Medication Solutions,sources/labels/amoxicillin/05e88717-2ce3-4b1a-88af-c3f61a2d8cd5.txt,2026-10-02
+amoxicillin,oral,06e5c07d-d95c-4955-8d35-a4703ca2359e,5,20260707,Amoxicillin,"USAntibiotics, LLC",sources/labels/amoxicillin/06e5c07d-d95c-4955-8d35-a4703ca2359e.txt,2026-10-02
+amoxicillin,oral,071086f5-e4ed-b1d9-e063-6294a90ad304,7,20251113,Amoxicillin,"NuCare Pharmaceuticals,Inc.",sources/labels/amoxicillin/071086f5-e4ed-b1d9-e063-6294a90ad304.txt,2026-10-02
+amoxicillin,oral,077f4a65-3cfb-4cb1-99f2-e27ffc5939c0,3,20240201,Amoxicillin,Hikma Pharmaceuticals USA Inc.,sources/labels/amoxicillin/077f4a65-3cfb-4cb1-99f2-e27ffc5939c0.txt,2026-10-02
+amoxicillin,oral,08100595-e6de-4a8a-a177-a94f849bbe9f,1,20251210,Amoxicillin,ASCLEMED USA INC.,sources/labels/amoxicillin/08100595-e6de-4a8a-a177-a94f849bbe9f.txt,2026-10-02
+amoxicillin,oral,00b86913-50c8-443f-8467-f4f499d358af,2,20260723,amoxicillin and clavulanate potassium,"Chartwell RX, LLC",sources/labels/amoxicillin/00b86913-50c8-443f-8467-f4f499d358af.txt,2026-10-02
+amoxicillin,oral,00cf4429-e37c-4490-b22d-3cd796124296,4,20240430,AMOXICILLIN AND CLAVULANATE POTASSIUM,A-S Medication Solutions,sources/labels/amoxicillin/00cf4429-e37c-4490-b22d-3cd796124296.txt,2026-10-02
+amoxicillin,oral,00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54,14,20231218,Amoxicillin,A-S Medication Solutions,sources/labels/amoxicillin/00fbd46e-05fd-4f8a-9f59-a7a4d01c8e54.txt,2026-10-02
+amoxicillin,oral,0173e9de-a995-4386-bb65-8fc2bbf347f9,5,20240109,AMOXICILLIN,DIRECT RX,sources/labels/amoxicillin/0173e9de-a995-4386-bb65-8fc2bbf347f9.txt,2026-10-02
+amoxicillin,oral,01b30abb-db63-4257-9fe2-9107bb0bd69c,3,20191101,Amoxicillin and Clavulanate Potassium,Proficient Rx LP,sources/labels/amoxicillin/01b30abb-db63-4257-9fe2-9107bb0bd69c.txt,2026-10-02
+amoxicillin,oral,029a49f2-2132-4160-a0d6-2d108a456a22,2,20230302,Amoxicillin and Clavulanate Potassium,A-S Medication Solutions,sources/labels/amoxicillin/029a49f2-2132-4160-a0d6-2d108a456a22.txt,2026-10-02
+amoxicillin,oral,039d2677-b04f-436c-e063-6294a90ac519,21,20251020,Amoxicillin,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/039d2677-b04f-436c-e063-6294a90ac519.txt,2026-10-02
+amoxicillin,oral,0425932a-f6e1-49a6-8480-720f179ace14,27,20251014,Amoxicillin and Clavulanate Potassium,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/0425932a-f6e1-49a6-8480-720f179ace14.txt,2026-10-02
+amoxicillin,oral,04a31a42-d79e-bbb4-e063-6394a90a63ee,4,20240516,Augmentin,"Allegis Holdings, LLC",sources/labels/amoxicillin/04a31a42-d79e-bbb4-e063-6394a90a63ee.txt,2026-10-02
+amoxicillin,oral,05b9b595-05d9-469f-82a3-c2bc94c50be2,13,20250130,Amoxicillin,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin/05b9b595-05d9-469f-82a3-c2bc94c50be2.txt,2026-10-02
+amoxicillin,oral,05e88717-2ce3-4b1a-88af-c3f61a2d8cd5,6,20241104,Amoxicillin,A-S Medication Solutions,sources/labels/amoxicillin/05e88717-2ce3-4b1a-88af-c3f61a2d8cd5.txt,2026-10-02
+amoxicillin,oral,06e5c07d-d95c-4955-8d35-a4703ca2359e,5,20260707,Amoxicillin,"USAntibiotics, LLC",sources/labels/amoxicillin/06e5c07d-d95c-4955-8d35-a4703ca2359e.txt,2026-10-02
+amoxicillin,oral,071086f5-e4ed-b1d9-e063-6294a90ad304,7,20251113,Amoxicillin,"NuCare Pharmaceuticals,Inc.",sources/labels/amoxicillin/071086f5-e4ed-b1d9-e063-6294a90ad304.txt,2026-10-02
+amoxicillin,oral,077f4a65-3cfb-4cb1-99f2-e27ffc5939c0,3,20240201,Amoxicillin,Hikma Pharmaceuticals USA Inc.,sources/labels/amoxicillin/077f4a65-3cfb-4cb1-99f2-e27ffc5939c0.txt,2026-10-02
+amoxicillin,oral,08100595-e6de-4a8a-a177-a94f849bbe9f,1,20251210,Amoxicillin,ASCLEMED USA INC.,sources/labels/amoxicillin/08100595-e6de-4a8a-a177-a94f849bbe9f.txt,2026-10-02
+amoxicillin-clavulanate,oral,00b86913-50c8-443f-8467-f4f499d358af,2,20260723,amoxicillin and clavulanate potassium,"Chartwell RX, LLC",sources/labels/amoxicillin-clavulanate/00b86913-50c8-443f-8467-f4f499d358af.txt,2026-10-02
+amoxicillin-clavulanate,oral,00cf4429-e37c-4490-b22d-3cd796124296,4,20240430,AMOXICILLIN AND CLAVULANATE POTASSIUM,A-S Medication Solutions,sources/labels/amoxicillin-clavulanate/00cf4429-e37c-4490-b22d-3cd796124296.txt,2026-10-02
+amoxicillin-clavulanate,oral,01b30abb-db63-4257-9fe2-9107bb0bd69c,3,20191101,Amoxicillin and Clavulanate Potassium,Proficient Rx LP,sources/labels/amoxicillin-clavulanate/01b30abb-db63-4257-9fe2-9107bb0bd69c.txt,2026-10-02
+amoxicillin-clavulanate,oral,029a49f2-2132-4160-a0d6-2d108a456a22,2,20230302,Amoxicillin and Clavulanate Potassium,A-S Medication Solutions,sources/labels/amoxicillin-clavulanate/029a49f2-2132-4160-a0d6-2d108a456a22.txt,2026-10-02
+amoxicillin-clavulanate,oral,0425932a-f6e1-49a6-8480-720f179ace14,27,20251014,Amoxicillin and Clavulanate Potassium,"PD-Rx Pharmaceuticals, Inc.",sources/labels/amoxicillin-clavulanate/0425932a-f6e1-49a6-8480-720f179ace14.txt,2026-10-02
+amoxicillin-clavulanate,oral,04a31a42-d79e-bbb4-e063-6394a90a63ee,4,20240516,Augmentin,"Allegis Holdings, LLC",sources/labels/amoxicillin-clavulanate/04a31a42-d79e-bbb4-e063-6394a90a63ee.txt,2026-10-02
+amoxicillin-clavulanate,oral,0c2d1fbc-f80c-4737-a15e-9cfa6bf99769,26,20260609,AMOXICILLIN AND CLAVULANATE POTASSIUM,Micro Labs Limited,sources/labels/amoxicillin-clavulanate/0c2d1fbc-f80c-4737-a15e-9cfa6bf99769.txt,2026-10-02
+amoxicillin-clavulanate,oral,0d40bc70-8f47-48c2-a7c6-ba7db9cace74,1,20240201,AMOXICILLIN AND CLAVULANATE POTASSIUM,Proficient Rx LP,sources/labels/amoxicillin-clavulanate/0d40bc70-8f47-48c2-a7c6-ba7db9cace74.txt,2026-10-02
+amoxicillin-clavulanate,oral,1069b873-9bf9-cb22-e063-6394a90a4feb,4,20260618,AMOXICILLIN AND CLAVULANATE POTASSIUM,"Northwind Health Company, LLC",sources/labels/amoxicillin-clavulanate/1069b873-9bf9-cb22-e063-6394a90a4feb.txt,2026-10-02
+amoxicillin-clavulanate,oral,1127a41b-14a1-4fe8-ae37-67ea5d760301,1,20260716,Amoxicillin and Clavulanate Potassium,Preferred Pharmaceuticals Inc.,sources/labels/amoxicillin-clavulanate/1127a41b-14a1-4fe8-ae37-67ea5d760301.txt,2026-10-02
+amoxicillin-clavulanate,oral,1275ad58-c53f-20d0-e063-6394a90a4a43,1,20240228,Amoxicillin and Clavulanate Potassium,Medsource Pharmaceuticals,sources/labels/amoxicillin-clavulanate/1275ad58-c53f-20d0-e063-6394a90a4a43.txt,2026-10-02
+amoxicillin-clavulanate,oral,12a00e7e-80f5-7c5e-e063-6394a90a68d2,1,20240301,AMOXICILLIN AND CLAVULANATE POTASSIUM,Medsource Pharmaceuticals,sources/labels/amoxicillin-clavulanate/12a00e7e-80f5-7c5e-e063-6394a90a68d2.txt,2026-10-02
+amoxicillin-clavulanate,oral,16915fe9-1ac9-4ebb-afc8-eeb89144f30c,2,20260120,Amoxicillin and Clavulanate Potassium,Preferred Pharmaceuticals Inc.,sources/labels/amoxicillin-clavulanate/16915fe9-1ac9-4ebb-afc8-eeb89144f30c.txt,2026-10-02
+amoxicillin-clavulanate,oral,1b8a6312-ae47-45fb-ba5e-eedbc176afa0,4,20260303,AMOXICILLIN AND CLAVULANATE POTASSIUM,Preferred Pharmaceuticals Inc.,sources/labels/amoxicillin-clavulanate/1b8a6312-ae47-45fb-ba5e-eedbc176afa0.txt,2026-10-02
+amoxicillin-clavulanate,oral,1e91c5ce-3482-47ca-92e7-e492196992d9,3,20221001,Amoxicillin and Clavulanate Potassium,Proficient Rx LP,sources/labels/amoxicillin-clavulanate/1e91c5ce-3482-47ca-92e7-e492196992d9.txt,2026-10-02
+cephalexin,oral,02b5cd6f-3df8-43c1-879d-217fcf55231a,16,20250211,Cephalexin,A-S Medication Solutions,sources/labels/cephalexin/02b5cd6f-3df8-43c1-879d-217fcf55231a.txt,2026-10-02
+cephalexin,oral,0384c418-b4d4-4c06-9ed9-13e864b1980b,101,20260716,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/0384c418-b4d4-4c06-9ed9-13e864b1980b.txt,2026-10-02
+cephalexin,oral,03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d,14,20260729,Cephalexin,AvKARE,sources/labels/cephalexin/03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d.txt,2026-10-02
+cephalexin,oral,06c2fb2e-0539-4f16-bac4-e15a575ca802,108,20260403,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/06c2fb2e-0539-4f16-bac4-e15a575ca802.txt,2026-10-02
+cephalexin,oral,0a24b6e5-6f13-44b4-93f4-47c86945cad2,1,20230426,cephalexin,A-S Medication Solutions,sources/labels/cephalexin/0a24b6e5-6f13-44b4-93f4-47c86945cad2.txt,2026-10-02
+cephalexin,oral,0aad51b4-86d5-e312-e063-6394a90a250d,5,20250708,Cephalexin,"NuCare Pharmaceuticals,Inc.",sources/labels/cephalexin/0aad51b4-86d5-e312-e063-6394a90a250d.txt,2026-10-02
+cephalexin,oral,0b3da88f-f513-cdf0-e063-6394a90a7205,7,20251201,Cephalexin,"NuCare Pharmaceuticals,Inc.",sources/labels/cephalexin/0b3da88f-f513-cdf0-e063-6394a90a7205.txt,2026-10-02
+cephalexin,oral,0edeb103-5e94-4f42-828f-c7336486c784,3,20240215,Cephalexin,A-S Medication Solutions,sources/labels/cephalexin/0edeb103-5e94-4f42-828f-c7336486c784.txt,2026-10-02
+cephalexin,oral,11cfefee-d75e-430c-8817-02dc57de0e88,105,20260714,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/11cfefee-d75e-430c-8817-02dc57de0e88.txt,2026-10-02
+cephalexin,oral,11efa03d-0da9-419a-b53d-65a5671dccb0,104,20251119,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/11efa03d-0da9-419a-b53d-65a5671dccb0.txt,2026-10-02
+cephalexin,oral,12f78d76-ea13-440c-8dd0-5aec86277acf,1,20250124,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/12f78d76-ea13-440c-8dd0-5aec86277acf.txt,2026-10-02
+cephalexin,oral,13444dc7-7da1-4181-a9ac-d95d4a235e6d,2,20251210,Cephalexin,"Asclemed USA, Inc.",sources/labels/cephalexin/13444dc7-7da1-4181-a9ac-d95d4a235e6d.txt,2026-10-02
+cephalexin,oral,141bd050-5dfc-68fa-e063-6394a90a6d86,1,20240320,cephalexin,"NuCare Pharmaceuticals,Inc.",sources/labels/cephalexin/141bd050-5dfc-68fa-e063-6394a90a6d86.txt,2026-10-02
+cephalexin,oral,18518154-30ba-48a4-852a-3a7723030071,100,20231207,Cephalexin,Bryant Ranch Prepack,sources/labels/cephalexin/18518154-30ba-48a4-852a-3a7723030071.txt,2026-10-02
+cephalexin,oral,19307ff0-71de-477b-965d-ea243e5ede3a,26,20201231,Cephalexin,"Teva Pharmaceuticals USA, Inc.",sources/labels/cephalexin/19307ff0-71de-477b-965d-ea243e5ede3a.txt,2026-10-02
+cefdinir,oral,06fbdb63-d32f-4212-9962-f1de15597dda,13,20240214,Cefdinir,Aurobindo Pharma Limited,sources/labels/cefdinir/06fbdb63-d32f-4212-9962-f1de15597dda.txt,2026-10-02
+cefdinir,oral,0d1212c9-604f-4999-8f7d-e7cf300705ef,3,20260324,Cefdinir,Preferred Pharmaceuticals Inc.,sources/labels/cefdinir/0d1212c9-604f-4999-8f7d-e7cf300705ef.txt,2026-10-02
+cefdinir,oral,0eeac6df-bad7-413e-8b41-0660f3a99373,6,20260820,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/0eeac6df-bad7-413e-8b41-0660f3a99373.txt,2026-10-02
+cefdinir,oral,10bf69e7-5f7e-4448-9f22-777f137d9666,5,20231225,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/10bf69e7-5f7e-4448-9f22-777f137d9666.txt,2026-10-02
+cefdinir,oral,12e89d69-7ef8-4dd6-ab64-a7fc3f1f8e70,11,20250401,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/12e89d69-7ef8-4dd6-ab64-a7fc3f1f8e70.txt,2026-10-02
+cefdinir,oral,17b4e82f-4169-4ab9-bd4a-79781a71e160,16,20251219,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/17b4e82f-4169-4ab9-bd4a-79781a71e160.txt,2026-10-02
+cefdinir,oral,18888955-4db3-4d0d-939f-eaaa5f2e0dc4,9,20250625,Cefdinir,"Ascend Laboratories, LLC",sources/labels/cefdinir/18888955-4db3-4d0d-939f-eaaa5f2e0dc4.txt,2026-10-02
+cefdinir,oral,1acc5d17-10a4-e23d-e063-6394a90a52c3,2,20260113,Cefdinir,AvKARE,sources/labels/cefdinir/1acc5d17-10a4-e23d-e063-6394a90a52c3.txt,2026-10-02
+cefdinir,oral,1bbd75ea-5a50-eb00-e063-6394a90a1cec,1,20240625,Cefdinir,"NuCare Pharmaceuticals,Inc.",sources/labels/cefdinir/1bbd75ea-5a50-eb00-e063-6394a90a1cec.txt,2026-10-02
+cefdinir,oral,1d0d50ba-8c2b-855c-e063-6394a90a5c7d,3,20260709,Cefdinir,"Northwind Health Company, LLC",sources/labels/cefdinir/1d0d50ba-8c2b-855c-e063-6394a90a5c7d.txt,2026-10-02
+cefdinir,oral,1d58b10c-b253-4925-8681-580aa2e8ae2e,12,20250813,Cefdinir,A-S Medication Solutions,sources/labels/cefdinir/1d58b10c-b253-4925-8681-580aa2e8ae2e.txt,2026-10-02
+cefdinir,oral,2bd2101c-511d-45a9-b1d8-a45ed40c5b80,8,20260312,cefdinir,A-S Medication Solutions,sources/labels/cefdinir/2bd2101c-511d-45a9-b1d8-a45ed40c5b80.txt,2026-10-02
+cefdinir,oral,2da6eb80-63b0-4377-8d7b-865733ebbab1,4,20260324,Cefdinir,Preferred Pharmaceuticals Inc.,sources/labels/cefdinir/2da6eb80-63b0-4377-8d7b-865733ebbab1.txt,2026-10-02
+cefdinir,oral,2e384d98-642e-4841-9f62-fcea4c242f4e,7,20260324,cefdinir,Preferred Pharmaceuticals Inc.,sources/labels/cefdinir/2e384d98-642e-4841-9f62-fcea4c242f4e.txt,2026-10-02
+cefdinir,oral,2fb43fbe-2c4b-1df9-e063-6394a90a9913,1,20250306,Cefdinir,"NuCare Pharmaceuticals, Inc.",sources/labels/cefdinir/2fb43fbe-2c4b-1df9-e063-6394a90a9913.txt,2026-10-02
+azithromycin,oral,003307c5-3f73-4a5d-a704-bfdea3c656e8,7,20260316,Azithromycin,Preferred Pharmaceuticals Inc.,sources/labels/azithromycin/003307c5-3f73-4a5d-a704-bfdea3c656e8.txt,2026-10-02
+azithromycin,oral,01649d79-4677-4577-a3e4-e054f3f9fc3b,10,20260820,azithromycin,"Lupin Pharmaceuticals, Inc.",sources/labels/azithromycin/01649d79-4677-4577-a3e4-e054f3f9fc3b.txt,2026-10-02
+azithromycin,oral,0b63649d-558c-4250-90ee-af6e1e5c6d2c,5,20250109,Azithromycin,Zydus Lifesciences Limited,sources/labels/azithromycin/0b63649d-558c-4250-90ee-af6e1e5c6d2c.txt,2026-10-02
+azithromycin,oral,0c926669-62b2-4ad3-8289-173c5818a9c1,7,20260729,Azithromycin Dihydrate,"PD-Rx Pharmaceuticals, Inc.",sources/labels/azithromycin/0c926669-62b2-4ad3-8289-173c5818a9c1.txt,2026-10-02
+azithromycin,oral,0d5129e4-8b94-4a4d-baa9-be0d6b32d714,3,20260831,Azithromycin Dihydrate,REMEDYREPACK INC.,sources/labels/azithromycin/0d5129e4-8b94-4a4d-baa9-be0d6b32d714.txt,2026-10-02
+azithromycin,oral,0f36ba37-a742-41c1-ad2d-b890a1d49c55,5,20230206,Azithromycin Dihydrate,A-S Medication Solutions,sources/labels/azithromycin/0f36ba37-a742-41c1-ad2d-b890a1d49c55.txt,2026-10-02
+azithromycin,oral,11446677-a3dc-40cb-897d-7a9851b8c89c,2,20260206,Azithromycin Dihydrate,Sportpharm LLC,sources/labels/azithromycin/11446677-a3dc-40cb-897d-7a9851b8c89c.txt,2026-10-02
+azithromycin,oral,16da30a2-d11c-7e8c-e063-6294a90a62e3,2,20260113,Azithromycin,AvKARE,sources/labels/azithromycin/16da30a2-d11c-7e8c-e063-6294a90a62e3.txt,2026-10-02
+azithromycin,oral,1c84a68b-3eaa-4dab-b5e5-e195c7652e67,10,20240614,Azithromycin Dihydrate,A-S Medication Solutions,sources/labels/azithromycin/1c84a68b-3eaa-4dab-b5e5-e195c7652e67.txt,2026-10-02
+azithromycin,oral,1cec44fa-9597-3e58-e063-6394a90ae326,2,20240712,azithromycin dihydrate,"Advanced Rx of Tennessee, LLC",sources/labels/azithromycin/1cec44fa-9597-3e58-e063-6394a90ae326.txt,2026-10-02
+azithromycin,oral,2065c4ba-e3f5-41a2-b3d5-205dab646924,4,20241219,Azithromycin Dihydrate,"Quality Care Products, LLC",sources/labels/azithromycin/2065c4ba-e3f5-41a2-b3d5-205dab646924.txt,2026-10-02
+azithromycin,oral,20ae108a-00c5-a984-e063-6394a90aaaae,1,20240827,azithromycin dihydrate,"Advanced Rx of Tennessee, LLC",sources/labels/azithromycin/20ae108a-00c5-a984-e063-6394a90aaaae.txt,2026-10-02
+azithromycin,oral,21c67de0-3a4e-caab-e063-6394a90ae3cd,3,20260730,Azithromycin Dihydrate,"NuCare Pharmaceuticals,Inc.",sources/labels/azithromycin/21c67de0-3a4e-caab-e063-6394a90ae3cd.txt,2026-10-02
+azithromycin,oral,22a2bdcb-3012-42fb-ac66-d1d879100940,8,20230206,Azithromycin,A-S Medication Solutions,sources/labels/azithromycin/22a2bdcb-3012-42fb-ac66-d1d879100940.txt,2026-10-02
+azithromycin,oral,22a4d2b3-daea-4d96-891f-4b9823629456,2,20241004,Azithromycin,"Asclemed USA, Inc.",sources/labels/azithromycin/22a4d2b3-daea-4d96-891f-4b9823629456.txt,2026-10-02
+clindamycin,oral,07f5d841-9c58-4dd1-b0bc-e12553931c8e,8,20230206,CLINDAMYCIN HYDROCHLORIDE,A-S Medication Solutions,sources/labels/clindamycin/07f5d841-9c58-4dd1-b0bc-e12553931c8e.txt,2026-10-02
+clindamycin,oral,0800afad-e4cd-4f70-aaa1-a14547be4729,7,20250424,CLINDAMYCIN PALMITATE HYDROCHLORIDE (Pediatric),"Rising Pharma Holdings, Inc.",sources/labels/clindamycin/0800afad-e4cd-4f70-aaa1-a14547be4729.txt,2026-10-02
+clindamycin,oral,09eea0ad-702f-4eea-bfb9-81effc76b22b,5,20251007,Clindamycin Hydrochloride,A-S Medication Solutions,sources/labels/clindamycin/09eea0ad-702f-4eea-bfb9-81effc76b22b.txt,2026-10-02
+clindamycin,oral,0a0fbeae-2bc2-2402-e063-6394a90a97a0,3,20251225,Clindamycin Hydrochloride,Redpharm Drug,sources/labels/clindamycin/0a0fbeae-2bc2-2402-e063-6394a90a97a0.txt,2026-10-02
+clindamycin,oral,0bfe1e25-f0a1-4e11-9827-82912557c46b,13,20240109,Clindamycin Palmitate Hydrochloride (Pediatric),Aurobindo Pharma Limited,sources/labels/clindamycin/0bfe1e25-f0a1-4e11-9827-82912557c46b.txt,2026-10-02
+clindamycin,oral,11e8dd9c-81fd-4e88-e063-6294a90af13e,5,20240903,Clindamycin Hydrochloride,"NuCare Pharmaceuticals,Inc.",sources/labels/clindamycin/11e8dd9c-81fd-4e88-e063-6294a90af13e.txt,2026-10-02
+clindamycin,oral,12dea490-e179-f295-e063-6394a90af4aa,5,20250425,Clindamycin Hydrochloride,"NuCare Pharmaceuticals,Inc.",sources/labels/clindamycin/12dea490-e179-f295-e063-6394a90af4aa.txt,2026-10-02
+clindamycin,oral,158e6c0c-1ca3-49a6-84fd-54d8fde7c2a7,11,20220601,Clindamycin hydrochloride,Proficient Rx LP,sources/labels/clindamycin/158e6c0c-1ca3-49a6-84fd-54d8fde7c2a7.txt,2026-10-02
+clindamycin,oral,18ef4551-4066-4765-90cb-285d7711cf61,6,20230206,CLINDAMYCIN HYDROCHLORIDE,A-S Medication Solutions,sources/labels/clindamycin/18ef4551-4066-4765-90cb-285d7711cf61.txt,2026-10-02
+clindamycin,oral,1d562ae9-5a9a-4fed-8cc7-3f30fb40f957,7,20241218,CLINDAMYCIN HYDROCHLORIDE,"Quality Care Products, LLC",sources/labels/clindamycin/1d562ae9-5a9a-4fed-8cc7-3f30fb40f957.txt,2026-10-02
+clindamycin,oral,1d760cb7-d166-6707-e063-6394a90a8850,1,20240716,CLINDAMYCIN HYDROCHLORIDE,"Advanced Rx of Tennessee, LLC",sources/labels/clindamycin/1d760cb7-d166-6707-e063-6394a90a8850.txt,2026-10-02
+clindamycin,oral,1dbd8448-c1e5-46df-8060-50ef82380445,19,20260619,Clindamycin hydrochloride,"Sun Pharmaceutical Industries, Inc.",sources/labels/clindamycin/1dbd8448-c1e5-46df-8060-50ef82380445.txt,2026-10-02
+clindamycin,oral,1dd9e6b0-bcf4-5bf4-e063-6394a90a10c2,4,20260717,Clindamycin Hydrochloride,St. Mary's Medical Park Pharmacy,sources/labels/clindamycin/1dd9e6b0-bcf4-5bf4-e063-6394a90a10c2.txt,2026-10-02
+clindamycin,oral,1ef87b6c-9d32-44ac-8c55-8bf01424cc45,35,20260601,Cleocin Pediatric,Pharmacia & Upjohn Company LLC,sources/labels/clindamycin/1ef87b6c-9d32-44ac-8c55-8bf01424cc45.txt,2026-10-02
+clindamycin,oral,1f1b9230-b8ef-b0e4-e063-6394a90afc47,4,20260607,Clindamycin Hydrochloride,ST. MARY'S MEDICAL PARK PHARMACY,sources/labels/clindamycin/1f1b9230-b8ef-b0e4-e063-6394a90afc47.txt,2026-10-02
+fluconazole,oral,01df20c4-7b94-044e-e063-6394a90a406a,3,20251117,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/01df20c4-7b94-044e-e063-6394a90a406a.txt,2026-10-02
+fluconazole,oral,068623f9-0f87-50bc-e063-6294a90aea00,3,20250114,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/068623f9-0f87-50bc-e063-6294a90aea00.txt,2026-10-02
+fluconazole,oral,06f8f4b9-5289-2d59-e063-6294a90a7209,2,20250122,Fluconazole,Direct_Rx,sources/labels/fluconazole/06f8f4b9-5289-2d59-e063-6294a90a7209.txt,2026-10-02
+fluconazole,oral,08a54805-4fdf-48fd-bc3e-e9fa38f3c691,3,20230206,fluconazole,A-S Medication Solutions,sources/labels/fluconazole/08a54805-4fdf-48fd-bc3e-e9fa38f3c691.txt,2026-10-02
+fluconazole,oral,0aacafca-baf8-9a22-e063-6394a90a2ca9,2,20250203,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/0aacafca-baf8-9a22-e063-6394a90a2ca9.txt,2026-10-02
+fluconazole,oral,0adb2f88-8a6f-4f33-9e2d-73f537e05313,10,20240304,fluconazole,Zydus Lifesciences Limited,sources/labels/fluconazole/0adb2f88-8a6f-4f33-9e2d-73f537e05313.txt,2026-10-02
+fluconazole,oral,0de7211d-b8ce-214d-e063-6294a90aec41,4,20260622,Fluconazole,"Northwind Health Company, LLC",sources/labels/fluconazole/0de7211d-b8ce-214d-e063-6294a90aec41.txt,2026-10-02
+fluconazole,oral,124c1ffa-08fd-eca5-e063-6294a90af0e2,3,20251217,Fluconazole,"NuCare Pharmaceuticals,Inc.",sources/labels/fluconazole/124c1ffa-08fd-eca5-e063-6294a90af0e2.txt,2026-10-02
+fluconazole,oral,126406ae-1fdc-df20-e063-6294a90a2718,3,20260629,Fluconazole,St. Mary's Medical Park Pharmacy,sources/labels/fluconazole/126406ae-1fdc-df20-e063-6294a90a2718.txt,2026-10-02
+fluconazole,oral,13184b13-e252-4b4d-a3e2-cfc4ad3d55b7,8,20260319,Fluconazole,Major Pharmaceuticals,sources/labels/fluconazole/13184b13-e252-4b4d-a3e2-cfc4ad3d55b7.txt,2026-10-02
+fluconazole,oral,13804efd-7cb3-431f-a6a7-bd6d1da5889e,2,20250121,Fluconazole,Slate Run Pharmaceuticals,sources/labels/fluconazole/13804efd-7cb3-431f-a6a7-bd6d1da5889e.txt,2026-10-02
+fluconazole,oral,16b6fba0-b96f-4252-a70d-31dc61400298,2,20260820,fluconazole,Preferred Pharmaceuticals Inc.,sources/labels/fluconazole/16b6fba0-b96f-4252-a70d-31dc61400298.txt,2026-10-02
+fluconazole,oral,177322f4-9526-40cb-9e5d-bc24e8fb02db,12,20241118,Fluconazole,A-S Medication Solutions,sources/labels/fluconazole/177322f4-9526-40cb-9e5d-bc24e8fb02db.txt,2026-10-02
+fluconazole,oral,1a8bd42a-2bce-4b41-8678-67033e7707dd,10,20260113,fluconazole,A-S Medication Solutions,sources/labels/fluconazole/1a8bd42a-2bce-4b41-8678-67033e7707dd.txt,2026-10-02
+fluconazole,oral,1c82929f-934b-4df4-b24f-1e5da090fd8a,3,20260904,Fluconazole,REMEDYREPACK INC.,sources/labels/fluconazole/1c82929f-934b-4df4-b24f-1e5da090fd8a.txt,2026-10-02
+ampicillin,IV,006f9a3f-b4e3-4aa5-ac65-6cc3d3e2582d,3,20260722,Ampicillin and Sulbactam,Meitheal Pharmaceuticals Inc.,sources/labels/ampicillin/006f9a3f-b4e3-4aa5-ac65-6cc3d3e2582d.txt,2026-10-02
+ampicillin,IV,06ca924c-5f3a-4924-90f4-5ba623daaa0e,7,20260430,AMPICILLIN,"Henry Schein, Inc.",sources/labels/ampicillin/06ca924c-5f3a-4924-90f4-5ba623daaa0e.txt,2026-10-02
+ampicillin,IV,12b6ac82-ca74-4f88-99ea-ae4a1c419b70,17,20260622,Ampicillin,"WG Critical Care, LLC",sources/labels/ampicillin/12b6ac82-ca74-4f88-99ea-ae4a1c419b70.txt,2026-10-02
+ampicillin,IV,12eeb72a-403d-41be-bae4-4cb930862884,40,20260709,UNASYN,Roerig,sources/labels/ampicillin/12eeb72a-403d-41be-bae4-4cb930862884.txt,2026-10-02
+ampicillin,IV,139b4b2e-46f7-44a8-9cc1-774afa463b80,4,20260723,Ampicillin and Sulbactam,Meitheal Pharmaceuticals Inc.,sources/labels/ampicillin/139b4b2e-46f7-44a8-9cc1-774afa463b80.txt,2026-10-02
+ampicillin,IV,155c7ec0-5862-404f-b1d0-f278f8a8bbda,46,20260710,UNASYN,Roerig,sources/labels/ampicillin/155c7ec0-5862-404f-b1d0-f278f8a8bbda.txt,2026-10-02
+ampicillin,IV,16fdfdb9-9e26-48d0-8838-570d30c8e897,3,20251104,Ampicillin and Sulbactam,Eugia US LLC,sources/labels/ampicillin/16fdfdb9-9e26-48d0-8838-570d30c8e897.txt,2026-10-02
+ampicillin,IV,19546563-50b7-4160-8cbe-f8e7079cba69,1,20250201,Ampicillin,Avenacy Inc.,sources/labels/ampicillin/19546563-50b7-4160-8cbe-f8e7079cba69.txt,2026-10-02
+ampicillin,IV,1e5004f1-e79e-4e0b-9f3f-25f6bbc15255,2,20240627,Ampicillin and Sulbactam,"NorthStar Rx, LLC",sources/labels/ampicillin/1e5004f1-e79e-4e0b-9f3f-25f6bbc15255.txt,2026-10-02
+ampicillin,IV,2709e9fc-2341-4382-af72-c2e3201bd77a,14,20250812,Ampicillin and Sulbactam,Eugia US LLC,sources/labels/ampicillin/2709e9fc-2341-4382-af72-c2e3201bd77a.txt,2026-10-02
+ampicillin,IV,29675d9c-3248-337a-e063-6294a90a2e20,1,20241216,Ampicillin,"Medical Purchasing Solutions, LLC",sources/labels/ampicillin/29675d9c-3248-337a-e063-6294a90a2e20.txt,2026-10-02
+ampicillin,IV,2fd0f9fa-5b86-42f7-9a9f-767123638d39,2,20250630,Ampicillin sodium,"Civica, Inc.",sources/labels/ampicillin/2fd0f9fa-5b86-42f7-9a9f-767123638d39.txt,2026-10-02
+ampicillin,IV,302e6df7-37c5-4625-8a61-3e2f302addf2,2,20251107,AMPICILLIN,Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,sources/labels/ampicillin/302e6df7-37c5-4625-8a61-3e2f302addf2.txt,2026-10-02
+ampicillin,IV,34e95c91-3767-493c-8716-38e61e7c6674,3,20250731,Ampicillin;Ampicillin sodium,Armas Pharmaceuticals Inc.,sources/labels/ampicillin/34e95c91-3767-493c-8716-38e61e7c6674.txt,2026-10-02
+ampicillin,IV,35606b43-5914-423c-9bc7-fa3957eb2563,16,20241118,ampicillin and sulbactam,Sagent Pharmaceuticals,sources/labels/ampicillin/35606b43-5914-423c-9bc7-fa3957eb2563.txt,2026-10-02
+ceftriaxone,IV,03283208-8616-4117-9d2b-aa8046017a4f,21,20260119,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/03283208-8616-4117-9d2b-aa8046017a4f.txt,2026-10-02
+ceftriaxone,IV,128bb292-d174-4769-b3e6-9f16617f31e3,21,20260122,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/128bb292-d174-4769-b3e6-9f16617f31e3.txt,2026-10-02
+ceftriaxone,IV,19141ccd-e66c-49a2-a794-0616028495a7,5,20260119,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/19141ccd-e66c-49a2-a794-0616028495a7.txt,2026-10-02
+ceftriaxone,IV,1aa0a4ee-1b39-4c3d-a7a3-33dded6fe28c,13,20240131,Ceftriaxone Sodium,A-S Medication Solutions,sources/labels/ceftriaxone/1aa0a4ee-1b39-4c3d-a7a3-33dded6fe28c.txt,2026-10-02
+ceftriaxone,IV,1f8776bd-4f5b-427a-849a-6b8338f7997d,2,20190424,Ceftriaxone,Hikma Pharmaceuticals USA Inc.,sources/labels/ceftriaxone/1f8776bd-4f5b-427a-849a-6b8338f7997d.txt,2026-10-02
+ceftriaxone,IV,365fc265-8e6c-432f-9fda-911f5f7fb451,23,20260116,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/365fc265-8e6c-432f-9fda-911f5f7fb451.txt,2026-10-02
+ceftriaxone,IV,36c07ebf-b091-483e-b2c4-f0fc0c2b4186,4,20260116,Ceftriaxone Sodium,"Hospira, Inc",sources/labels/ceftriaxone/36c07ebf-b091-483e-b2c4-f0fc0c2b4186.txt,2026-10-02
+ceftriaxone,IV,42ba7a9d-7d2b-4eac-af59-897151a8c924,2,20220502,Ceftriaxone Sodium,Proficient Rx LP,sources/labels/ceftriaxone/42ba7a9d-7d2b-4eac-af59-897151a8c924.txt,2026-10-02
+ceftriaxone,IV,4c5c2d3f-5038-41a1-a2fe-4dcd048dbac1,26,20241007,Ceftriaxone,Baxter Healthcare Company,sources/labels/ceftriaxone/4c5c2d3f-5038-41a1-a2fe-4dcd048dbac1.txt,2026-10-02
+ceftriaxone,IV,4cdf0743-c62b-4969-b9c9-4c6400644f6c,4,20260204,Ceftriaxone Sodium,"Qilu Pharmaceutical Co., Ltd.",sources/labels/ceftriaxone/4cdf0743-c62b-4969-b9c9-4c6400644f6c.txt,2026-10-02
+ceftriaxone,IV,5116231f-82d1-44be-b08e-560c9a50e5c5,11,20230831,Ceftriaxone Sodium,Apotex Corp.,sources/labels/ceftriaxone/5116231f-82d1-44be-b08e-560c9a50e5c5.txt,2026-10-02
+ceftriaxone,IV,53415af6-4072-4339-83e2-d870ae02a0e2,9,20240820,Ceftriaxone Sodium,A-S Medication Solutions,sources/labels/ceftriaxone/53415af6-4072-4339-83e2-d870ae02a0e2.txt,2026-10-02
+ceftriaxone,IV,53df951b-2eee-44b1-bae2-df7ed85bc0ed,25,20250228,Ceftriaxone Sodium,Sandoz Inc,sources/labels/ceftriaxone/53df951b-2eee-44b1-bae2-df7ed85bc0ed.txt,2026-10-02
+ceftriaxone,IV,5cd2d96f-83e5-4326-ae87-d0ede4ba493a,5,20230115,Ceftriaxone,"Samson Medical Technologies, LLC",sources/labels/ceftriaxone/5cd2d96f-83e5-4326-ae87-d0ede4ba493a.txt,2026-10-02
+ceftriaxone,IV,5cf93bc5-9e4c-4734-bc02-c7d0ac071022,19,20231108,ceftriaxone,Sagent Pharmaceuticals,sources/labels/ceftriaxone/5cf93bc5-9e4c-4734-bc02-c7d0ac071022.txt,2026-10-02
+gentamicin,IV,09cf88af-59da-f147-e063-6294a90aac99,1,20231110,Gentamicin,"Medical Purchasing Solutions, LLC",sources/labels/gentamicin/09cf88af-59da-f147-e063-6294a90aac99.txt,2026-10-02
+gentamicin,IV,0cce2238-28d3-4280-b520-ffc3067a2ffa,4,20231031,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/0cce2238-28d3-4280-b520-ffc3067a2ffa.txt,2026-10-02
+gentamicin,IV,3532bb39-a1a6-9d67-e063-6294a90abc0c,1,20250515,Gentamicin Sulfate,"Medical Purchasing Solutions, LLC",sources/labels/gentamicin/3532bb39-a1a6-9d67-e063-6294a90abc0c.txt,2026-10-02
+gentamicin,IV,449c9a41-d61e-49fd-b5e3-d76f74b92acf,20,20230126,Gentamicin Sulfate in Sodium Chloride,Baxter Healthcare Corporation,sources/labels/gentamicin/449c9a41-d61e-49fd-b5e3-d76f74b92acf.txt,2026-10-02
+gentamicin,IV,5113bfad-42ca-4bb8-9343-0b08c6cd03f0,14,20260508,Gentamicin Sulfate,"Cardinal Health 107, LLC",sources/labels/gentamicin/5113bfad-42ca-4bb8-9343-0b08c6cd03f0.txt,2026-10-02
+gentamicin,IV,51fffac8-fb6e-4f7f-b2de-440252781a42,2,20230907,Gentamicin,Hikma Pharmaceuticals USA Inc.,sources/labels/gentamicin/51fffac8-fb6e-4f7f-b2de-440252781a42.txt,2026-10-02
+gentamicin,IV,60ca1487-392d-4721-aa45-3de38722896c,2,20260129,Gentamicin,Eugia US LLC,sources/labels/gentamicin/60ca1487-392d-4721-aa45-3de38722896c.txt,2026-10-02
+gentamicin,IV,63413469-c676-48a3-a945-7d2489b535ef,3,20241014,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/63413469-c676-48a3-a945-7d2489b535ef.txt,2026-10-02
+gentamicin,IV,84f5c763-1cd3-4d85-9afb-934db8666fbf,3,20241011,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/84f5c763-1cd3-4d85-9afb-934db8666fbf.txt,2026-10-02
+gentamicin,IV,84f6eb1c-a287-489a-8c3e-aa5954cf1992,6,20251031,Gentamicin,"Henry Schein, Inc",sources/labels/gentamicin/84f6eb1c-a287-489a-8c3e-aa5954cf1992.txt,2026-10-02
+gentamicin,IV,8bdeef7f-ad8e-46e0-a872-e945eae51d68,4,20231220,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/8bdeef7f-ad8e-46e0-a872-e945eae51d68.txt,2026-10-02
+gentamicin,IV,913a36c3-50d6-429a-a8dd-a03126d2ca08,5,20251031,Gentamicin Sulfate,"Henry Schein, Inc.",sources/labels/gentamicin/913a36c3-50d6-429a-a8dd-a03126d2ca08.txt,2026-10-02
+gentamicin,IV,977180b3-a222-4282-d485-4a3217674305,22,20260520,Gentamicin Sulfate,"Hospira, Inc.",sources/labels/gentamicin/977180b3-a222-4282-d485-4a3217674305.txt,2026-10-02
+gentamicin,IV,a73a5453-c091-43fd-aae2-d992152363b1,7,20231020,Gentamicin,"Fresenius Kabi USA, LLC",sources/labels/gentamicin/a73a5453-c091-43fd-aae2-d992152363b1.txt,2026-10-02
+gentamicin,IV,a8b15217-cccb-2260-e053-2995a90a709d,2,20230503,Gentamicin Sulfate,"Medical Purchasing Solutions, LLC",sources/labels/gentamicin/a8b15217-cccb-2260-e053-2995a90a709d.txt,2026-10-02
+vancomycin,IV,00946db3-d6c5-4534-a870-1ec6e63eda43,10,20260130,Vancomycin Hydrochloride,Gland Pharma Limited,sources/labels/vancomycin/00946db3-d6c5-4534-a870-1ec6e63eda43.txt,2026-10-02
+vancomycin,IV,033efc76-11d5-4a93-91de-56ed41bab9c3,6,20260708,Vancomycin Hydrochloride,Meitheal Pharmaceuticals Inc.,sources/labels/vancomycin/033efc76-11d5-4a93-91de-56ed41bab9c3.txt,2026-10-02
+vancomycin,IV,0543b2b5-b1c7-4ad6-b38c-3be0086f0e06,3,20251223,Vancomycin Hydrochloride,"GLENMARK PHARMACEUTICALS INC., USA",sources/labels/vancomycin/0543b2b5-b1c7-4ad6-b38c-3be0086f0e06.txt,2026-10-02
+vancomycin,IV,0576803d-95de-4a48-806a-69ae3fcaf6b0,8,20230817,VANCOMYCIN HYDROCHLORIDE,"Fresenius Kabi USA, LLC",sources/labels/vancomycin/0576803d-95de-4a48-806a-69ae3fcaf6b0.txt,2026-10-02
+vancomycin,IV,06dcfd36-942f-4752-86ad-4c5a6fc3e48f,14,20240719,Vancomycin,Sagent Pharmaceuticals,sources/labels/vancomycin/06dcfd36-942f-4752-86ad-4c5a6fc3e48f.txt,2026-10-02
+vancomycin,IV,0713a847-a334-4b73-af22-343aa06621b9,6,20230207,Vancomycin Hydrochloride,"Fresenius Kabi USA, LLC",sources/labels/vancomycin/0713a847-a334-4b73-af22-343aa06621b9.txt,2026-10-02
+vancomycin,IV,1bda7fa4-fdee-410a-a216-02cfbf91632f,5,20251107,Vancomycin Hydrochloride,"Henry Schein, Inc.",sources/labels/vancomycin/1bda7fa4-fdee-410a-a216-02cfbf91632f.txt,2026-10-02
+vancomycin,IV,2c355037-6a1e-4846-872a-471ccbdc8d54,3,20251031,Vancomycin Hydrochloride,STERISCIENCE SPECIALTIES PRIVATE LIMITED,sources/labels/vancomycin/2c355037-6a1e-4846-872a-471ccbdc8d54.txt,2026-10-02
+vancomycin,IV,2dc7b3d6-3874-40ac-b8aa-7bcfe2dc0cdf,10,20210601,Vancomycin Hydrochloride,Mylan Institutional LLC,sources/labels/vancomycin/2dc7b3d6-3874-40ac-b8aa-7bcfe2dc0cdf.txt,2026-10-02
+vancomycin,IV,2f5d3131-8ddc-43a5-91f7-947c531796e7,5,20210602,Vancomycin Hydrochloride,Hikma Pharmaceuticals USA Inc.,sources/labels/vancomycin/2f5d3131-8ddc-43a5-91f7-947c531796e7.txt,2026-10-02
+vancomycin,IV,35ecffbc-77d8-4c0d-9b14-6a3cc442dec6,3,20230713,Vancomycin Hydrochloride,Gland Pharma Limited,sources/labels/vancomycin/35ecffbc-77d8-4c0d-9b14-6a3cc442dec6.txt,2026-10-02
+vancomycin,IV,3843d0d7-f70a-4b29-9478-dfb45b02425e,8,20210601,vancomycin hydrochloride,Mylan Institutional LLC,sources/labels/vancomycin/3843d0d7-f70a-4b29-9478-dfb45b02425e.txt,2026-10-02
+vancomycin,IV,3e041ec6-811b-4f26-9303-959cb09d5f57,2,20260402,Vancomycin Hydrochloride,"Civica, Inc",sources/labels/vancomycin/3e041ec6-811b-4f26-9303-959cb09d5f57.txt,2026-10-02
+vancomycin,IV,3f5dacea-af40-4103-b128-c5e0c0c52fa1,1,20220720,VANCOMYCIN HYDROCHLORIDE,"Camber Pharmaceuticals, Inc.",sources/labels/vancomycin/3f5dacea-af40-4103-b128-c5e0c0c52fa1.txt,2026-10-02
+vancomycin,IV,40a88420-5fcb-4715-abc5-595a18fd08d0,1,20240607,Vancomycin Hydrochloride,Mylan Institutional LLC,sources/labels/vancomycin/40a88420-5fcb-4715-abc5-595a18fd08d0.txt,2026-10-02
+acetaminophen,IV,0f67c1bd-915b-4681-88dd-22f5154a80b3,8,20240506,Acetaminophen,Baxter Healthcare Corporation,sources/labels/acetaminophen/0f67c1bd-915b-4681-88dd-22f5154a80b3.txt,2026-10-02
+acetaminophen,IV,1b5ca3e0-ce08-4e11-9385-9ec22e5abb5b,2,20220215,Acetaminophen,"Civica, Inc.",sources/labels/acetaminophen/1b5ca3e0-ce08-4e11-9385-9ec22e5abb5b.txt,2026-10-02
+acetaminophen,IV,1c8fef8f-2ff5-4bea-bccb-90c2c8544c21,3,20260423,Acetaminophen,"Camber Pharmaceuticals, Inc.",sources/labels/acetaminophen/1c8fef8f-2ff5-4bea-bccb-90c2c8544c21.txt,2026-10-02
+acetaminophen,IV,1d456d07-fca2-4d43-92c0-f3b3c8b54420,5,20260320,Acetaminophen,Mylan Institutional LLC,sources/labels/acetaminophen/1d456d07-fca2-4d43-92c0-f3b3c8b54420.txt,2026-10-02
+acetaminophen,IV,2884e523-5f12-48d6-98dc-3a80cde524f8,2,20210823,Acetaminophen,Sandoz Inc,sources/labels/acetaminophen/2884e523-5f12-48d6-98dc-3a80cde524f8.txt,2026-10-02
+acetaminophen,IV,3b4ab1cf-8642-44f5-b3a2-3f1f7c620ce9,5,20200514,Acetaminophen,Sandoz Inc,sources/labels/acetaminophen/3b4ab1cf-8642-44f5-b3a2-3f1f7c620ce9.txt,2026-10-02
+acetaminophen,IV,3f7a6fdc-6e36-dc3e-e063-6394a90a067d,1,20250923,Acetaminophen,ProPharma Distribution,sources/labels/acetaminophen/3f7a6fdc-6e36-dc3e-e063-6394a90a067d.txt,2026-10-02
+acetaminophen,IV,464e404a-1957-44a2-a53a-f2a9d3c15bde,4,20260828,Acetaminophen,REMEDYREPACK INC.,sources/labels/acetaminophen/464e404a-1957-44a2-a53a-f2a9d3c15bde.txt,2026-10-02
+acetaminophen,IV,60f0d5b2-cab4-4a7c-8b53-1526a0908a54,4,20230503,Acetaminophen,"WG Critical Care, LLC",sources/labels/acetaminophen/60f0d5b2-cab4-4a7c-8b53-1526a0908a54.txt,2026-10-02
+acetaminophen,IV,621282f6-75b3-401b-8e1a-c5153a0c9ecd,2,20260624,Acetaminophen,Sagent Pharmaceuticals,sources/labels/acetaminophen/621282f6-75b3-401b-8e1a-c5153a0c9ecd.txt,2026-10-02
+acetaminophen,IV,6d763554-913d-4bed-9efd-b9c9b936a2f4,18,20230518,Acetaminophen,B. Braun Medical Inc.,sources/labels/acetaminophen/6d763554-913d-4bed-9efd-b9c9b936a2f4.txt,2026-10-02
+acetaminophen,IV,7243bf2c-2c44-4dff-8a9e-d788d31dca86,5,20260203,Acetaminophen,Hikma Pharmaceuticals USA Inc.,sources/labels/acetaminophen/7243bf2c-2c44-4dff-8a9e-d788d31dca86.txt,2026-10-02
+acetaminophen,IV,88c29438-3648-4b09-bd43-70ad7a35bcb5,6,20250818,Acetaminophen,Hikma Pharmaceuticals USA Inc.,sources/labels/acetaminophen/88c29438-3648-4b09-bd43-70ad7a35bcb5.txt,2026-10-02
+acetaminophen,IV,9744d804-2857-47ef-a27a-bca27db9394c,5,20231101,Acetaminophen,B. Braun Medical Inc.,sources/labels/acetaminophen/9744d804-2857-47ef-a27a-bca27db9394c.txt,2026-10-02
+acetaminophen,IV,a0cece43-256e-4adc-92f8-11a0f473bb83,5,20240424,Acetaminophen,"Fresenius Kabi USA, LLC",sources/labels/acetaminophen/a0cece43-256e-4adc-92f8-11a0f473bb83.txt,2026-10-02
+ibuprofen,oral,00653b7c-7099-487e-9a01-e89781c21323,17,20260429,Ibuprofen Dye Free,CVS Pharmacy,sources/labels/ibuprofen/00653b7c-7099-487e-9a01-e89781c21323.txt,2026-10-02
+ibuprofen,oral,006adf23-21ab-4a4e-aae9-c4e587777165,7,20250603,care one ibuprofen,American Sales Company,sources/labels/ibuprofen/006adf23-21ab-4a4e-aae9-c4e587777165.txt,2026-10-02
+ibuprofen,oral,00872852-680a-41b3-901b-b991b12a176d,6,20250214,Ibuprofen,Aurobindo Pharma Limited,sources/labels/ibuprofen/00872852-680a-41b3-901b-b991b12a176d.txt,2026-10-02
+ibuprofen,oral,009dde4c-d944-4206-8c9f-35bc8fd92715,5,20250626,leader Ibuprofen,"Cardinal Health 110, LLC. dba Leader",sources/labels/ibuprofen/009dde4c-d944-4206-8c9f-35bc8fd92715.txt,2026-10-02
+ibuprofen,oral,00b7fc71-8cf0-4c12-a479-146408f7f91b,3,20220111,Concentrated ibuprofen infants,"Wal-Mart Stores, Inc.",sources/labels/ibuprofen/00b7fc71-8cf0-4c12-a479-146408f7f91b.txt,2026-10-02
+ibuprofen,oral,00d33273-e8c7-4d40-8e6f-a980f746fff2,7,20250503,Topcare Infants Ibuprofen,Topco Associates LLC,sources/labels/ibuprofen/00d33273-e8c7-4d40-8e6f-a980f746fff2.txt,2026-10-02
+ibuprofen,oral,016299ef-ad40-46fd-acfc-e74ffee3d9b4,3,20221121,Ibuprofen,Care One (American Sales Company),sources/labels/ibuprofen/016299ef-ad40-46fd-acfc-e74ffee3d9b4.txt,2026-10-02
+ibuprofen,oral,0170876a-d8cd-4a2d-8397-db2acdf72ffb,3,20260217,Ibuprofen,A-S Medication Solutions,sources/labels/ibuprofen/0170876a-d8cd-4a2d-8397-db2acdf72ffb.txt,2026-10-02
+ibuprofen,oral,01e9b5b9-cb49-4bfa-9a90-ece8940bf768,6,20250211,Equate Ibuprofen,Wal-Mart Stores Inc,sources/labels/ibuprofen/01e9b5b9-cb49-4bfa-9a90-ece8940bf768.txt,2026-10-02
+ibuprofen,oral,01f8fe3a-8810-4b38-8860-d95e05d37709,16,20260615,Ibuprofen,ARMY AND AIR FORCE EXCHANGE SERVICE,sources/labels/ibuprofen/01f8fe3a-8810-4b38-8860-d95e05d37709.txt,2026-10-02
+ibuprofen,oral,02681a10-eb8a-457f-8aff-12e6f29079de,6,20250418,childrens ibuprofen,Meijer Distribution Inc,sources/labels/ibuprofen/02681a10-eb8a-457f-8aff-12e6f29079de.txt,2026-10-02
+ibuprofen,oral,027ded51-aa01-6619-3938-c8162a421cf3,15,20260618,Ibuprofen,"L.N.K. International, Inc.",sources/labels/ibuprofen/027ded51-aa01-6619-3938-c8162a421cf3.txt,2026-10-02
+ibuprofen,oral,02889717-204c-463b-8506-4c5cf18c77d3,6,20250303,ibuprofen,Padagis Israel Pharmaceuticals Ltd,sources/labels/ibuprofen/02889717-204c-463b-8506-4c5cf18c77d3.txt,2026-10-02
+ibuprofen,oral,02e4418a-93ed-2212-e063-6294a90a6c8a,4,20251211,Ibuprofen,VALU MERCHANDISERS COMPANY,sources/labels/ibuprofen/02e4418a-93ed-2212-e063-6294a90a6c8a.txt,2026-10-02
+ibuprofen,oral,030d9bca-a934-6ef9-e063-6394a90a8277,4,20251201,"Advil Dual Action with Acetaminophen, Travel BASIX;Advil Dual Action with Acetaminophen","Lil' Drug Store Products, Inc.",sources/labels/ibuprofen/030d9bca-a934-6ef9-e063-6394a90a8277.txt,2026-10-02
+ondansetron,IV,1a44601b-c31c-4779-a688-28cc4cc75e8b,8,20260723,ONDANSETRON,"Henry Schein, Inc.",sources/labels/ondansetron/1a44601b-c31c-4779-a688-28cc4cc75e8b.txt,2026-10-02
+ondansetron,IV,1b9c2d9f-62a8-4d26-a041-a598bc59e300,14,20260626,Ondansetron,"Cardinal Health 107, LLC",sources/labels/ondansetron/1b9c2d9f-62a8-4d26-a041-a598bc59e300.txt,2026-10-02
+ondansetron,IV,1cc94c7a-617c-4238-8248-e3fabc9612c7,11,20240102,Ondansetron,Eugia US LLC,sources/labels/ondansetron/1cc94c7a-617c-4238-8248-e3fabc9612c7.txt,2026-10-02
+ondansetron,IV,2c68d202-fdf7-4b6a-dd7f-82624fcdbd4a,12,20250826,ONDANSETRON,Apotex Corp.,sources/labels/ondansetron/2c68d202-fdf7-4b6a-dd7f-82624fcdbd4a.txt,2026-10-02
+ondansetron,IV,30107d6f-5128-484f-b713-65244a98dc67,6,20260114,ONDANSETRON HYDROCHLORIDE,"Cardinal Health 107, LLC",sources/labels/ondansetron/30107d6f-5128-484f-b713-65244a98dc67.txt,2026-10-02
+ondansetron,IV,35716914-ac73-43c0-9aa0-09c99211d941,8,20250731,Ondansetron,Gland Pharma Limited,sources/labels/ondansetron/35716914-ac73-43c0-9aa0-09c99211d941.txt,2026-10-02
+ondansetron,IV,35e0d160-813f-41d7-a382-d2cab6485d9c,7,20251029,ondansetron,"Accord Healthcare, Inc.",sources/labels/ondansetron/35e0d160-813f-41d7-a382-d2cab6485d9c.txt,2026-10-02
+ondansetron,IV,3d5d25eb-8711-ef8c-e063-6394a90a5e03,1,20250827,ONDANSETRON,ProPharma Distribution,sources/labels/ondansetron/3d5d25eb-8711-ef8c-e063-6394a90a5e03.txt,2026-10-02
+ondansetron,IV,3efa5604-96c3-42a0-8e99-b3de4a66aa92,8,20250731,Ondansetron,Gland Pharma Limited,sources/labels/ondansetron/3efa5604-96c3-42a0-8e99-b3de4a66aa92.txt,2026-10-02
+ondansetron,IV,438c3d28-8bed-50f0-e063-6394a90a18e4,1,20251114,ondansetron hydrochloride,Onesource Specialty Pharma Limited,sources/labels/ondansetron/438c3d28-8bed-50f0-e063-6394a90a18e4.txt,2026-10-02
+ondansetron,IV,5e09e262-dadf-4ae0-825e-448ea8dac174,9,20220302,ONDANSETRON,"Qilu Pharmaceutical Co., Ltd.",sources/labels/ondansetron/5e09e262-dadf-4ae0-825e-448ea8dac174.txt,2026-10-02
+ondansetron,IV,61758670-91ab-4422-8d9d-e8ca87eecae8,9,20251023,Ondansetron,"Cardinal Health 107, LLC",sources/labels/ondansetron/61758670-91ab-4422-8d9d-e8ca87eecae8.txt,2026-10-02
+ondansetron,IV,677b5fc5-9471-638b-e053-2991aa0a7f97,3,20230426,ONDANSETRON,"Medical Purchasing Solutions, LLC",sources/labels/ondansetron/677b5fc5-9471-638b-e053-2991aa0a7f97.txt,2026-10-02
+ondansetron,IV,6a11f61b-2318-4382-2b91-4366e4bb53fa,34,20260522,Ondansetron,"Hospira, Inc.",sources/labels/ondansetron/6a11f61b-2318-4382-2b91-4366e4bb53fa.txt,2026-10-02
+ondansetron,IV,6a231919-6837-4b09-b66d-3706432b9702,1,20231120,Ondansetron,"Fresenius Kabi USA, LLC",sources/labels/ondansetron/6a231919-6837-4b09-b66d-3706432b9702.txt,2026-10-02
+dexamethasone,oral,01cfaa3e-5e30-18fa-e063-6394a90a084e,3,20251029,Dexamethasone,"Advanced Rx Pharmacy of Tennessee, LLC",sources/labels/dexamethasone/01cfaa3e-5e30-18fa-e063-6394a90a084e.txt,2026-10-02
+dexamethasone,oral,02f7bf9c-1aa3-4734-8a3e-1f49498055d7,1,20251112,DEXAMETHASONE,Kanchan Healthcare Inc,sources/labels/dexamethasone/02f7bf9c-1aa3-4734-8a3e-1f49498055d7.txt,2026-10-02
+dexamethasone,oral,044d7898-4ab6-a0b3-e063-6294a90acdba,2,20250122,Dexamethasone,Direct_Rx,sources/labels/dexamethasone/044d7898-4ab6-a0b3-e063-6294a90acdba.txt,2026-10-02
+dexamethasone,oral,05c77a4c-c508-babd-e063-6294a90a450a,3,20240308,Dexamethasone,NorthStar Rx LLC,sources/labels/dexamethasone/05c77a4c-c508-babd-e063-6294a90a450a.txt,2026-10-02
+dexamethasone,oral,075717e3-be2a-4bb3-bead-492761bfb287,100,20260109,DEXAMETHASONE,Bryant Ranch Prepack,sources/labels/dexamethasone/075717e3-be2a-4bb3-bead-492761bfb287.txt,2026-10-02
+dexamethasone,oral,0a0db8e7-8474-3d08-e063-6294a90af3f5,3,20260206,Dexamethasone,Direct_Rx,sources/labels/dexamethasone/0a0db8e7-8474-3d08-e063-6294a90af3f5.txt,2026-10-02
+dexamethasone,oral,115e1bfb-1697-d567-e063-6394a90a78e5,3,20250123,Dexamethasone,"Redpharm Drug, Inc.",sources/labels/dexamethasone/115e1bfb-1697-d567-e063-6394a90a78e5.txt,2026-10-02
+dexamethasone,oral,12d19271-867b-41ae-a6d2-7e8de3637011,2,20260424,Dexamethasone,Sportpharm LLC,sources/labels/dexamethasone/12d19271-867b-41ae-a6d2-7e8de3637011.txt,2026-10-02
+dexamethasone,oral,141e16a7-1f3d-3943-e063-6294a90ac5a9,3,20250730,Dexamethasone,"NuCare Pharmaceuticals,Inc.",sources/labels/dexamethasone/141e16a7-1f3d-3943-e063-6294a90ac5a9.txt,2026-10-02
+dexamethasone,oral,16c59e9a-8e4f-4300-bbbb-bcc982c18fc8,4,20250815,Dexamethasone,A-S Medication Solutions,sources/labels/dexamethasone/16c59e9a-8e4f-4300-bbbb-bcc982c18fc8.txt,2026-10-02
+dexamethasone,oral,17f56402-331e-2e3d-e063-6394a90acc0e,1,20240508,Dexamethasone,"NuCare Pharmaceuticals,Inc.",sources/labels/dexamethasone/17f56402-331e-2e3d-e063-6394a90acc0e.txt,2026-10-02
+dexamethasone,oral,1e84a609-22a0-41b9-83a0-c45019c8cf9a,2,20240330,Dexamethasone,Zydus Lifesciences Limited,sources/labels/dexamethasone/1e84a609-22a0-41b9-83a0-c45019c8cf9a.txt,2026-10-02
+dexamethasone,oral,214dea63-d77a-922a-e063-6294a90a967e,1,20240904,Dexamethasone,Direct_rx,sources/labels/dexamethasone/214dea63-d77a-922a-e063-6294a90a967e.txt,2026-10-02
+dexamethasone,oral,23deb5f1-d357-45af-9851-d1249bdfa6dd,5,20241205,Dexamethasone,American Health Packaging,sources/labels/dexamethasone/23deb5f1-d357-45af-9851-d1249bdfa6dd.txt,2026-10-02
+dexamethasone,oral,2ceb3a01-f5bb-4538-b5c1-cea400901d02,13,20251015,Dexamethasone,"PD-Rx Pharmaceuticals, Inc.",sources/labels/dexamethasone/2ceb3a01-f5bb-4538-b5c1-cea400901d02.txt,2026-10-02
+prednisolone,oral,070f1937-50a5-457f-bef5-4e597014e26d,2,20240216,PREDNISOLONE,Aurobindo Pharma Limited,sources/labels/prednisolone/070f1937-50a5-457f-bef5-4e597014e26d.txt,2026-10-02
+prednisolone,oral,14b7f41b-4df1-42cb-bd1b-c74b28de2670,4,20210101,Prednisolone Sodium Phosphate,Proficient Rx LP,sources/labels/prednisolone/14b7f41b-4df1-42cb-bd1b-c74b28de2670.txt,2026-10-02
+prednisolone,oral,16d4e064-66d3-4497-8c7d-3aa355f91e1d,1,20240815,PREDNISOLONE,"Hisun Pharmaceuticals USA, Inc.",sources/labels/prednisolone/16d4e064-66d3-4497-8c7d-3aa355f91e1d.txt,2026-10-02
+prednisolone,oral,1793e218-7b49-497d-879f-1020de6e6d68,14,20251217,Prednisolone Sodium Phosphate,Edenbridge Pharmaceuticals LLC.,sources/labels/prednisolone/1793e218-7b49-497d-879f-1020de6e6d68.txt,2026-10-02
+prednisolone,oral,1e379543-c4cf-4e72-953b-db15b7f0c2a1,12,20250603,Orapred ODT,Advanz Pharma (US) Corp.,sources/labels/prednisolone/1e379543-c4cf-4e72-953b-db15b7f0c2a1.txt,2026-10-02
+prednisolone,oral,286a6032-41de-435a-b6e6-14052b66b85d,13,20250429,Prednisolone Sodium Phosphate,Amneal Pharmaceuticals NY LLC,sources/labels/prednisolone/286a6032-41de-435a-b6e6-14052b66b85d.txt,2026-10-02
+prednisolone,oral,2d8c861d-3756-4b75-aaa9-1b82cf11eb94,11,20260213,Prednisolone Sodium Phosphate,"Chartwell RX, LLC.",sources/labels/prednisolone/2d8c861d-3756-4b75-aaa9-1b82cf11eb94.txt,2026-10-02
+prednisolone,oral,2dac9898-6492-4f34-ad86-83a902e0fe0b,1,20251118,Prednisolone,"Chartwell Governmental & Specialty RX, LLC.",sources/labels/prednisolone/2dac9898-6492-4f34-ad86-83a902e0fe0b.txt,2026-10-02
+prednisolone,oral,2e965355-f7f2-4dd3-9c5c-1524c6f39c91,2,20240617,Prednisolone,"Chartwell RX, LLC",sources/labels/prednisolone/2e965355-f7f2-4dd3-9c5c-1524c6f39c91.txt,2026-10-02
+prednisolone,oral,3253b63b-0533-6cdc-e063-6294a90aa311,4,20251224,Prednisolone Sodium Phosphate,Redpharm Drug,sources/labels/prednisolone/3253b63b-0533-6cdc-e063-6294a90aa311.txt,2026-10-02
+prednisolone,oral,35f0b197-c3ae-445a-8da7-9ffcd4472e05,4,20260123,Prednisolone,A-S Medication Solutions,sources/labels/prednisolone/35f0b197-c3ae-445a-8da7-9ffcd4472e05.txt,2026-10-02
+prednisolone,oral,401f7ba6-a4a2-9ae6-e063-6394a90a4210,1,20251001,Prednisolone Sodium Phosphate,Atlantic Biologicals Corp,sources/labels/prednisolone/401f7ba6-a4a2-9ae6-e063-6394a90a4210.txt,2026-10-02
+prednisolone,oral,4c0dcbfd-2848-9bd0-e063-6394a90af5a7,1,20260327,prednisoLONE sodium phosphate,Kesin Pharma,sources/labels/prednisolone/4c0dcbfd-2848-9bd0-e063-6394a90af5a7.txt,2026-10-02
+prednisolone,oral,4c507319-8add-4952-8bea-ff77ab17088f,18,20250228,Prednisolone Sodium Phosphate,A-S Medication Solutions,sources/labels/prednisolone/4c507319-8add-4952-8bea-ff77ab17088f.txt,2026-10-02
+prednisolone,oral,4f83514d-5342-4748-a0d3-b0306ca303c8,1,20260902,Prednisolone,"TRUPHARMA, LLC",sources/labels/prednisolone/4f83514d-5342-4748-a0d3-b0306ca303c8.txt,2026-10-02
+famotidine,oral,002875d2-8c30-2d2e-e063-6294a90ae01e,9,20251022,Famotidine,"PD-Rx Pharmaceuticals, Inc.",sources/labels/famotidine/002875d2-8c30-2d2e-e063-6294a90ae01e.txt,2026-10-02
+famotidine,oral,018b02e8-1005-4736-a4fc-962881f52adf,7,20250315,Famotidine,"Wal-Mart Stores, Inc.",sources/labels/famotidine/018b02e8-1005-4736-a4fc-962881f52adf.txt,2026-10-02
+famotidine,oral,03503cd5-bd8e-4bff-b90d-1a71c5225b91,3,20251226,Famotidine,"Northwind Health Company, LLC",sources/labels/famotidine/03503cd5-bd8e-4bff-b90d-1a71c5225b91.txt,2026-10-02
+famotidine,oral,03733e49-7db4-4d98-b363-d0d23686ec72,1,20230315,IBUPROFEN AND FAMOTIDINE,"Ascent Pharmaceuticals, Inc.",sources/labels/famotidine/03733e49-7db4-4d98-b363-d0d23686ec72.txt,2026-10-02
+famotidine,oral,044a510f-33df-4484-8f07-d821f52b9376,3,20240122,Famotidine,Lifestar Pharma LLC,sources/labels/famotidine/044a510f-33df-4484-8f07-d821f52b9376.txt,2026-10-02
+famotidine,oral,04aaf296-f136-29d7-e063-6294a90affe1,1,20230907,Famotidine,NorthStar Rx LLC,sources/labels/famotidine/04aaf296-f136-29d7-e063-6294a90affe1.txt,2026-10-02
+famotidine,oral,05b47b1d-f7f3-4dae-9b22-d43d2a7cfaef,1,20260529,FAMOTIDINE,A-S Medication Solutions,sources/labels/famotidine/05b47b1d-f7f3-4dae-9b22-d43d2a7cfaef.txt,2026-10-02
+famotidine,oral,05c03fd8-abc8-47f7-868c-895b9a38c5b3,5,20250217,heartburn relief,Meijer Distribution Inc,sources/labels/famotidine/05c03fd8-abc8-47f7-868c-895b9a38c5b3.txt,2026-10-02
+famotidine,oral,06d286ce-14b3-4b66-8b42-ac4a10a0fc90,8,20201117,Famotidine,Dr.Reddy's Laboratories Limited,sources/labels/famotidine/06d286ce-14b3-4b66-8b42-ac4a10a0fc90.txt,2026-10-02
+famotidine,oral,077bb160-e616-4863-bdde-989140f99e1c,102,20240823,FAMOTIDINE,Bryant Ranch Prepack,sources/labels/famotidine/077bb160-e616-4863-bdde-989140f99e1c.txt,2026-10-02
+famotidine,oral,0786d7f5-85a7-d835-e063-6394a90ad719,3,20250203,Famotidine,"NuCare Pharmaceuticals,Inc.",sources/labels/famotidine/0786d7f5-85a7-d835-e063-6394a90ad719.txt,2026-10-02
+famotidine,oral,07a924f1-14cc-4e7d-e063-6394a90ac7f3,2,20240513,Maximum Strength Acid Reducer,TARGET CORPORATION,sources/labels/famotidine/07a924f1-14cc-4e7d-e063-6394a90ac7f3.txt,2026-10-02
+famotidine,oral,0983cef7-b8b6-4ed9-a01e-c699fa6d2d06,4,20250210,basic care acid reducer,Amazon.com Services LLC,sources/labels/famotidine/0983cef7-b8b6-4ed9-a01e-c699fa6d2d06.txt,2026-10-02
+famotidine,oral,09ef39a4-c6b3-4395-8211-3f551dc44830,21,20251016,Famotidine,"PD-Rx Pharmaceuticals, Inc.",sources/labels/famotidine/09ef39a4-c6b3-4395-8211-3f551dc44830.txt,2026-10-02
+famotidine,oral,0abfc8e6-7fdf-4828-89f4-2202002f8489,1,20240603,Famotidine,A-S Medication Solutions,sources/labels/famotidine/0abfc8e6-7fdf-4828-89f4-2202002f8489.txt,2026-10-02
+levothyroxine,oral,008de8fd-150f-4022-8ccb-c8bfa94875c7,8,20260324,Levothyroxine sodium,A-S Medication Solutions,sources/labels/levothyroxine/008de8fd-150f-4022-8ccb-c8bfa94875c7.txt,2026-10-02
+levothyroxine,oral,00a4fc0b-7162-455e-8ed3-56efdbbe182e,2,20251001,levothyroxine sodium,Proficient Rx LP,sources/labels/levothyroxine/00a4fc0b-7162-455e-8ed3-56efdbbe182e.txt,2026-10-02
+levothyroxine,oral,0210a600-747e-433a-8ba9-11692ecfb54a,102,20260407,Levothyroxine Sodium,Bryant Ranch Prepack,sources/labels/levothyroxine/0210a600-747e-433a-8ba9-11692ecfb54a.txt,2026-10-02
+levothyroxine,oral,0235176b-ec39-44c4-a9e1-e0729a7989fa,1,20260401,Levothyroxine Sodium,Proficient Rx LP,sources/labels/levothyroxine/0235176b-ec39-44c4-a9e1-e0729a7989fa.txt,2026-10-02
+levothyroxine,oral,03dc86d3-575f-4c65-b06d-2613efbcd943,2,20181222,GUNA-GERIATRICS,Guna spa,sources/labels/levothyroxine/03dc86d3-575f-4c65-b06d-2613efbcd943.txt,2026-10-02
+levothyroxine,oral,05ab038e-45fa-488e-a05e-12a2dd3564c1,3,20200101,Levothyroxine Sodium,Proficient Rx LP,sources/labels/levothyroxine/05ab038e-45fa-488e-a05e-12a2dd3564c1.txt,2026-10-02
+levothyroxine,oral,07562e72-7eaa-4ce6-94f0-e08814787e50,13,20190619,Unithroid,Amneal Pharmaceuticals LLC,sources/labels/levothyroxine/07562e72-7eaa-4ce6-94f0-e08814787e50.txt,2026-10-02
+levothyroxine,oral,0b9d21d8-9b49-4fd2-b516-b25bc6a6b671,102,20260407,Levothyroxine Sodium,Bryant Ranch Prepack,sources/labels/levothyroxine/0b9d21d8-9b49-4fd2-b516-b25bc6a6b671.txt,2026-10-02
+levothyroxine,oral,0c839877-50e4-455f-9b6c-462efb09cb96,2,20250703,THYQUIDITY,"Oliva Therapeutics, LLC",sources/labels/levothyroxine/0c839877-50e4-455f-9b6c-462efb09cb96.txt,2026-10-02
+levothyroxine,oral,0cffbc96-7a02-4538-9966-b69249be6eb2,6,20260519,Levothyroxine sodium,Preferred Pharmaceuticals Inc.,sources/labels/levothyroxine/0cffbc96-7a02-4538-9966-b69249be6eb2.txt,2026-10-02
+levothyroxine,oral,0e0ad9f1-1f52-48ce-a996-79ebe7ad53cd,9,20250606,Levothyroxine Sodium,A-S Medication Solutions,sources/labels/levothyroxine/0e0ad9f1-1f52-48ce-a996-79ebe7ad53cd.txt,2026-10-02
+levothyroxine,oral,0f0c1875-7706-43ec-a9ef-ad82a49e46ec,1,20250227,RenThyroid,Genus Lifesciences,sources/labels/levothyroxine/0f0c1875-7706-43ec-a9ef-ad82a49e46ec.txt,2026-10-02
+levothyroxine,oral,0fa2e2f5-401b-45c1-b6a5-d02f6faf509d,1,20250722,Levothyroxine sodium,REMEDYREPACK INC.,sources/labels/levothyroxine/0fa2e2f5-401b-45c1-b6a5-d02f6faf509d.txt,2026-10-02
+levothyroxine,oral,12ccf2fd-ccf0-4bcf-8eee-e2a16c8b44d6,1,20201201,levothyroxine sodium,Proficient Rx LP,sources/labels/levothyroxine/12ccf2fd-ccf0-4bcf-8eee-e2a16c8b44d6.txt,2026-10-02
+levothyroxine,oral,13e03769-9a4f-497f-9afa-95bf525090b3,3,20260909,Levothyroxine Sodium,REMEDYREPACK INC.,sources/labels/levothyroxine/13e03769-9a4f-497f-9afa-95bf525090b3.txt,2026-10-02
+digoxin,oral,03612934-62f4-4002-85af-6c66cd172acb,100,20240904,Digoxin,Bryant Ranch Prepack,sources/labels/digoxin/03612934-62f4-4002-85af-6c66cd172acb.txt,2026-10-02
+digoxin,oral,0a88434e-4a1b-4ade-a51e-38145e22a232,1,20230814,Digoxin,A-S Medication Solutions,sources/labels/digoxin/0a88434e-4a1b-4ade-a51e-38145e22a232.txt,2026-10-02
+digoxin,oral,1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf,18,20250410,Digoxin,Hikma Pharmaceuticals USA Inc.,sources/labels/digoxin/1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf.txt,2026-10-02
+digoxin,oral,1cfd4e43-56f0-d182-e063-6394a90ad231,1,20240711,Digoxin,AvPAK,sources/labels/digoxin/1cfd4e43-56f0-d182-e063-6394a90ad231.txt,2026-10-02
+digoxin,oral,2636527a-1ecd-455f-a928-19549ac83fa1,12,20260414,Digoxin,"Golden State Medical Supply, Inc.",sources/labels/digoxin/2636527a-1ecd-455f-a928-19549ac83fa1.txt,2026-10-02
+digoxin,oral,2bcd56ee-4497-4b8d-84db-a1470c77827b,2,20240515,Digoxin,Aurobindo Pharma Limited,sources/labels/digoxin/2bcd56ee-4497-4b8d-84db-a1470c77827b.txt,2026-10-02
+digoxin,oral,3d6afb9e-0c6c-40e1-ae26-6e544564ba44,4,20240115,Digoxin,A-S Medication Solutions,sources/labels/digoxin/3d6afb9e-0c6c-40e1-ae26-6e544564ba44.txt,2026-10-02
+digoxin,oral,41c16cff-b03e-405e-a617-d6f45d3ce2bd,31,20240611,Digoxin,Hikma Pharmaceuticals USA Inc.,sources/labels/digoxin/41c16cff-b03e-405e-a617-d6f45d3ce2bd.txt,2026-10-02
+digoxin,oral,42d079a7-def1-4220-b71f-db2651966ffe,1,20250901,Digoxin,Proficient Rx LP,sources/labels/digoxin/42d079a7-def1-4220-b71f-db2651966ffe.txt,2026-10-02
+digoxin,oral,48cad559-c17b-4d41-a154-e664e958c1c0,14,20260306,Digoxin,Major Pharmaceuticals,sources/labels/digoxin/48cad559-c17b-4d41-a154-e664e958c1c0.txt,2026-10-02
+digoxin,oral,4b893a4a-31e6-4a7a-b16c-02b1e578335b,100,20240904,Digoxin,Bryant Ranch Prepack,sources/labels/digoxin/4b893a4a-31e6-4a7a-b16c-02b1e578335b.txt,2026-10-02
+digoxin,oral,51925501-ab5b-4e12-a67e-ec2b4b592e83,14,20260320,Digoxin,"Cardinal Health 107, LLC",sources/labels/digoxin/51925501-ab5b-4e12-a67e-ec2b4b592e83.txt,2026-10-02
+digoxin,oral,53e5aec1-052b-454e-e063-6394a90a87f3,1,20260610,Digoxin,Coupler LLC,sources/labels/digoxin/53e5aec1-052b-454e-e063-6394a90a87f3.txt,2026-10-02
+digoxin,oral,5500ee2a-077d-486c-b56d-36e0c5e5c31d,3,20250401,Digoxin,American Health Packaging,sources/labels/digoxin/5500ee2a-077d-486c-b56d-36e0c5e5c31d.txt,2026-10-02
+digoxin,oral,5886e233-b2da-4acb-be05-9bf40fb8e7f4,7,20260708,Digoxin,"NCS HealthCare of KY, LLC dba Vangard Labs",sources/labels/digoxin/5886e233-b2da-4acb-be05-9bf40fb8e7f4.txt,2026-10-02
+fentanyl,IV,0c10e465-4117-48ba-a454-23ccb7a3fcc7,6,20250924,Fentanyl Citrate,"Fresenius Kabi USA, LLC",sources/labels/fentanyl/0c10e465-4117-48ba-a454-23ccb7a3fcc7.txt,2026-10-02
+fentanyl,IV,1ed25b2c-334e-4021-ada1-3396f07630dc,17,20260407,FENTANYL CITRATE,"Hospira, Inc.",sources/labels/fentanyl/1ed25b2c-334e-4021-ada1-3396f07630dc.txt,2026-10-02
+fentanyl,IV,38d0c14a-a0c1-44cc-a939-0304eb8037d6,10,20241231,Fentanyl Citrate,"Fresenius Kabi USA, LLC",sources/labels/fentanyl/38d0c14a-a0c1-44cc-a939-0304eb8037d6.txt,2026-10-02
+fentanyl,IV,58dcd3f7-e3d8-4929-a186-8f680a51ff11,10,20251223,Fentanyl Citrate,Phlow Corp.,sources/labels/fentanyl/58dcd3f7-e3d8-4929-a186-8f680a51ff11.txt,2026-10-02
+fentanyl,IV,aacf276b-e133-4199-ad3f-67b894744c04,13,20251226,Fentanyl Citrate,"Civica, Inc.",sources/labels/fentanyl/aacf276b-e133-4199-ad3f-67b894744c04.txt,2026-10-02
+fentanyl,IV,bfa8018a-4cbc-434b-e09e-782872b0340a,35,20260824,Fentanyl Citrate,"Hospira, Inc.",sources/labels/fentanyl/bfa8018a-4cbc-434b-e09e-782872b0340a.txt,2026-10-02
+fentanyl,IV,c5fcdcbd-1dd1-4ebf-aa0d-edfe845414b7,3,20251219,Fentanyl Citrate,Hikma Pharmaceuticals USA Inc.,sources/labels/fentanyl/c5fcdcbd-1dd1-4ebf-aa0d-edfe845414b7.txt,2026-10-02
+fentanyl,IV,ce5db1c2-feb1-4ad2-847a-d02e865bd47e,18,20260306,Fentanyl Citrate,Hikma Pharmaceuticals USA Inc.,sources/labels/fentanyl/ce5db1c2-feb1-4ad2-847a-d02e865bd47e.txt,2026-10-02
+midazolam,IV,06e4f754-72df-4eb4-aaed-b538524f5277,1,20231205,Midazolam,"SOMERSET THERAPEUTICS, LLC",sources/labels/midazolam/06e4f754-72df-4eb4-aaed-b538524f5277.txt,2026-10-02
+midazolam,IV,1abda8b8-48a8-4995-af86-39220d1aa240,35,20260812,Midazolam,"Hospira, Inc.",sources/labels/midazolam/1abda8b8-48a8-4995-af86-39220d1aa240.txt,2026-10-02
+midazolam,IV,1cc9ba6e-fa1b-405e-9de8-720c567b2a73,16,20240101,Midazolam,"Fresenius Kabi USA, LLC",sources/labels/midazolam/1cc9ba6e-fa1b-405e-9de8-720c567b2a73.txt,2026-10-02
+midazolam,IV,23f4df96-1151-4815-8f01-4d79e5aa2145,12,20221111,Midazolam hydrochloride,Gland Pharma Limited,sources/labels/midazolam/23f4df96-1151-4815-8f01-4d79e5aa2145.txt,2026-10-02
+midazolam,IV,3c2fd6ee-4ede-4ee4-8c05-34c93598f381,5,20251031,Midazolam,"Henry Schein, Inc.",sources/labels/midazolam/3c2fd6ee-4ede-4ee4-8c05-34c93598f381.txt,2026-10-02
+midazolam,IV,4155a60a-b023-4f4a-acae-7bb8fe9dc0c1,2,20230207,Midazolam in Sodium Chloride,Hikma Pharmaceuticals USA Inc.,sources/labels/midazolam/4155a60a-b023-4f4a-acae-7bb8fe9dc0c1.txt,2026-10-02
+midazolam,IV,473fba4b-8754-4b1d-bba9-d9c8f6d818e0,14,20231213,Midazolam,Steriscience Specialties Private Limited,sources/labels/midazolam/473fba4b-8754-4b1d-bba9-d9c8f6d818e0.txt,2026-10-02
+midazolam,IV,51c8bfa4-5c78-4b7a-9ffb-8f00828acadc,4,20240329,Midazolam,Hikma Pharmaceuticals USA Inc.,sources/labels/midazolam/51c8bfa4-5c78-4b7a-9ffb-8f00828acadc.txt,2026-10-02
+midazolam,IV,54ed43b2-bad1-4b45-e063-6294a90a793a,1,20260623,Midazolam,Onesource Specialty Pharma Limited,sources/labels/midazolam/54ed43b2-bad1-4b45-e063-6294a90a793a.txt,2026-10-02
+midazolam,IV,575d8bf0-7af7-427c-a231-966e2a5e070d,8,20240409,Midazolam,Hikma Pharmaceuticals USA Inc.,sources/labels/midazolam/575d8bf0-7af7-427c-a231-966e2a5e070d.txt,2026-10-02
+midazolam,IV,5e85e477-d483-4345-8d7b-d7dcdc3e0652,12,20260729,Midazolam Hydrochloride,A-S Medication Solutions,sources/labels/midazolam/5e85e477-d483-4345-8d7b-d7dcdc3e0652.txt,2026-10-02
+midazolam,IV,74666098-1ca8-4c06-8fc4-5de870b1b514,1,20231205,Midazolam,"SOMERSET THERAPEUTICS, LLC",sources/labels/midazolam/74666098-1ca8-4c06-8fc4-5de870b1b514.txt,2026-10-02
+midazolam,IV,78e28b13-414e-4c34-a42c-caf1c3ba1f54,2,20251031,Midazolam,"Henry Schein, Inc.",sources/labels/midazolam/78e28b13-414e-4c34-a42c-caf1c3ba1f54.txt,2026-10-02
+midazolam,IV,81b2f48d-a05c-4301-8fee-761af220d44f,13,20231016,Midazolam Hydrochloride,Gland Pharma Limited,sources/labels/midazolam/81b2f48d-a05c-4301-8fee-761af220d44f.txt,2026-10-02
+midazolam,IV,843cc25e-45ea-4372-ae34-843f805fa869,7,20230320,Midazolam hydrochloride,Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,sources/labels/midazolam/843cc25e-45ea-4372-ae34-843f805fa869.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",141b7964-cce6-74e4-e063-6294a90af746,1,20240320,Ibuprofen,"NuCare Pharmaceuticals,Inc.",sources/labels/ibuprofen/141b7964-cce6-74e4-e063-6294a90af746.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",1eaa7790-f1a1-4f51-b10a-cbbaf033f684,17,20260129,Caldolor,Cumberland Pharmaceuticals Inc.,sources/labels/ibuprofen/1eaa7790-f1a1-4f51-b10a-cbbaf033f684.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",307431c7-12de-21e5-e054-00144ff88e88,12,20260406,Ibuprofen Lysine,Prasco Laboratories,sources/labels/ibuprofen/307431c7-12de-21e5-e054-00144ff88e88.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",38ebacc3-378f-483e-babc-76119677e7df,9,20260715,Ibuprofen,Strides Pharma Science Limited,sources/labels/ibuprofen/38ebacc3-378f-483e-babc-76119677e7df.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",398fbd9c-3a7f-4210-bedb-dfe2e7cbc43e,7,20250707,Ibuprofen,"Sun Pharmaceutical Industries, Inc.",sources/labels/ibuprofen/398fbd9c-3a7f-4210-bedb-dfe2e7cbc43e.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",3d156d13-25d8-4cfc-8285-5f7ebf48cf45,16,20240724,Ibuprofen,"Actavis Pharma, Inc.",sources/labels/ibuprofen/3d156d13-25d8-4cfc-8285-5f7ebf48cf45.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",6cfdec66-9483-4abe-98d3-3a7d389cc952,19,20240101,Ibuprofen Lysine,"XGen Pharmaceuticals DJB, Inc.",sources/labels/ibuprofen/6cfdec66-9483-4abe-98d3-3a7d389cc952.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",6f5ede6f-b0b7-4fc8-969e-652f60ead047,17,20241015,NEOPROFEN,Recordati Rare Diseases Inc.,sources/labels/ibuprofen/6f5ede6f-b0b7-4fc8-969e-652f60ead047.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",72b32512-05c7-4113-b0cc-de9c97de2abb,1,20191101,Ibuprofen,Proficient Rx LP,sources/labels/ibuprofen/72b32512-05c7-4113-b0cc-de9c97de2abb.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",758eeb45-e599-4c1a-969d-8fa33f27bf14,15,20260330,Ibuprofen,Aurobindo Pharma Limited,sources/labels/ibuprofen/758eeb45-e599-4c1a-969d-8fa33f27bf14.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",998f2fcf-0b40-4304-929f-7f2fa42f66d0,17,20241231,Ibuprofen,Padagis Israel Pharmaceuticals Ltd,sources/labels/ibuprofen/998f2fcf-0b40-4304-929f-7f2fa42f66d0.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",9e9fb921-6b6a-422e-95b6-41d6b9047b80,1,20221101,Ibuprofen,Proficient Rx LP,sources/labels/ibuprofen/9e9fb921-6b6a-422e-95b6-41d6b9047b80.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",a8b46ae5-67bc-494d-850e-b4e4ed5a33b3,8,20251227,Ibuprofen,"Sun Pharmaceutical Industries, Inc.",sources/labels/ibuprofen/a8b46ae5-67bc-494d-850e-b4e4ed5a33b3.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",be408a5a-48e4-43c0-9cb1-bbf830b54f5b,5,20241125,COMBOGESIC IV,Hikma Pharmaceuticals USA Inc.,sources/labels/ibuprofen/be408a5a-48e4-43c0-9cb1-bbf830b54f5b.txt,2026-10-02
+ibuprofen,"openfda.generic_name:""ibuprofen"" AND dosage_and_administration:""mg/kg""",dda7645f-1666-4c1f-b974-01add2ea79ac,1,20260324,Ibuprofen,REMEDYREPACK INC.,sources/labels/ibuprofen/dda7645f-1666-4c1f-b974-01add2ea79ac.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",2ceb3a01-f5bb-4538-b5c1-cea400901d02,13,20251015,Dexamethasone,"PD-Rx Pharmaceuticals, Inc.",sources/labels/dexamethasone/2ceb3a01-f5bb-4538-b5c1-cea400901d02.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",35307d74-aed8-4c6b-9568-2223a4f350bd,3,20210101,Dexamethasone,Proficient Rx LP,sources/labels/dexamethasone/35307d74-aed8-4c6b-9568-2223a4f350bd.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",3ff06262-4c6f-4423-99fa-b4d8191ea133,8,20240109,DEXAMETHASONE,Direct Rx,sources/labels/dexamethasone/3ff06262-4c6f-4423-99fa-b4d8191ea133.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",736861fa-1df8-4afd-ba4a-dd7d7bffd865,19,20260612,Dexamethasone,"PD-Rx Pharmaceuticals, Inc.",sources/labels/dexamethasone/736861fa-1df8-4afd-ba4a-dd7d7bffd865.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",77429dd3-e66d-4ab4-a3f3-5ae0b987ac17,1,20260821,Dexamethasone Intensol,Sportpharm LLC,sources/labels/dexamethasone/77429dd3-e66d-4ab4-a3f3-5ae0b987ac17.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",89e1d458-7caa-430f-9c54-360889899a73,26,20260612,Dexamethasone,"PD-Rx Pharmaceuticals, Inc.",sources/labels/dexamethasone/89e1d458-7caa-430f-9c54-360889899a73.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",89e570c9-3e64-433b-9779-b94332f2b5ef,1003,20200225,Dexamethasone,Bryant Ranch Prepack,sources/labels/dexamethasone/89e570c9-3e64-433b-9779-b94332f2b5ef.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",955db121-79f4-47eb-8c10-01b2d8b411e4,7,20250113,Dexamethasone,Preferred Pharmaceuticals Inc.,sources/labels/dexamethasone/955db121-79f4-47eb-8c10-01b2d8b411e4.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",a7455c92-41ce-4e87-e053-2995a90a610f,6,20251211,Dexamethasone,"Golden State Medical Supply, Inc.",sources/labels/dexamethasone/a7455c92-41ce-4e87-e053-2995a90a610f.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",a9fd2013-0797-4ec4-82c5-07d282522625,1020,20200917,Dexamethasone,Bryant Ranch Prepack,sources/labels/dexamethasone/a9fd2013-0797-4ec4-82c5-07d282522625.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",aa30086a-8551-413e-9cf2-6393093cfcfd,5,20251226,Dexamethasone,"Northwind Health Company, LLC",sources/labels/dexamethasone/aa30086a-8551-413e-9cf2-6393093cfcfd.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",b15200fb-1826-472b-a907-e677a272513b,11,20250606,Dexamethasone Intensol;Dexamethasone,"Hikma Pharmaceuticals USA, Inc.",sources/labels/dexamethasone/b15200fb-1826-472b-a907-e677a272513b.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",bf8acfdb-8dc8-4a69-90b0-33c680c421d6,15,20260515,Dexamethasone,"Cardinal Health 107, LLC",sources/labels/dexamethasone/bf8acfdb-8dc8-4a69-90b0-33c680c421d6.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",cc7140de-a205-f675-e053-2995a90ac22b,2,20250120,DEXAMETHASONE,Direct Rx,sources/labels/dexamethasone/cc7140de-a205-f675-e053-2995a90ac22b.txt,2026-10-02
+dexamethasone,"openfda.generic_name:""dexamethasone"" AND openfda.route:""ORAL"" AND description:""oral solution""",e90cb7f5-5e99-fbf3-e053-2995a90a70aa,2,20250122,Dexamethasone,Direct_Rx,sources/labels/dexamethasone/e90cb7f5-5e99-fbf3-e053-2995a90a70aa.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",22a2bdcb-3012-42fb-ac66-d1d879100940,8,20230206,Azithromycin,A-S Medication Solutions,sources/labels/azithromycin/22a2bdcb-3012-42fb-ac66-d1d879100940.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",2b821631-0df2-0fb2-e054-00144ff8d46c,4,20240229,Azithromycin,"STATE HEALTH SERVICES, TEXAS DEPARTMENT OF",sources/labels/azithromycin/2b821631-0df2-0fb2-e054-00144ff8d46c.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",2c9de2e9-c20c-4660-a272-a22019f9fb02,1,20240409,Azithromycin,"Chartwell RX, LLC",sources/labels/azithromycin/2c9de2e9-c20c-4660-a272-a22019f9fb02.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",33140df5-420d-469f-b6c8-121e952a5cb6,3,20221101,Azithromycin,Proficient Rx LP,sources/labels/azithromycin/33140df5-420d-469f-b6c8-121e952a5cb6.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",33d0a4eb-5076-65c6-e063-6394a90ac13a,2,20250822,Azithromycin,"Zhejiang Poly Pharm. Co., Ltd.",sources/labels/azithromycin/33d0a4eb-5076-65c6-e063-6394a90ac13a.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",33d4ac05-b564-440c-971d-b78590dd2c32,6,20250417,azithromycin dihydrate,"Slate Run Pharmaceuticals, LLC",sources/labels/azithromycin/33d4ac05-b564-440c-971d-b78590dd2c32.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",3745a0b0-7855-69eb-e063-6294a90ab6a8,3,20251224,Azithromycin,Redpharm Drug,sources/labels/azithromycin/3745a0b0-7855-69eb-e063-6294a90ab6a8.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",3c902990-b870-4725-b9fe-76b8be633e1c,9,20260903,Azithromycin,Aurobindo Pharma Limited,sources/labels/azithromycin/3c902990-b870-4725-b9fe-76b8be633e1c.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",3ddecd25-dc32-a2af-e063-6294a90a526d,1,20250903,Zithromax,Redpharm Drug,sources/labels/azithromycin/3ddecd25-dc32-a2af-e063-6294a90a526d.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",3f7c7421-411d-c04e-e063-6394a90a4aa0,1,20250923,AZITHROMYCIN,"NuCare Pharmaceuticals, Inc.",sources/labels/azithromycin/3f7c7421-411d-c04e-e063-6394a90a4aa0.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",405ab07f-7d1d-4552-ad3b-2a03be8e9949,7,20260217,AZITHROMYCIN,A-S Medication Solutions,sources/labels/azithromycin/405ab07f-7d1d-4552-ad3b-2a03be8e9949.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",549cdd0a-da79-23b8-e054-00144ff8d46c,5,20240717,Azithromycin,"NuCare Pharmaceuticals,Inc.",sources/labels/azithromycin/549cdd0a-da79-23b8-e054-00144ff8d46c.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",59c4b783-4ff7-4269-969b-58a10e12b12b,16,20260204,AZITHROMYCIN,"Epic Pharma, LLC",sources/labels/azithromycin/59c4b783-4ff7-4269-969b-58a10e12b12b.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",5ed68b5a-4093-49f1-871b-7b0da5f7be2d,4,20231031,Azithromycin,A-S Medication Solutions,sources/labels/azithromycin/5ed68b5a-4093-49f1-871b-7b0da5f7be2d.txt,2026-10-02
+azithromycin,"openfda.generic_name:""azithromycin"" AND dosage_forms_and_strengths:""for oral suspension""",714f6f55-278a-4fcf-8d4e-2ad9b43623a3,5,20251120,AZITHROMYCIN,PURACAP LABORATORIES LLC DBA BLU PHARMACEUTICALS,sources/labels/azithromycin/714f6f55-278a-4fcf-8d4e-2ad9b43623a3.txt,2026-10-02

@@ -1,0 +1,13 @@
+model,workflow,record_id,written_mg,frequency,own_max_per_dose,own_max_per_day,scenario_max_per_dose,scenario_max_per_day,flag_own_max,flag_scenario_max,dose_consequential
+claude-sonnet-5,B,test-amoxicillin-mg_kg_day-school_age-L3-v1-r0,1478.4,2.0,875.0,,875.0,,True,True,True
+claude-sonnet-5,B,test-ceftriaxone-mg_kg_day-adolescent-L3-v1-r0,1873.8,2.0,,2000.0,,2000.0,True,True,True
+claude-sonnet-5,B,test-prednisolone-mg_kg_day-school_age-L3-v1-r0,82.19,1.0,,60.0,,60.0,True,True,True
+claude-sonnet-5,B,test-prednisolone-mg_kg_day-adolescent-L3-v0-r0,64.65,1.0,,60.0,,60.0,True,True,False
+claude-sonnet-5,B,test-prednisolone-mg_kg_day-adolescent-L3-v1-r0,130.95,1.0,,60.0,,60.0,True,True,True
+deepseek-v4-pro,B,test-amoxicillin-mg_kg_day-school_age-L3-v1-r0,1478.4,2.0,875.0,,875.0,,True,True,True
+deepseek-v4-pro,B,test-ceftriaxone-mg_kg_day-adolescent-L3-v1-r0,1873.8,2.0,,2000.0,,2000.0,True,True,True
+claude-sonnet-5,C,test-amoxicillin-mg_kg_day-school_age-L3-v1-r0,1478.4,2.0,875.0,,875.0,,True,True,False
+claude-sonnet-5,C,test-ceftriaxone-mg_kg_day-adolescent-L3-v1-r0,1873.8,2.0,,2000.0,,2000.0,True,True,False
+claude-sonnet-5,C,test-prednisolone-mg_kg_day-school_age-L3-v1-r0,82.19,1.0,,60.0,,60.0,True,True,False
+claude-sonnet-5,C,test-prednisolone-mg_kg_day-adolescent-L3-v0-r0,64.65,1.0,,60.0,,60.0,True,True,False
+llama3.1:8b,C,test-famotidine-mg_kg_dose-adolescent-L1-v1-r0,40.0,2.0,40.0,40.0,40.0,,True,False,True

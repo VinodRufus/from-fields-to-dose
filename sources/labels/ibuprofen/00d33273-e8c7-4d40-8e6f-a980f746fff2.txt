@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 00d33273-e8c7-4d40-8e6f-a980f746fff2
+SPL VERSION: 7
+EFFECTIVE_TIME: 20250503
+BRAND: Topcare Infants Ibuprofen
+MANUFACTURER: Topco Associates LLC
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00d33273-e8c7-4d40-8e6f-a980f746fff2
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses temporarily: • reduces fever • relieves minor aches and pains due to the common cold, flu, sore throat, headaches and toothaches
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions • this product does not contain directions or complete warnings for adult use • do not give more than directed • shake well before using • find right dose on chart below. If possible, use weight to dose; otherwise use age. • mL = milliliter • measure with the dosing device provided. Do not use with any other device. • dispense liquid slowly into the child’s mouth, toward the inner cheek • if needed, repeat dose every 6-8 hours • do not use more than 4 times a day Dosing Chart Weight (lbs) Age (mos) Dose (mL) under 6 mos ask a doctor 12-17 lbs 6-11 mos 1.25 mL 18-23 lbs 12-23 mos 1.875 mL
+

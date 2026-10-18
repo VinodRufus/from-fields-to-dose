@@ -1,0 +1,9 @@
+{
+  "locked_at": "2026-10-03T19:53:19",
+  "records_sha256": "492d7ca2209719eb8bf96548403dab1e26cb9fed36be3482733dd69790cea7f4",
+  "scenarios_sha256": "432be74fe65c2164ad9e21705821f5814055994f389526614aa744a671c220cb",
+  "repeat_subset_sha256": "f1012bdcb01f9cdcf80cf000b0ad6831352d9a98a6e57a0e8ebd207dbdfa4196",
+  "scoring_sha256": "7be9bc8704e09b94014741847f16b047b115c7b2c7c7846ec01afe03445461ed",
+  "n_records": 361,
+  "smoke": false
+}

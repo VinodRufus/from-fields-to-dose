@@ -1,0 +1,7 @@
+H3 under Protocol Section 16 wording: C minus B on the primary endpoint, paired by record, clustered bootstrap B=2000, seed 1
+gpt-5.5-2026-04-23     +0.030 [+0.013, +0.049] n=304 p=0.0000
+claude-sonnet-5        +0.016 [+0.003, +0.033] n=304 p=0.0120
+deepseek-v4-pro        +0.010 [+0.000, +0.023] n=304 p=0.1090
+llama3.1_8b            -0.273 [-0.336, -0.211] n=304 p=0.0000
+
+H3 under Protocol Section 1 wording (composite failure rate): see analysis_primary_locked.txt, section 'Primary comparison H3'

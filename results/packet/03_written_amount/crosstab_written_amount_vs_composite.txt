@@ -1,0 +1,40 @@
+
+claude-sonnet-5 workflow B
+  written within   composite pass=299 off=  1 uncomputable=  0
+  written off      composite pass=  0 off=  4 uncomputable=  0
+  written missing  composite pass=  0 off=  0 uncomputable=  0
+
+claude-sonnet-5 workflow C
+  written within   composite pass=293 off=  0 uncomputable=  0
+  written off      composite pass=  3 off=  0 uncomputable=  0
+  written missing  composite pass=  8 off=  0 uncomputable=  0
+
+deepseek-v4-pro workflow B
+  written within   composite pass=301 off=  0 uncomputable=  0
+  written off      composite pass=  1 off=  2 uncomputable=  0
+  written missing  composite pass=  0 off=  0 uncomputable=  0
+
+deepseek-v4-pro workflow C
+  written within   composite pass=277 off=  0 uncomputable=  0
+  written off      composite pass=  0 off=  0 uncomputable=  0
+  written missing  composite pass= 27 off=  0 uncomputable=  0
+
+gpt-5.5-2026-04-23 workflow B
+  written within   composite pass=303 off=  0 uncomputable=  0
+  written off      composite pass=  1 off=  0 uncomputable=  0
+  written missing  composite pass=  0 off=  0 uncomputable=  0
+
+gpt-5.5-2026-04-23 workflow C
+  written within   composite pass=268 off=  0 uncomputable=  0
+  written off      composite pass=  0 off=  0 uncomputable=  0
+  written missing  composite pass= 36 off=  0 uncomputable=  0
+
+llama3.1:8b workflow B
+  written within   composite pass= 96 off=139 uncomputable= 15
+  written off      composite pass=  4 off= 21 uncomputable=  2
+  written missing  composite pass=  8 off=  0 uncomputable= 19
+
+llama3.1:8b workflow C
+  written within   composite pass= 14 off=  2 uncomputable=233
+  written off      composite pass=  0 off=  0 uncomputable= 21
+  written missing  composite pass= 19 off=  0 uncomputable= 15

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, its data or its code, please cite it as below."
+title: "From Fields to Dose: Evaluating Large Language Models for Weight-Based Pediatric Medication Extraction and Dosing Consistency"
+authors:
+  - family-names: Motani
+    given-names: Vinod Rufus
+    orcid: "https://orcid.org/0009-0005-3459-0859"
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/3P9EY
+    description: "Pre-registration on the Open Science Framework"
+repository-code: "https://github.com/VinodRufus/from-fields-to-dose"
+license: MIT
+type: software

@@ -1,0 +1,16 @@
+DRUG: famotidine
+ROUTE QUERY: oral
+SET_ID: 0983cef7-b8b6-4ed9-a01e-c699fa6d2d06
+SPL VERSION: 4
+EFFECTIVE_TIME: 20250210
+BRAND: basic care acid reducer
+MANUFACTURER: Amazon.com Services LLC
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0983cef7-b8b6-4ed9-a01e-c699fa6d2d06
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses • relieves heartburn associated with acid indigestion and sour stomach • prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions • adults and children 12 years and over: • to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. • to prevent symptoms, swallow 1 tablet with a glass of water at any time from 10 to 60 minutes before eating food or drinking beverages that cause heartburn • do not use more than 2 tablets in 24 hours • children under 12 years: ask a doctor
+

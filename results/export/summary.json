@@ -1,0 +1,1516 @@
+{
+  "generated": "2026-10-06T00:26:05",
+  "models": {
+    "claude-sonnet-5|B": {
+      "primary_endpoint": {
+        "est": 0.9802631578947368,
+        "ci": [
+          0.9638157894736842,
+          0.993421052631579
+        ]
+      },
+      "field_acc": {
+        "est": 0.9995888157894737,
+        "ci": [
+          0.998766447368421,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.9967105263157895,
+        "ci": [
+          0.9901315789473685,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 0.9835526315789473,
+        "ci": [
+          0.9671052631578947,
+          0.9967105263157895
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.01644736842105263,
+        "ci": [
+          0.003289473684210526,
+          0.03289473684210526
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.013157894736842105,
+        "ci": [
+          0.003289473684210526,
+          0.02631578947368421
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.01644736842105263,
+        "ci": [
+          0.003289473684210526,
+          0.03289473684210526
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.9824561403508771,
+        "ci": [
+          0.9473684210526315,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.9642857142857143,
+        "infant": 1.0,
+        "neonate": 0.9230769230769231,
+        "school_age": 0.9772727272727273,
+        "toddler": 0.9887640449438202
+      },
+      "by_complexity": {
+        "1": 0.9900990099009901,
+        "2": 0.99,
+        "3": 0.9611650485436893
+      },
+      "error_codes": {
+        "arithmetic_inconsistency": 5,
+        "dose_basis": 1
+      }
+    },
+    "claude-sonnet-5|C": {
+      "primary_endpoint": {
+        "est": 0.9967105263157895,
+        "ci": [
+          0.9901315789473685,
+          1.0
+        ]
+      },
+      "field_acc": {
+        "est": 0.9995888157894737,
+        "ci": [
+          0.998766447368421,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.9967105263157895,
+        "ci": [
+          0.9901315789473685,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.9824561403508771,
+        "ci": [
+          0.9473684210526315,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 1.0,
+        "infant": 1.0,
+        "neonate": 1.0,
+        "school_age": 1.0,
+        "toddler": 0.9887640449438202
+      },
+      "by_complexity": {
+        "1": 1.0,
+        "2": 0.99,
+        "3": 1.0
+      },
+      "error_codes": {
+        "dose_basis": 1
+      }
+    },
+    "deepseek-v4-pro|B": {
+      "primary_endpoint": {
+        "est": 0.9901315789473685,
+        "ci": [
+          0.9769736842105263,
+          1.0
+        ]
+      },
+      "field_acc": {
+        "est": 0.9995888157894737,
+        "ci": [
+          0.998766447368421,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.9967105263157895,
+        "ci": [
+          0.9901315789473685,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 0.993421052631579,
+        "ci": [
+          0.9835526315789473,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.006578947368421052,
+        "ci": [
+          0.0,
+          0.01644736842105263
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.006578947368421052,
+        "ci": [
+          0.0,
+          0.01644736842105263
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.003289473684210526,
+        "ci": [
+          0.0,
+          0.009868421052631578
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.9821428571428571,
+        "infant": 1.0,
+        "neonate": 0.9230769230769231,
+        "school_age": 0.9886363636363636,
+        "toddler": 1.0
+      },
+      "by_complexity": {
+        "1": 0.9900990099009901,
+        "2": 1.0,
+        "3": 0.9805825242718447
+      },
+      "error_codes": {
+        "arithmetic_inconsistency": 2
+      }
+    },
+    "deepseek-v4-pro|C": {
+      "primary_endpoint": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "field_acc": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.8421052631578947,
+        "ci": [
+          0.7368421052631579,
+          0.9298245614035088
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 1.0,
+        "infant": 1.0,
+        "neonate": 1.0,
+        "school_age": 1.0,
+        "toddler": 1.0
+      },
+      "by_complexity": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0
+      },
+      "error_codes": {}
+    },
+    "gemini-3.1-pro-preview|B": {
+      "primary_endpoint": {
+        "est": 0.9802631578947368,
+        "ci": [
+          0.9638157894736842,
+          0.993421052631579
+        ]
+      },
+      "field_acc": {
+        "est": 0.9995888157894737,
+        "ci": [
+          0.998766447368421,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.9967105263157895,
+        "ci": [
+          0.9901315789473685,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 0.9835526315789473,
+        "ci": [
+          0.9671052631578947,
+          0.9967105263157895
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.01644736842105263,
+        "ci": [
+          0.003289473684210526,
+          0.03289473684210526
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.01644736842105263,
+        "ci": [
+          0.003289473684210526,
+          0.03289473684210526
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.013157894736842105,
+        "ci": [
+          0.003289473684210526,
+          0.02631578947368421
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.9464285714285714,
+        "infant": 1.0,
+        "neonate": 0.9230769230769231,
+        "school_age": 0.9772727272727273,
+        "toddler": 1.0
+      },
+      "by_complexity": {
+        "1": 0.9900990099009901,
+        "2": 1.0,
+        "3": 0.9514563106796117
+      },
+      "error_codes": {
+        "arithmetic_inconsistency": 5
+      }
+    },
+    "gemini-3.1-pro-preview|C": {
+      "primary_endpoint": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "field_acc": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 1.0,
+        "infant": 1.0,
+        "neonate": 1.0,
+        "school_age": 1.0,
+        "toddler": 1.0
+      },
+      "by_complexity": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0
+      },
+      "error_codes": {}
+    },
+    "gpt-5.5-2026-04-23|B": {
+      "primary_endpoint": {
+        "est": 0.9703947368421053,
+        "ci": [
+          0.9473684210526315,
+          0.9868421052631579
+        ]
+      },
+      "field_acc": {
+        "est": 0.9962993421052632,
+        "ci": [
+          0.993421052631579,
+          0.9983552631578947
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.9703947368421053,
+        "ci": [
+          0.9473684210526315,
+          0.9868421052631579
+        ]
+      },
+      "dosing_consistent": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.003289473684210526,
+        "ci": [
+          0.0,
+          0.009868421052631578
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.9824561403508771,
+        "ci": [
+          0.9473684210526315,
+          1.0
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.9821428571428571,
+        "infant": 0.9655172413793104,
+        "neonate": 0.8461538461538461,
+        "school_age": 0.9886363636363636,
+        "toddler": 0.9662921348314607
+      },
+      "by_complexity": {
+        "1": 0.9405940594059405,
+        "2": 0.99,
+        "3": 0.9805825242718447
+      },
+      "error_codes": {}
+    },
+    "gpt-5.5-2026-04-23|C": {
+      "primary_endpoint": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "field_acc": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "complete_regimen": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dosing_consistent": {
+        "est": 1.0,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.9122807017543859,
+        "ci": [
+          0.8421052631578947,
+          0.9824561403508771
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.8596491228070176,
+        "ci": [
+          0.7719298245614035,
+          0.9473684210526315
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.08771929824561403,
+        "ci": [
+          0.017543859649122806,
+          0.15789473684210525
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 1.0,
+        "infant": 1.0,
+        "neonate": 1.0,
+        "school_age": 1.0,
+        "toddler": 1.0
+      },
+      "by_complexity": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0
+      },
+      "error_codes": {}
+    },
+    "llama3.1:8b|B": {
+      "primary_endpoint": {
+        "est": 0.32894736842105265,
+        "ci": [
+          0.27631578947368424,
+          0.3815789473684211
+        ]
+      },
+      "field_acc": {
+        "est": 0.9678101503759399,
+        "ci": [
+          0.9592927631578947,
+          0.9757401315789473
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.8092105263157895,
+        "ci": [
+          0.7664473684210527,
+          0.8552631578947368
+        ]
+      },
+      "dosing_consistent": {
+        "est": 0.35526315789473684,
+        "ci": [
+          0.3026315789473684,
+          0.40789473684210525
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.6447368421052632,
+        "ci": [
+          0.5921052631578947,
+          0.6973684210526315
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.631578947368421,
+        "ci": [
+          0.5756578947368421,
+          0.6842105263157895
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.04276315789473684,
+        "ci": [
+          0.023026315789473683,
+          0.06907894736842106
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.7719298245614035,
+        "ci": [
+          0.6666666666666666,
+          0.8771929824561403
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.22807017543859648,
+        "ci": [
+          0.12280701754385964,
+          0.3333333333333333
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.22807017543859648,
+        "ci": [
+          0.12280701754385964,
+          0.3333333333333333
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.39285714285714285,
+        "infant": 0.3275862068965517,
+        "neonate": 0.0,
+        "school_age": 0.3409090909090909,
+        "toddler": 0.3258426966292135
+      },
+      "by_complexity": {
+        "1": 0.3564356435643564,
+        "2": 0.29,
+        "3": 0.33980582524271846
+      },
+      "error_codes": {
+        "arithmetic_inconsistency": 146,
+        "frequency": 27,
+        "extraction:dose_wrong": 17,
+        "dose_basis": 14,
+        "extraction:weight_wrong": 1
+      }
+    },
+    "llama3.1:8b|C": {
+      "primary_endpoint": {
+        "est": 0.05592105263157895,
+        "ci": [
+          0.029605263157894735,
+          0.08223684210526316
+        ]
+      },
+      "field_acc": {
+        "est": 0.7591635338345865,
+        "ci": [
+          0.7505874060150376,
+          0.768796992481203
+        ]
+      },
+      "complete_regimen": {
+        "est": 0.0625,
+        "ci": [
+          0.03618421052631579,
+          0.08881578947368421
+        ]
+      },
+      "dosing_consistent": {
+        "est": 0.10855263157894737,
+        "ci": [
+          0.0756578947368421,
+          0.14473684210526316
+        ]
+      },
+      "dose_consequential": {
+        "est": 0.8914473684210527,
+        "ci": [
+          0.8552631578947368,
+          0.9243421052631579
+        ]
+      },
+      "dose_consequential_sens": {
+        "est": 0.8914473684210527,
+        "ci": [
+          0.8552631578947368,
+          0.9243421052631579
+        ]
+      },
+      "exceeds_labeled_max": {
+        "est": 0.006578947368421052,
+        "ci": [
+          0.0,
+          0.01644736842105263
+        ]
+      },
+      "appropriate_abstention": {
+        "est": 0.8245614035087719,
+        "ci": [
+          0.7192982456140351,
+          0.9122807017543859
+        ],
+        "n": 57
+      },
+      "unnecessary_abstention": {
+        "est": 0.3508771929824561,
+        "ci": [
+          0.22807017543859648,
+          0.47368421052631576
+        ],
+        "n": 57
+      },
+      "hallucinated": {
+        "est": 0.17543859649122806,
+        "ci": [
+          0.08771929824561403,
+          0.2807017543859649
+        ],
+        "n": 57
+      },
+      "n_records": 361,
+      "malformed": 0,
+      "by_band": {
+        "adolescent": 0.07142857142857142,
+        "infant": 0.06896551724137931,
+        "neonate": 0.15384615384615385,
+        "school_age": 0.03409090909090909,
+        "toddler": 0.0449438202247191
+      },
+      "by_complexity": {
+        "1": 0.10891089108910891,
+        "2": 0.0,
+        "3": 0.05825242718446602
+      },
+      "error_codes": {
+        "extraction:dose_wrong": 270,
+        "adult_fixed_dose_assumption": 261,
+        "frequency": 25,
+        "arithmetic_inconsistency": 2
+      }
+    }
+  },
+  "comparisons": {
+    "llama3.1:8b": {
+      "C_minus_B_dose_consequential": 0.2467105263157895,
+      "ci": [
+        0.17763157894736847,
+        0.3125
+      ]
+    },
+    "claude-sonnet-5": {
+      "C_minus_B_dose_consequential": -0.01644736842105263,
+      "ci": [
+        -0.03289473684210526,
+        -0.003289473684210526
+      ]
+    },
+    "deepseek-v4-pro": {
+      "C_minus_B_dose_consequential": -0.006578947368421052,
+      "ci": [
+        -0.01644736842105263,
+        0.0
+      ]
+    },
+    "gemini-3.1-pro-preview": {
+      "C_minus_B_dose_consequential": -0.01644736842105263,
+      "ci": [
+        -0.029605263157894735,
+        -0.003289473684210526
+      ]
+    },
+    "gpt-5.5-2026-04-23": {
+      "C_minus_B_dose_consequential": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "manifest": [
+    {
+      "file": "scored_test_B_gemini-3.1-pro-preview_run1.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "B",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T06:42:47",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 361
+    },
+    {
+      "file": "scored_test_C_claude-sonnet-5_run2.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:51:43",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_gemini-3.1-pro-preview_run2.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "C",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:44:29",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_deepseek-v4-pro_run2.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "C",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T12:10:22",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_gemini-3.1-pro-preview_run3.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "B",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:45:11",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_deepseek-v4-pro_run3.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "B",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T18:11:42",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_claude-sonnet-5_run1.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T06:13:39",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 361
+    },
+    {
+      "file": "scored_test_B_claude-sonnet-5_run3.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T12:10:21",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_deepseek-v4-pro_run1.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "B",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T07:42:19",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 361
+    },
+    {
+      "file": "scored_test_C_claude-sonnet-5_run1.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T00:45:29",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 361
+    },
+    {
+      "file": "scored_test_C_deepseek-v4-pro_run3.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "C",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T15:56:00",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_gemini-3.1-pro-preview_run1.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "C",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T01:06:22",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 361
+    },
+    {
+      "file": "scored_test_B_gemini-3.1-pro-preview_run2.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "B",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:44:58",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_deepseek-v4-pro_run1.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "C",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T01:45:10",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 361
+    },
+    {
+      "file": "scored_test_C_gemini-3.1-pro-preview_run3.jsonl",
+      "model": {
+        "id": "gemini-3.1-pro-preview",
+        "provider": "openai_compatible",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "api_key_env": "GOOGLE_API_KEY",
+        "family": "google",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      "workflow": "C",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:44:56",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_claude-sonnet-5_run3.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:57:58",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_claude-sonnet-5_run2.jsonl",
+      "model": {
+        "id": "claude-sonnet-5",
+        "provider": "anthropic",
+        "family": "anthropic",
+        "temperature": 0,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T12:04:17",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_deepseek-v4-pro_run2.jsonl",
+      "model": {
+        "id": "deepseek-v4-pro",
+        "provider": "openai_compatible",
+        "base_url": "https://api.deepseek.com",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "family": "deepseek",
+        "temperature": 0,
+        "max_output_tokens": 8000
+      },
+      "workflow": "B",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T16:56:11",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_llama3.1_8b_run3.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "C",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:27:18",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_llama3.1_8b_run1.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "C",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T05:06:59",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 361
+    },
+    {
+      "file": "scored_test_B_gpt-5.5-2026-04-23_run3.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:51:41",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_llama3.1_8b_run2.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "B",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:32:47",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_gpt-5.5-2026-04-23_run2.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:29:20",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_gpt-5.5-2026-04-23_run1.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T05:25:07",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 361
+    },
+    {
+      "file": "scored_test_C_llama3.1_8b_run2.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "C",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:21:47",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_gpt-5.5-2026-04-23_run1.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-03T23:59:31",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 361
+    },
+    {
+      "file": "scored_test_B_llama3.1_8b_run1.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "B",
+      "run_id": "run1",
+      "subset": null,
+      "started": "2026-10-04T11:10:39",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 361
+    },
+    {
+      "file": "scored_test_B_llama3.1_8b_run3.jsonl",
+      "model": {
+        "id": "llama3.1:8b",
+        "provider": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env": "OLLAMA_KEY",
+        "family": "llama",
+        "temperature": 0,
+        "max_output_tokens": 1500
+      },
+      "workflow": "B",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T19:38:38",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_B_gpt-5.5-2026-04-23_run2.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "B",
+      "run_id": "run2",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:51:39",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "2c27360dfd10cfcd42786c9e8bd9abe84c6b40afdd02a4f5939b2bf3fd423a7b",
+      "n": 108
+    },
+    {
+      "file": "scored_test_C_gpt-5.5-2026-04-23_run3.jsonl",
+      "model": {
+        "id": "gpt-5.5-2026-04-23",
+        "provider": "openai",
+        "family": "openai",
+        "temperature": null,
+        "seed": 20260923,
+        "max_output_tokens": 4000
+      },
+      "workflow": "C",
+      "run_id": "run3",
+      "subset": "data/test/repeat_subset.txt",
+      "started": "2026-10-04T11:41:12",
+      "system_prompt_sha256": "70e815de3c01c119dd277489385da67d2696d83f93f3f36935228dd7074ff902",
+      "task_prompt_sha256": "54c0eea2236dd312919f125fd18afed8f9baff06fb2f35c6c64c2f3f25cd2718",
+      "n": 108
+    }
+  ]
+}

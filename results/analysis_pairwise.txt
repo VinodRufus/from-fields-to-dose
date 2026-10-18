@@ -1,0 +1,21 @@
+== Secondary pairwise contrasts on primary_endpoint, paired by record, clustered bootstrap (B=2000), Holm-adjusted p ==
+wf=B claude-sonnet-5 minus deepseek-v4-pro                             diff=-0.010 [-0.023,+0.000]  n=304  p=0.1150  p_holm=1.0000  significant=no
+wf=B claude-sonnet-5 minus gemini-3.1-pro-preview                      diff=+0.000 [-0.010,+0.010]  n=304  p=1.0000  p_holm=1.0000  significant=no
+wf=B claude-sonnet-5 minus gpt-5.5-2026-04-23                          diff=+0.010 [-0.013,+0.033]  n=304  p=0.4550  p_holm=1.0000  significant=no
+wf=B claude-sonnet-5 minus llama3.1:8b                                 diff=+0.651 [+0.599,+0.704]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=B deepseek-v4-pro minus gemini-3.1-pro-preview                      diff=+0.010 [+0.000,+0.023]  n=304  p=0.1010  p_holm=1.0000  significant=no
+wf=B deepseek-v4-pro minus gpt-5.5-2026-04-23                          diff=+0.020 [+0.000,+0.043]  n=304  p=0.0770  p_holm=0.9240  significant=no
+wf=B deepseek-v4-pro minus llama3.1:8b                                 diff=+0.661 [+0.609,+0.714]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=B gemini-3.1-pro-preview minus gpt-5.5-2026-04-23                   diff=+0.010 [-0.013,+0.033]  n=304  p=0.4760  p_holm=1.0000  significant=no
+wf=B gemini-3.1-pro-preview minus llama3.1:8b                          diff=+0.651 [+0.595,+0.704]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=B gpt-5.5-2026-04-23 minus llama3.1:8b                              diff=+0.641 [+0.582,+0.697]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=C claude-sonnet-5 minus deepseek-v4-pro                             diff=-0.003 [-0.010,+0.000]  n=304  p=0.7190  p_holm=1.0000  significant=no
+wf=C claude-sonnet-5 minus gemini-3.1-pro-preview                      diff=-0.003 [-0.010,+0.000]  n=304  p=0.7190  p_holm=1.0000  significant=no
+wf=C claude-sonnet-5 minus gpt-5.5-2026-04-23                          diff=-0.003 [-0.010,+0.000]  n=304  p=0.7190  p_holm=1.0000  significant=no
+wf=C claude-sonnet-5 minus llama3.1:8b                                 diff=+0.941 [+0.914,+0.967]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=C deepseek-v4-pro minus gemini-3.1-pro-preview                      diff=+0.000 [+0.000,+0.000]  n=304  p=1.0000  p_holm=1.0000  significant=no
+wf=C deepseek-v4-pro minus gpt-5.5-2026-04-23                          diff=+0.000 [+0.000,+0.000]  n=304  p=1.0000  p_holm=1.0000  significant=no
+wf=C deepseek-v4-pro minus llama3.1:8b                                 diff=+0.944 [+0.918,+0.967]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=C gemini-3.1-pro-preview minus gpt-5.5-2026-04-23                   diff=+0.000 [+0.000,+0.000]  n=304  p=1.0000  p_holm=1.0000  significant=no
+wf=C gemini-3.1-pro-preview minus llama3.1:8b                          diff=+0.944 [+0.918,+0.967]  n=304  p=0.0000  p_holm=0.0000  significant=yes
+wf=C gpt-5.5-2026-04-23 minus llama3.1:8b                              diff=+0.944 [+0.918,+0.967]  n=304  p=0.0000  p_holm=0.0000  significant=yes

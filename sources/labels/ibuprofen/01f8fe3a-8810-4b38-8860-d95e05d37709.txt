@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 01f8fe3a-8810-4b38-8860-d95e05d37709
+SPL VERSION: 16
+EFFECTIVE_TIME: 20260615
+BRAND: Ibuprofen
+MANUFACTURER: ARMY AND AIR FORCE EXCHANGE SERVICE
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f8fe3a-8810-4b38-8860-d95e05d37709
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses temporarily relieves minor aches and pains due to: menstrual cramps toothache the common cold backache headache muscular aches minor pain of arthritis temporarily reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions do not take more than directed the smallest effective dose should be used adults and children 12 years and over: take 1 caplet every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 caplet, 2 caplets may be used do not exceed 6 caplets in 24 hours, unless directed by a doctor children under 12 years: ask a doctor
+

@@ -1,0 +1,9 @@
+The synthetic data (data/), the protocol (protocol/), the model outputs and analysis outputs (results/) and the
+documents and figures (docs/) in this repository are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Vinod Rufus Motani, From Fields to Dose: Evaluating Large Language Models for Weight-Based Pediatric
+Medication Extraction and Dosing Consistency. Registration DOI 10.17605/OSF.IO/3P9EY. ORCID 0009-0005-3459-0859.
+
+The synthetic records contain no real patient data. FDA label excerpts in sources/labels are public-domain US government
+works; WHO and CDC growth reference tables are redistributed under their own terms.

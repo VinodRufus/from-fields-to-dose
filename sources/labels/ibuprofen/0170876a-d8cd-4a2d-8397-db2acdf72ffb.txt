@@ -1,0 +1,22 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 0170876a-d8cd-4a2d-8397-db2acdf72ffb
+SPL VERSION: 3
+EFFECTIVE_TIME: 20260217
+BRAND: Ibuprofen
+MANUFACTURER: A-S Medication Solutions
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0170876a-d8cd-4a2d-8397-db2acdf72ffb
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+INDICATIONS AND USAGE Carefully consider the potential benefits and risks of Ibuprofen tablets and other treatment options before deciding to use ibuprofen. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals [see WARNINGS ]. Ibuprofen tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis. Ibuprofen tablets are indicated for relief of mild to moderate pain. Ibuprofen tablets are also indicated for the treatment of primary dysmenorrhea. Controlled clinical trials to establish the safety and effectiveness of Ibuprofen tablets in children have not been conducted.
+
+===== DOSAGE_AND_ADMINISTRATION =====
+DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of Ibuprofen Tablets, USP and other treatment options before deciding to use Ibuprofen Tablets, USP. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals [see WARNINGS ]. After observing the response to initial therapy with Ibuprofen Tablets, USP, the dose and frequency should be adjusted to suit an individual patient's needs. Do not exceed 3200 mg total daily dose. If gastrointestinal complaints occur, administer Ibuprofen tablets with meals or milk. Rheumatoid arthritis and osteoarthritis, including flare-ups of chronic disease Suggested Dosage: 1200 mg-3200 mg daily (400 mg, 600 mg or 800 mg tid or qid). Individual patients may show a better response to 3200 mg daily, as compared with 2400 mg, although in well-controlled clinical trials patients on 3200 mg did not show a better mean response in terms of efficacy. Therefore, when treating patients with 3200 mg/ day, the physician should observe sufficient increased clinical benefits to offset potential increased risk. The dose should be tailored to each patient, and may be lowered or raised depending on the severity of symptoms either at time of initiating drug therapy or as the patient responds or fails to respond. In general, patients with rheumatoid arthritis seem to require higher doses of Ibuprofen tablets than do patients with osteoarthritis. The smallest dose of Ibuprofen tablets that yields acceptable control should be employed. A linear blood level dose-response relationship exists with single doses up to 800 mg [See CLINICAL PHARMACOLOGY for effects of food on rate of absorption]. The availability of three tablet strengths facilitates dosage adjustment. In chronic conditions , a therapeutic response to therapy with Ibuprofen tablets is sometimes seen in a few days to a week but most often is observed by two weeks. After a satisfactory response has been achieved, the patient's dose should be reviewed and adjusted as required. Mild to moderate pain 400 mg every 4 to 6 hours as necessary for relief of pain. In controlled analgesic clinical trials, doses of Ibuprofen tablets greater than 400 mg were no more effective than the 400 mg dose. Dysmenorrhea For the treatment of dysmenorrhea, beginning with the earliest onset of such pain, Ibuprofen tablets should be given in a dose of 400 mg every 4 hours as necessary for the relief of pain.
+
+===== PEDIATRIC_USE =====
+Pediatric Use Safety and effectiveness of Ibuprofen tablets in pediatric patients have not been established.
+
+===== BOXED_WARNING =====
+Cardiovascular Thrombotic Events Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. [See WARNINGS and PRECAUTIONS ]. Ibuprofen tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery [see CONTRAINDICATIONS and WARNINGS ]. Gastrointestinal Risk NSAIDS cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events. [See WARNINGS ].
+

@@ -1,0 +1,365 @@
+====================================================================================================
+RECORD test-clindamycin-mg_kg_day-infant-L3-v0-r0
+--- NOTE ---
+Admission note. 8-month-old female with skin infection. Weight at prior visit (2025-12-01): 6.6 kg. Continues cetirizine 2.5 mg PO daily. Plan (2026-03-10): clindamycin 15 mg/kg/day by mouth divided q8h; solution 15 mg/mL. Labs pending. Bed 4.
+
+--- SCENARIO ---
+  abstention_case: True
+  age_band: infant
+  age_days: 241
+  birth_weight_kg: None
+  challenges: ['per_day_basis', 'concentration_volume', 'multiple_meds', 'multiple_weights', 'derive_per_dose', 'missing:current_weight_value']
+  complexity: 3
+  concentration_mg_per_ml: 15.0
+  conflict_fields: []
+  current_weight_unit: kg
+  current_weight_value: 7.36
+  distractor_orders: [{'dose_text': '2.5 mg PO daily', 'drug': 'cetirizine', 'status': 'active', 'timestamp': '2026-03-01'}]
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: clindamycin
+  expected_dose_per_admin_mg: None
+  expected_mg_per_kg_per_day: None
+  expected_mg_per_kg_per_dose: None
+  expected_volume_ml: None
+  formulation: solution
+  frequency_per_day: 3
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: skin infection
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: ['current_weight_value']
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: 2025-12-01
+  prior_weight_unit: kg
+  prior_weight_value: 6.6
+  route: oral
+  scenario_id: test-clindamycin-mg_kg_day-infant-L3-v0
+  sex: F
+  weight_normalized_dose: 15.0
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": 2.2, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 5, "mg_per_kg_per_day": 15, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": 2.2, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 5, "mg_per_kg_per_day": 15, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": 2.2, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": []}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 5, "mg_per_kg_per_day": 15, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": 33, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 5, "mg_per_kg_per_day": 15, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": []}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 15, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": 2.2727, "insufficient_information": []}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "clindamycin", "current_weight_kg": 6.6, "dose_basis": "fixed", "weight_normalized_dose": null, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 15, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": []}
+  scored: {"record_id": "test-clindamycin-mg_kg_day-infant-L3-v0-r0", "scenario_id": "test-clindamycin-mg_kg_day-infant-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "infant", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": false, "weight_normalized_dose": false, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.5714285714285714, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "adult_fixed_dose_assumption", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+====================================================================================================
+RECORD test-gentamicin-mg_kg_day-school_age-L3-v1-r0
+--- NOTE ---
+Admission note. 6-year-old male with serious gram-negative infection. Weight at prior visit (2025-12-01): 17.6 kg. Continues cetirizine 2.5 mg PO daily. Plan (2026-03-10): gentamicin 7 mg/kg/day intravenous divided three times daily; solution 40 mg/mL. Labs pending. Bed 6.
+
+--- SCENARIO ---
+  abstention_case: True
+  age_band: school_age
+  age_days: 2540
+  birth_weight_kg: None
+  challenges: ['per_day_basis', 'concentration_volume', 'multiple_meds', 'multiple_weights', 'derive_per_dose', 'missing:current_weight_value']
+  complexity: 3
+  concentration_mg_per_ml: 40.0
+  conflict_fields: []
+  current_weight_unit: kg
+  current_weight_value: 20.3
+  distractor_orders: [{'dose_text': '2.5 mg PO daily', 'drug': 'cetirizine', 'status': 'active', 'timestamp': '2026-03-01'}]
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: gentamicin
+  expected_dose_per_admin_mg: None
+  expected_mg_per_kg_per_day: None
+  expected_mg_per_kg_per_dose: None
+  expected_volume_ml: None
+  formulation: solution
+  frequency_per_day: 3
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: serious gram-negative infection
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: ['current_weight_value']
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: 2025-12-01
+  prior_weight_unit: kg
+  prior_weight_value: 17.6
+  route: IV
+  scenario_id: test-gentamicin-mg_kg_day-school_age-L3-v1
+  sex: M
+  weight_normalized_dose: 7.0
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": 41.07, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": 1.03, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 2.33, "mg_per_kg_per_day": 7, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": 41.07, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": 1.03, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": []}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": 41.07, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 2.33, "mg_per_kg_per_day": 7, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": 41.07, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 2.33, "mg_per_kg_per_day": 7, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": 41.0666666667, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 2.3333333333, "mg_per_kg_per_day": 7, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 7, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": 7, "insufficient_information": []}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "gentamicin", "current_weight_kg": 17.6, "dose_basis": null, "weight_normalized_dose": null, "dose_unit": null, "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "IV", "concentration_mg_per_ml": 40, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_basis", "dose_unit", "dose_per_admin_mg"]}
+  scored: {"record_id": "test-gentamicin-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-gentamicin-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": false, "weight_normalized_dose": false, "dose_unit": false, "frequency_per_day": true, "route": true}, "field_acc": 0.42857142857142855, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "normalization:dose_basis", "unit_scale", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+====================================================================================================
+RECORD test-dexamethasone-mg_kg_day-toddler-L3-v1-r0
+--- NOTE ---
+Admission note. 4-year-old male with croup or airway edema. Weight at prior visit (2025-12-01): 32.2 lb. Continues cetirizine 2.5 mg PO daily. Plan (2026-03-10): dexamethasone 0.12 mg/kg/day PO divided q8h; solution 0.1 mg/mL. Labs pending. Bed 8.
+
+--- SCENARIO ---
+  abstention_case: True
+  age_band: toddler
+  age_days: 1740
+  birth_weight_kg: None
+  challenges: ['lb_documentation', 'per_day_basis', 'concentration_volume', 'multiple_meds', 'multiple_weights', 'derive_per_dose', 'missing:current_weight_value']
+  complexity: 3
+  concentration_mg_per_ml: 0.1
+  conflict_fields: []
+  current_weight_unit: lb
+  current_weight_value: 34.8
+  distractor_orders: [{'dose_text': '2.5 mg PO daily', 'drug': 'cetirizine', 'status': 'active', 'timestamp': '2026-03-01'}]
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: dexamethasone
+  expected_dose_per_admin_mg: None
+  expected_mg_per_kg_per_day: None
+  expected_mg_per_kg_per_dose: None
+  expected_volume_ml: None
+  formulation: solution
+  frequency_per_day: 3
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: croup or airway edema
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: ['current_weight_value']
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: 2025-12-01
+  prior_weight_unit: lb
+  prior_weight_value: 32.2
+  route: oral
+  scenario_id: test-dexamethasone-mg_kg_day-toddler-L3-v1
+  sex: M
+  weight_normalized_dose: 0.12
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.61, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": 0.58, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 5.84, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.04, "mg_per_kg_per_day": 0.12, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.61, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": 0.58, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 5.84, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.606, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": 0.584, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 5.84, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.04, "mg_per_kg_per_day": 0.12, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.61, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": 0.58, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.04, "mg_per_kg_per_day": 0.12, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.61, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": 0.584, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.04, "mg_per_kg_per_day": 0.12, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.6, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.12, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.57, "dose_basis": "mg/kg/day", "weight_normalized_dose": 1.71, "dose_unit": "mg", "dose_per_admin_mg": 0.43, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.43, "mg_per_kg_per_day": 1.71, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": false, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.7142857142857143, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 14.57, "dose_basis": "fixed", "weight_normalized_dose": null, "dose_unit": "mg", "dose_per_admin_mg": 0.12, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-toddler-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "toddler", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["lb_documentation", "per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": false, "weight_normalized_dose": false, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.5714285714285714, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "adult_fixed_dose_assumption", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+====================================================================================================
+RECORD test-dexamethasone-mg_kg_day-school_age-L3-v1-r0
+--- NOTE ---
+Admission note. 8-year-old female with croup or airway edema. Weight at prior visit (2025-12-01): 23.3 kg. Continues cetirizine 2.5 mg PO daily. Plan (2026-03-10): dexamethasone 0.22 mg/kg/day oral divided q6h; solution 0.1 mg/mL. Labs pending. Bed 11.
+
+--- SCENARIO ---
+  abstention_case: True
+  age_band: school_age
+  age_days: 3064
+  birth_weight_kg: None
+  challenges: ['per_day_basis', 'concentration_volume', 'multiple_meds', 'multiple_weights', 'missing:current_weight_value']
+  complexity: 3
+  concentration_mg_per_ml: 0.1
+  conflict_fields: []
+  current_weight_unit: kg
+  current_weight_value: 25.4
+  distractor_orders: [{'dose_text': '2.5 mg PO daily', 'drug': 'cetirizine', 'status': 'active', 'timestamp': '2026-03-01'}]
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: dexamethasone
+  expected_dose_per_admin_mg: None
+  expected_mg_per_kg_per_day: None
+  expected_mg_per_kg_per_dose: None
+  expected_volume_ml: None
+  formulation: solution
+  frequency_per_day: 4
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: croup or airway edema
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: ['current_weight_value']
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: 2025-12-01
+  prior_weight_unit: kg
+  prior_weight_value: 23.3
+  route: oral
+  scenario_id: test-dexamethasone-mg_kg_day-school_age-L3-v1
+  sex: F
+  weight_normalized_dose: 0.22
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 1.28, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 12.82, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.055, "mg_per_kg_per_day": 0.22, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.75, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 1.2815, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 12.815, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.75, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 1.2815, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.055, "mg_per_kg_per_day": 0.22, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.75, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 0.875, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 1.2815, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.055, "mg_per_kg_per_day": 0.22, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 1.2815, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.055, "mg_per_kg_per_day": 0.22, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.75, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "dose_per_admin_mg": true, "frequency_per_day": true, "route": true}, "field_acc": 0.875, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "mg/kg/day", "weight_normalized_dose": 2.2, "dose_unit": "mg", "dose_per_admin_mg": 1.1, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.022, "mg_per_kg_per_day": 2.2, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "B", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": false, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.625, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 23.3, "dose_basis": "fixed", "weight_normalized_dose": null, "dose_unit": "mg", "dose_per_admin_mg": 0.22, "frequency_per_day": 4, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1-r0", "scenario_id": "test-dexamethasone-mg_kg_day-school_age-L3-v1", "workflow": "C", "run_id": "run1", "age_band": "school_age", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": false, "weight_normalized_dose": false, "dose_unit": true, "dose_per_admin_mg": false, "frequency_per_day": true, "route": true}, "field_acc": 0.5, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "adult_fixed_dose_assumption", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+====================================================================================================
+RECORD test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0
+--- NOTE ---
+Admission note. 13-year-old female with croup or airway edema. Weight at prior visit (2025-12-01): 66.8 kg. Continues cetirizine 2.5 mg PO daily. Medications: dexamethasone 0.1 mg/kg/dose oral BID was discontinued on 2026-02-20. Plan (2026-03-10): dexamethasone 0.22 mg/kg/day PO divided three times daily; solution 0.1 mg/mL. Labs pending. Bed 18.
+
+--- SCENARIO ---
+  abstention_case: True
+  age_band: adolescent
+  age_days: 4769
+  birth_weight_kg: None
+  challenges: ['per_day_basis', 'concentration_volume', 'multiple_meds', 'multiple_weights', 'discontinued_same_drug', 'derive_per_dose', 'missing:current_weight_value']
+  complexity: 3
+  concentration_mg_per_ml: 0.1
+  conflict_fields: []
+  current_weight_unit: kg
+  current_weight_value: 74.8
+  distractor_orders: [{'dose_text': '2.5 mg PO daily', 'drug': 'cetirizine', 'status': 'active', 'timestamp': '2026-03-01'}, {'dose_text': '0.1 mg/kg/dose oral BID', 'drug': 'dexamethasone', 'status': 'discontinued', 'timestamp': '2026-02-20'}]
+  dose_basis: mg/kg/day
+  dose_unit: mg
+  drug: dexamethasone
+  expected_dose_per_admin_mg: None
+  expected_mg_per_kg_per_day: None
+  expected_mg_per_kg_per_dose: None
+  expected_volume_ml: None
+  formulation: solution
+  frequency_per_day: 3
+  frequency_text: 
+  generation_method: template
+  generator_model: None
+  indication: croup or airway edema
+  max_per_day_mg: None
+  max_per_dose_mg: None
+  missing_fields: ['current_weight_value']
+  order_status: active
+  order_timestamp: 2026-03-10
+  prior_weight_timestamp: 2025-12-01
+  prior_weight_unit: kg
+  prior_weight_value: 66.8
+  route: oral
+  scenario_id: test-dexamethasone-mg_kg_day-adolescent-L3-v0
+  sex: F
+  weight_normalized_dose: 0.22
+  weight_timestamp: 2026-03-10
+--- claude-sonnet-5 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 4.9, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": 48.99, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.073, "mg_per_kg_per_day": 0.22, "insufficient_information": ["max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- claude-sonnet-5 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 4.898666666666667, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.07333333333333333, "mg_per_kg_per_day": 0.22, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- deepseek-v4-pro workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg", "mg_per_kg_per_dose", "mg_per_kg_per_day"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gemini-3.1-pro-preview workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 4.8987, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.0733, "mg_per_kg_per_day": 0.22, "insufficient_information": ["volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gemini-3.1-pro-preview workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {}
+--- gpt-5.5-2026-04-23 workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": 4.8986666667, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 0.0733333333, "mg_per_kg_per_day": 0.22, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- gpt-5.5-2026-04-23 workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 0.22, "dose_unit": "mg", "dose_per_admin_mg": null, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": ["dose_per_admin_mg", "volume_ml", "max_per_dose_mg", "max_per_day_mg"]}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": true, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.8571428571428571, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight"], "appropriate_abstention": false, "unnecessary_abstention": true, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow B ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "mg/kg/day", "weight_normalized_dose": 14.4, "dose_unit": "mg", "dose_per_admin_mg": 4.8, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": 4.8, "mg_per_kg_per_day": 14.4, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "B", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": true, "weight_normalized_dose": false, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.7142857142857143, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}
+--- llama3.1:8b workflow C ---
+  parsed: {"drug": "dexamethasone", "current_weight_kg": 66.8, "dose_basis": "fixed", "weight_normalized_dose": null, "dose_unit": "mg", "dose_per_admin_mg": 0.22, "frequency_per_day": 3, "route": "oral", "concentration_mg_per_ml": 0.1, "volume_ml": null, "max_per_dose_mg": null, "max_per_day_mg": null, "mg_per_kg_per_dose": null, "mg_per_kg_per_day": null, "insufficient_information": []}
+  scored: {"record_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0-r0", "scenario_id": "test-dexamethasone-mg_kg_day-adolescent-L3-v0", "workflow": "C", "run_id": "run1", "age_band": "adolescent", "complexity": 3, "abstention_case": true, "conflict_case": false, "challenges": ["per_day_basis", "concentration_volume", "multiple_meds", "multiple_weights", "discontinued_same_drug", "derive_per_dose", "missing:current_weight_value"], "generation_method": "template", "malformed": false, "fields": {"drug": true, "current_weight_kg": false, "dose_basis": false, "weight_normalized_dose": false, "dose_unit": true, "frequency_per_day": true, "route": true}, "field_acc": 0.5714285714285714, "complete_regimen": false, "codes": ["unsupported_value_hallucination:weight", "adult_fixed_dose_assumption", "extraction:dose_wrong"], "appropriate_abstention": false, "unnecessary_abstention": false, "hallucinated": true, "dosing_consistent": null, "dose_consequential": null}

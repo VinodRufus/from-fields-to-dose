@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 016299ef-ad40-46fd-acfc-e74ffee3d9b4
+SPL VERSION: 3
+EFFECTIVE_TIME: 20221121
+BRAND: Ibuprofen
+MANUFACTURER: Care One (American Sales Company)
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=016299ef-ad40-46fd-acfc-e74ffee3d9b4
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses temporarily relieves minor aches and pains due to: headache muscular aches minor pain of arthritis toothache backache the common cold menstrual cramps temporarily reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions do not take more than directed the smallest effective dose should be used adults and children 12 years and over: take 1 capsule every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 capsule, 2 capsules may be used do not exceed 6 capsules in 24 hours, unless directed by a doctor children under 12 years: ask a doctor
+

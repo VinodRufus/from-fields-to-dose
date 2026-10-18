@@ -1,0 +1,10 @@
+DRUG: azithromycin
+ROUTE QUERY: oral
+SET_ID: 0b63649d-558c-4250-90ee-af6e1e5c6d2c
+SPL VERSION: 5
+EFFECTIVE_TIME: 20250109
+BRAND: Azithromycin
+MANUFACTURER: Zydus Lifesciences Limited
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b63649d-558c-4250-90ee-af6e1e5c6d2c
+RETRIEVED: 2026-10-02
+

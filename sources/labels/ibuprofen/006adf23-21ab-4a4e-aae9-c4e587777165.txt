@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 006adf23-21ab-4a4e-aae9-c4e587777165
+SPL VERSION: 7
+EFFECTIVE_TIME: 20250603
+BRAND: care one ibuprofen
+MANUFACTURER: American Sales Company
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=006adf23-21ab-4a4e-aae9-c4e587777165
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses • temporarily relieves minor aches and pains due to: • headache • muscular aches • minor pain of arthritis • toothache • backache • the common cold • menstrual cramps • temporarily reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions • do not take more than directed • the smallest effective dose should be used adults and children 12 years and older • take 1 tablet every 4 to 6 hours while symptoms persist • if pain or fever does not respond to 1 tablet, 2 tablets may be used • do not exceed 6 tablets in 24 hours, unless directed by a doctor children under 12 years • ask a doctor
+

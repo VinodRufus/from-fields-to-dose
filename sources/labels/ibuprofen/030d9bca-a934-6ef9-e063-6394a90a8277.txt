@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 030d9bca-a934-6ef9-e063-6394a90a8277
+SPL VERSION: 4
+EFFECTIVE_TIME: 20251201
+BRAND: Advil Dual Action with Acetaminophen, Travel BASIX;Advil Dual Action with Acetaminophen
+MANUFACTURER: Lil' Drug Store Products, Inc.
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=030d9bca-a934-6ef9-e063-6394a90a8277
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses ​Uses temporarily relieves minor aches and pains due to: headache toothache backache menstrual cramps muscular aches minor pain of arthritis
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions ​Directions Do not take more than directed adults and children 12 years and over take 2 caplets every 8 hours while symptoms persist children under 12 years ask a doctor do not take more than 6 caplets in 24 hours, unless directed by a doctor
+

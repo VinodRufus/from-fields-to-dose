@@ -1,0 +1,6 @@
+Target medication: {drug}
+Record:
+<<<
+{record}
+>>>
+Return the JSON object. In addition to the extracted fields, compute dose_per_admin_mg, mg_per_kg_per_dose and mg_per_kg_per_day from the values you extracted. If any input needed for a computation is missing, set the computed field to null and list it in "insufficient_information".

@@ -1,0 +1,16 @@
+DRUG: ibuprofen
+ROUTE QUERY: oral
+SET_ID: 009dde4c-d944-4206-8c9f-35bc8fd92715
+SPL VERSION: 5
+EFFECTIVE_TIME: 20250626
+BRAND: leader Ibuprofen
+MANUFACTURER: Cardinal Health 110, LLC. dba Leader
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=009dde4c-d944-4206-8c9f-35bc8fd92715
+RETRIEVED: 2026-10-02
+
+===== INDICATIONS_AND_USAGE =====
+Uses temporarily: • relieves minor aches and pains due to the common cold, flu, sore throat, headache and toothache • reduces fever
+
+===== DOSAGE_AND_ADMINISTRATION =====
+Directions • this product does not contain directions or complete warnings for adult use • do not give more than directed • shake well before using • mL = milliliter • find right dose on chart. If possible, use weight to dose; otherwise use age. • use only enclosed dosing cup. Do not use any other dosing device. • if needed, repeat dose every 6-8 hours • do not use more than 4 times a day • replace original bottle cap to maintain child resistance • wash dosage cup after each use Dosing Chart Weight (lb) Age (yr) Dose (mL)** under 24 lbs under 2 years ask a doctor 24-35 lbs 2-3 years 5 mL 36-47 lbs 4-5 years 7.5 mL 48-59 lbs 6-8 years 10 mL 60-71 lbs 9-10 years 12.5 mL 72-95 lbs 11 years 15 mL **or as directed by a doctor
+

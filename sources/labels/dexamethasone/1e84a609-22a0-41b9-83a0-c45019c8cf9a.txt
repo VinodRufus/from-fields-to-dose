@@ -1,0 +1,10 @@
+DRUG: dexamethasone
+ROUTE QUERY: oral
+SET_ID: 1e84a609-22a0-41b9-83a0-c45019c8cf9a
+SPL VERSION: 2
+EFFECTIVE_TIME: 20240330
+BRAND: Dexamethasone
+MANUFACTURER: Zydus Lifesciences Limited
+DAILYMED: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e84a609-22a0-41b9-83a0-c45019c8cf9a
+RETRIEVED: 2026-10-02
+
