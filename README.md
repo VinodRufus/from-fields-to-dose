@@ -1,5 +1,7 @@
 # From Fields to Dose
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23448180.svg)](https://doi.org/10.5281/zenodo.23448180)
+
 Evaluating Large Language Models for Weight-Based Pediatric Medication Extraction and Dosing Consistency.
 
 A pre-registered, solo, synthetic-data benchmark. Author record: https://orcid.org/0009-0005-3459-0859.
@@ -46,3 +48,7 @@ Unassisted manual error coding, the re-coding check and the TRIPOD-LLM checklist
 ## Licences
 
 Code: MIT (LICENSE). Synthetic data, protocol, outputs and documents: CC BY 4.0 (LICENSE-DATA). Cite with CITATION.cff.
+
+## Archival release
+
+This repository is archived on Zenodo. Version DOI for release v1.0.2: https://doi.org/10.5281/zenodo.23448180. Concept DOI for all versions: https://doi.org/10.5281/zenodo.23448179. Pre-registration DOI (OSF): 10.17605/OSF.IO/3P9EY.
