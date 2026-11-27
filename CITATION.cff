@@ -5,9 +5,12 @@ authors:
   - family-names: Motani
     given-names: Vinod Rufus
     orcid: "https://orcid.org/0009-0005-3459-0859"
-doi: "10.5281/zenodo.23448180"
-version: "1.0.2"
+doi: "10.5281/zenodo.23448179"
+version: "1.0.3"
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23448179
+    description: "Zenodo concept DOI, resolving to the latest archived release"
   - type: doi
     value: 10.5281/zenodo.23448180
     description: "Zenodo archive of release v1.0.2"

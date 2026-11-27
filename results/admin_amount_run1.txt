@@ -1,4 +1,4 @@
-wrote <path> CG/Press Release/2nd one/f2d/results/admin_amount_run1.csv (3040 rows); tolerance 10%; reference = scenario expected_dose_per_admin_mg (printed, capped, mg)
+wrote /Users/vr-18smbp/Documents/Project CG/Press Release/2nd one/f2d/results/admin_amount_run1.csv (3040 rows); tolerance 10%; reference = scenario expected_dose_per_admin_mg (printed, capped, mg)
 model                  wf  level  n    compared  off   missing  no_ref
 claude-sonnet-5        B   L1     101    101       0      0       0
 claude-sonnet-5        B   L2     100    100       0      0       0

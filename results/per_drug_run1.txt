@@ -1,4 +1,4 @@
-wrote <path> CG/Press Release/2nd one/f2d/results/per_drug_run1.csv (200 rows)
+wrote /Users/vr-18smbp/Documents/Project CG/Press Release/2nd one/f2d/results/per_drug_run1.csv (200 rows)
 claude-sonnet-5        wf=B acetaminophen              n=  9 primary=1.0    dose_conseq=0.0    abst=1/1
 claude-sonnet-5        wf=B amoxicillin                n= 16 primary=0.938  dose_conseq=0.062  abst=2/2
 claude-sonnet-5        wf=B amoxicillin-clavulanate    n= 15 primary=1.0    dose_conseq=0.0    abst=2/2

@@ -1,0 +1,181 @@
+== Inputs ==
+scored_test_B_claude-sonnet-5_run1.jsonl  model=claude-sonnet-5 wf=B run=run1 records=361 non_abstention=304 sha256=32315a758421ade86b862cf8fe3e1d8c6ffcde70aa2e02b435e6b757c6a87fb0
+scored_test_B_deepseek-v4-pro_run1.jsonl  model=deepseek-v4-pro wf=B run=run1 records=361 non_abstention=304 sha256=3c6bf2265bcca6f2f7fea95f7b89ef0cbbd76370f7362299338ee208c348a310
+scored_test_B_gemini-3.1-pro-preview_run1.jsonl  model=gemini-3.1-pro-preview wf=B run=run1 records=361 non_abstention=304 sha256=137d556b9b87a39333126367749adaacb1b74fc2c888cfb3cae718cfede03e81
+scored_test_B_gpt-5.5-2026-04-23_run1.jsonl  model=gpt-5.5-2026-04-23 wf=B run=run1 records=361 non_abstention=304 sha256=a80eb8fa2fd67c0947e71085379456fb3b0a9479e6b2b9d1d319f8b2e4a98ac8
+scored_test_B_llama3.1_8b_run1.jsonl  model=llama3.1:8b wf=B run=run1 records=361 non_abstention=304 sha256=d26f084962dba0854396d7abd4401586d025ab3a82225ab548f91f2d1e4fcacc
+scored_test_C_claude-sonnet-5_run1.jsonl  model=claude-sonnet-5 wf=C run=run1 records=361 non_abstention=304 sha256=419c1751e2f3b02be039c8990b43708a6f33c235d0579116301cd9c2052f962e
+scored_test_C_deepseek-v4-pro_run1.jsonl  model=deepseek-v4-pro wf=C run=run1 records=361 non_abstention=304 sha256=5830a4484eaeff538ac87d3d13e69591c5eba5d5e7ba7ce9e268e7cf9b565f7f
+scored_test_C_gemini-3.1-pro-preview_run1.jsonl  model=gemini-3.1-pro-preview wf=C run=run1 records=361 non_abstention=304 sha256=0a08bcccead7df370c93ac52a5edc4320b0b0f9754c0f640df8f644a5190103b
+scored_test_C_gpt-5.5-2026-04-23_run1.jsonl  model=gpt-5.5-2026-04-23 wf=C run=run1 records=361 non_abstention=304 sha256=5979622917a600357ea5fbb1b72a73c5e343214129a685493f1cb15cbc1f2d1d
+scored_test_C_llama3.1_8b_run1.jsonl  model=llama3.1:8b wf=C run=run1 records=361 non_abstention=304 sha256=c44b7a901fc4bc74323705425fc638186aaac5a86181b23ccc07d0134c653661
+Validated 10 files for 5 models.
+
+== Stopping checks: recomputed locked flags against stored scored rows ==
+claude-sonnet-5          wf=B  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+claude-sonnet-5          wf=C  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+deepseek-v4-pro          wf=B  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+deepseek-v4-pro          wf=C  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+gemini-3.1-pro-preview   wf=B  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+gemini-3.1-pro-preview   wf=C  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+gpt-5.5-2026-04-23       wf=B  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+gpt-5.5-2026-04-23       wf=C  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+llama3.1:8b              wf=B  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+llama3.1:8b              wf=C  304 records: dosing_consistent, dose_consequential, primary_endpoint at 0.10 and dose_consequential_sens at 0.20 all match
+
+== Level 3 rule sensitivity at primary tolerance 0.10: locked scorer (worst available deviation) versus protocol text (both values) ==
+gpt-5.5-2026-04-23       wf=B n=304
+                           primary endpoint   locked=0.970 [0.947,0.987] (295/304)   text=0.970 [0.947,0.987] (295/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+gpt-5.5-2026-04-23       wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+claude-sonnet-5          wf=B n=304
+                           primary endpoint   locked=0.980 [0.964,0.993] (298/304)   text=0.977 [0.961,0.993] (297/304)
+                           dose-consequential locked=0.016 [0.003,0.033] (5/304)   text=0.020 [0.007,0.036] (6/304)
+                           exposure components (mutually exclusive): both_present_within=298 both_present_off=5 one_missing_other_within=1 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 5; text = locked + one_missing_other_within = 6
+                           records changing Level 3=1; records changing primary endpoint=1
+                           Level 3 changes by note complexity tier={1: 1}
+                           dose-consequential by complexity tier (locked, H2)={1: 0.01, 2: 0.0, 3: 0.039}
+                           dose-consequential by complexity tier (text, H2)={1: 0.02, 2: 0.0, 3: 0.039}
+claude-sonnet-5          wf=C n=304
+                           primary endpoint   locked=0.997 [0.990,1.000] (303/304)   text=0.997 [0.990,1.000] (303/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+gemini-3.1-pro-preview   wf=B n=304
+                           primary endpoint   locked=0.980 [0.964,0.993] (298/304)   text=0.980 [0.964,0.993] (298/304)
+                           dose-consequential locked=0.016 [0.003,0.033] (5/304)   text=0.016 [0.003,0.033] (5/304)
+                           exposure components (mutually exclusive): both_present_within=299 both_present_off=5 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 5; text = locked + one_missing_other_within = 5
+                           records changing Level 3=0; records changing primary endpoint=0
+gemini-3.1-pro-preview   wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+deepseek-v4-pro          wf=B n=304
+                           primary endpoint   locked=0.990 [0.977,1.000] (301/304)   text=0.990 [0.977,1.000] (301/304)
+                           dose-consequential locked=0.007 [0.000,0.016] (2/304)   text=0.007 [0.000,0.016] (2/304)
+                           exposure components (mutually exclusive): both_present_within=302 both_present_off=2 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 2; text = locked + one_missing_other_within = 2
+                           records changing Level 3=0; records changing primary endpoint=0
+deepseek-v4-pro          wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+llama3.1:8b              wf=B n=304
+                           primary endpoint   locked=0.329 [0.276,0.382] (100/304)   text=0.072 [0.046,0.102] (22/304)
+                           dose-consequential locked=0.645 [0.592,0.697] (196/304)   text=0.924 [0.895,0.954] (281/304)
+                           exposure components (mutually exclusive): both_present_within=23 both_present_off=160 one_missing_other_within=85 one_missing_other_off=29 both_missing=7 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 196; text = locked + one_missing_other_within = 281
+                           records changing Level 3=85; records changing primary endpoint=78
+                           Level 3 changes by note complexity tier={1: 29, 2: 24, 3: 32}
+                           dose-consequential by complexity tier (locked, H2)={1: 0.634, 2: 0.7, 3: 0.602}
+                           dose-consequential by complexity tier (text, H2)={1: 0.921, 2: 0.94, 3: 0.913}
+llama3.1:8b              wf=C n=304
+                           primary endpoint   locked=0.056 [0.030,0.082] (17/304)   text=0.056 [0.030,0.082] (17/304)
+                           dose-consequential locked=0.891 [0.855,0.924] (271/304)   text=0.891 [0.855,0.924] (271/304)
+                           exposure components (mutually exclusive): both_present_within=33 both_present_off=2 one_missing_other_within=0 one_missing_other_off=0 both_missing=269 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 271; text = locked + one_missing_other_within = 271
+                           records changing Level 3=0; records changing primary endpoint=0
+
+== H3 under the protocol-text rule at tolerance 0.10: Workflow C minus B, paired by scenario, clustered bootstrap ==
+Section 1 wording: dose-consequential error rate (negative favours hybrid; supported if upper bound < 0).
+Section 16 wording: primary endpoint (positive favours hybrid; supported if lower bound > 0).
+gpt-5.5-2026-04-23       S1 diff=+0.000 [+0.000,+0.000] supported=no   S16 diff=+0.030 [+0.013,+0.049] supported=yes
+claude-sonnet-5          S1 diff=-0.020 [-0.036,-0.007] supported=yes   S16 diff=+0.020 [+0.007,+0.036] supported=yes
+gemini-3.1-pro-preview   S1 diff=-0.016 [-0.030,-0.003] supported=yes   S16 diff=+0.020 [+0.007,+0.036] supported=yes
+deepseek-v4-pro          S1 diff=-0.007 [-0.016,+0.000] supported=no   S16 diff=+0.010 [+0.000,+0.023] supported=no
+llama3.1:8b              S1 diff=-0.033 [-0.082,+0.016] supported=no   S16 diff=-0.016 [-0.059,+0.023] supported=no
+Majority rule: Section 1 criterion met for 2 of 5 models; Section 16 criterion met for 3 of 5 models.
+
+== Level 3 rule sensitivity at sensitivity tolerance 0.20: locked scorer (worst available deviation) versus protocol text (both values) ==
+gpt-5.5-2026-04-23       wf=B n=304
+                           primary endpoint   locked=0.970 [0.947,0.987] (295/304)   text=0.970 [0.947,0.987] (295/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+gpt-5.5-2026-04-23       wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+claude-sonnet-5          wf=B n=304
+                           primary endpoint   locked=0.984 [0.967,0.997] (299/304)   text=0.980 [0.964,0.993] (298/304)
+                           dose-consequential locked=0.013 [0.003,0.026] (4/304)   text=0.016 [0.003,0.033] (5/304)
+                           exposure components (mutually exclusive): both_present_within=299 both_present_off=4 one_missing_other_within=1 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 4; text = locked + one_missing_other_within = 5
+                           records changing Level 3=1; records changing primary endpoint=1
+                           Level 3 changes by note complexity tier={1: 1}
+                           dose-consequential by complexity tier (locked, H2)={1: 0.0, 2: 0.0, 3: 0.039}
+                           dose-consequential by complexity tier (text, H2)={1: 0.01, 2: 0.0, 3: 0.039}
+claude-sonnet-5          wf=C n=304
+                           primary endpoint   locked=0.997 [0.990,1.000] (303/304)   text=0.997 [0.990,1.000] (303/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+gemini-3.1-pro-preview   wf=B n=304
+                           primary endpoint   locked=0.980 [0.964,0.993] (298/304)   text=0.980 [0.964,0.993] (298/304)
+                           dose-consequential locked=0.016 [0.003,0.033] (5/304)   text=0.016 [0.003,0.033] (5/304)
+                           exposure components (mutually exclusive): both_present_within=299 both_present_off=5 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 5; text = locked + one_missing_other_within = 5
+                           records changing Level 3=0; records changing primary endpoint=0
+gemini-3.1-pro-preview   wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+deepseek-v4-pro          wf=B n=304
+                           primary endpoint   locked=0.990 [0.977,1.000] (301/304)   text=0.990 [0.977,1.000] (301/304)
+                           dose-consequential locked=0.007 [0.000,0.016] (2/304)   text=0.007 [0.000,0.016] (2/304)
+                           exposure components (mutually exclusive): both_present_within=302 both_present_off=2 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 2; text = locked + one_missing_other_within = 2
+                           records changing Level 3=0; records changing primary endpoint=0
+deepseek-v4-pro          wf=C n=304
+                           primary endpoint   locked=1.000 [1.000,1.000] (304/304)   text=1.000 [1.000,1.000] (304/304)
+                           dose-consequential locked=0.000 [0.000,0.000] (0/304)   text=0.000 [0.000,0.000] (0/304)
+                           exposure components (mutually exclusive): both_present_within=304 both_present_off=0 one_missing_other_within=0 one_missing_other_off=0 both_missing=0 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 0; text = locked + one_missing_other_within = 0
+                           records changing Level 3=0; records changing primary endpoint=0
+llama3.1:8b              wf=B n=304
+                           primary endpoint   locked=0.342 [0.289,0.395] (104/304)   text=0.086 [0.056,0.118] (26/304)
+                           dose-consequential locked=0.632 [0.576,0.684] (192/304)   text=0.911 [0.878,0.941] (277/304)
+                           exposure components (mutually exclusive): both_present_within=27 both_present_off=156 one_missing_other_within=85 one_missing_other_off=29 both_missing=7 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 192; text = locked + one_missing_other_within = 277
+                           records changing Level 3=85; records changing primary endpoint=78
+                           Level 3 changes by note complexity tier={1: 29, 2: 24, 3: 32}
+                           dose-consequential by complexity tier (locked, H2)={1: 0.624, 2: 0.7, 3: 0.573}
+                           dose-consequential by complexity tier (text, H2)={1: 0.911, 2: 0.94, 3: 0.883}
+llama3.1:8b              wf=C n=304
+                           primary endpoint   locked=0.056 [0.030,0.082] (17/304)   text=0.056 [0.030,0.082] (17/304)
+                           dose-consequential locked=0.891 [0.855,0.924] (271/304)   text=0.891 [0.855,0.924] (271/304)
+                           exposure components (mutually exclusive): both_present_within=33 both_present_off=2 one_missing_other_within=0 one_missing_other_off=0 both_missing=269 malformed=0
+                           composite failures: locked = both_present_off + one_missing_other_off + both_missing + malformed = 271; text = locked + one_missing_other_within = 271
+                           records changing Level 3=0; records changing primary endpoint=0
+
+== H3 under the protocol-text rule at tolerance 0.20: Workflow C minus B, paired by scenario, clustered bootstrap ==
+Section 1 wording: dose-consequential error rate (negative favours hybrid; supported if upper bound < 0).
+Section 16 wording: primary endpoint (positive favours hybrid; supported if lower bound > 0).
+gpt-5.5-2026-04-23       S1 diff=+0.000 [+0.000,+0.000] supported=no   S16 diff=+0.030 [+0.013,+0.049] supported=yes
+claude-sonnet-5          S1 diff=-0.016 [-0.033,-0.003] supported=yes   S16 diff=+0.016 [+0.003,+0.033] supported=yes
+gemini-3.1-pro-preview   S1 diff=-0.016 [-0.030,-0.003] supported=yes   S16 diff=+0.020 [+0.007,+0.036] supported=yes
+deepseek-v4-pro          S1 diff=-0.007 [-0.016,+0.000] supported=no   S16 diff=+0.010 [+0.000,+0.023] supported=no
+llama3.1:8b              S1 diff=-0.020 [-0.069,+0.030] supported=no   S16 diff=-0.030 [-0.072,+0.010] supported=no
+Majority rule: Section 1 criterion met for 2 of 5 models; Section 16 criterion met for 3 of 5 models.
+

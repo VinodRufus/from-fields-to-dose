@@ -1,0 +1,15 @@
+diff --git a/analysis/analyze.py b/analysis/analyze.py
+index 123fdc1..cf26e76 100644
+--- a/analysis/analyze.py
++++ b/analysis/analyze.py
+@@ -13,7 +13,9 @@ def by_scenario(rows: List[Dict], key: str) -> Dict[str, List[float]]:
+     d = defaultdict(list)
+     for r in rows:
+         v = r.get(key)
+-        if v is None: continue
++        if v is None:
++            if r.get("malformed") and key in ("primary_endpoint", "complete_regimen", "dosing_consistent"): v = False
++            else: continue
+         d[r["scenario_id"]].append(1.0 if v is True else 0.0 if v is False else float(v))
+     return d
+ 

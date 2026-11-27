@@ -1,4 +1,4 @@
-wrote <path> CG/Press Release/2nd one/f2d/results/by_stratum_run1.csv (420 rows)
+wrote /Users/vr-18smbp/Documents/Project CG/Press Release/2nd one/f2d/results/by_stratum_run1.csv (420 rows)
 
 == PRIMARY ENDPOINT RATE ==
 stratum                              n        gpt/B        gpt/C     claude/B     claude/C     gemini/B     gemini/C   deepseek/B   deepseek/C   llama3.1/B   llama3.1/C

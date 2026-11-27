@@ -11,11 +11,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ALLOW_DIRS = ["config", "sources", "generator", "harness", "scoring", "analysis", "tools", "tests", "data/test", "data/dev", "protocol", "docs", "results/packet", "results/export"]
 ALLOW_FILES = ["SETUP_GUIDE.md", "README.md", "requirements.txt", "pyproject.toml", ".gitignore"]
-RESULT_GLOBS = ["raw_test_*.jsonl", "scored_test_*.jsonl", "*.csv", "analysis_*.txt", "per_drug_run1.txt", "admin_amount_run1.txt", "by_stratum_run1.txt", "manual_codes*.jsonl"]
+RESULT_GLOBS = ["raw_test_*.jsonl", "scored_test_*.jsonl", "*.csv", "analysis_*.txt", "per_drug_run1.txt", "admin_amount_run1.txt", "by_stratum_run1.txt", "manual_codes*.jsonl", "h4_classes.txt", "rounding_audit.md", "run_times.md", "table1_counts.md"]
+# Files cited in the paper that the exclusion patterns would otherwise drop (a record-id list and a 15-line diff; no secrets).
+ALLOW_EXTRA = ["data/test/removals.log", "results/logs/analyze_malformed_as_failure.diff"]
 EXCLUDE_ANY = ["__pycache__", ".DS_Store", ".env", ".venv", "archive", "logs", "backup", "*.pyc", "*.log", "secret*"]
 SECRET_PATTERNS = [r"sk-[A-Za-z0-9_\-]{16,}", r"sk-ant-[A-Za-z0-9_\-]{16,}", r"AIza[0-9A-Za-z_\-]{30,}", r"xai-[A-Za-z0-9]{16,}", r"(?i)api[_-]?key\s*[:=]\s*['\"][A-Za-z0-9_\-]{16,}", r"(?i)bearer\s+[A-Za-z0-9_\-\.]{20,}"]
 
 README = """# From Fields to Dose
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23448179.svg)](https://doi.org/10.5281/zenodo.23448179)
 
 Evaluating Large Language Models for Weight-Based Pediatric Medication Extraction and Dosing Consistency.
 
@@ -38,9 +42,10 @@ Registration: https://osf.io/3p9ey (DOI 10.17605/OSF.IO/3P9EY). Project: https:/
 
 config/ (model identifiers; environment-variable names only), sources/ (dosing table from FDA labels, growth references,
 age bands), generator/ (synthetic record generation and the deterministic calculator), harness/ (prompts, output schema,
-runner), scoring/ (four-level scorer, codebook), analysis/ (registered analysis and additions outside the lock), tools/,
-tests/, data/test/ (locked split), data/dev/ (development split), protocol/ (Protocol v1.0, lock hashes, deviations log),
-results/ (raw and scored outputs, analysis outputs, supplementary tables, evidence packet), docs/ (official documents and figures).
+runner), scoring/ (four-level scorer, codebook), analysis/ (registered analysis and additions outside the lock), tools/
+(audits, tables and the figure scripts in tools/figures/), tests/, data/test/ (locked split), data/dev/ (development
+split and its realism audit), protocol/ (Protocol v1.0, lock hashes, deviations log), results/ (raw and scored outputs,
+analysis outputs, manual coding, supplementary tables, evidence packet), docs/ (official documents and figures).
 
 ## Reproduce the headline tables
 
@@ -48,21 +53,40 @@ results/ (raw and scored outputs, analysis outputs, supplementary tables, eviden
 python -m scoring.score --raw 'results/raw_test_*.jsonl'
 python -m analysis.analyze --scored 'results/scored_test_*_run1.jsonl'
 python -m analysis.pairwise --scored 'results/scored_test_*_run1.jsonl'
+python -m analysis.sensitivity_text_rule
 python -m tools.admin_amount --scored 'results/scored_test_*_run1.jsonl'
 python -m tools.by_stratum --scored 'results/scored_test_*_run1.jsonl'
 python -m tools.max_check
+python -m tools.h4_classes
+python -m tools.rounding_audit
+python -m tools.run_times
+python -m tools.packet_rows
 ```
+
+The nine manuscript figures are drawn from the committed files by the scripts in tools/figures/ (PNG, PDF and SVG in
+docs/figures/, plus an editable PowerPoint from tools/figures/build_pptx.py).
 
 No provider keys are needed to score or analyse; keys are needed only to re-run models (see SETUP_GUIDE.md).
 
 ## Status
 
 All five registered models have complete results (first runs on 361 records and three runs on the 108-record repeat subset).
-Unassisted manual error coding, the re-coding check and the TRIPOD-LLM checklist are pending and are stated as pending in docs/.
+The unassisted manual error coding (results/manual_codes.jsonl) and its re-coding check (results/manual_codes_recode.jsonl)
+are complete and summarised in results/h4_classes.txt. Release v1.0.3 adds, relative to v1.0.2: the manual coding and
+re-code files; the Level 3 rule sensitivity (analysis/sensitivity_text_rule.py); the H4 class, rounding-audit, run-time
+and Table 1 scripts with their outputs; the rebuilt row-level evidence packet (Gemini 3.1 Pro scored rows filled, fifth
+maximum-dose note added); the figure scripts and figures; and the deviations rows of 14 to 26 November 2026. The
+documents in docs/ are the v1.0.2 versions and describe the coding as pending; the manuscript supersedes them.
 
 ## Licences
 
 Code: MIT (LICENSE). Synthetic data, protocol, outputs and documents: CC BY 4.0 (LICENSE-DATA). Cite with CITATION.cff.
+
+## Archival release
+
+This repository is archived on Zenodo. Concept DOI for all versions: https://doi.org/10.5281/zenodo.23448179.
+Version DOI for release v1.0.2: https://doi.org/10.5281/zenodo.23448180. Version DOI for release v1.0.3: see the Zenodo
+record linked from the concept DOI. Pre-registration DOI (OSF): 10.17605/OSF.IO/3P9EY.
 """
 
 LICENSE_MIT = """MIT License
@@ -100,7 +124,15 @@ authors:
   - family-names: Motani
     given-names: Vinod Rufus
     orcid: "https://orcid.org/0009-0005-3459-0859"
+doi: "10.5281/zenodo.23448179"
+version: "1.0.3"
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23448179
+    description: "Zenodo concept DOI, resolving to the latest archived release"
+  - type: doi
+    value: 10.5281/zenodo.23448180
+    description: "Zenodo archive of release v1.0.2"
   - type: doi
     value: 10.17605/OSF.IO/3P9EY
     description: "Pre-registration on the Open Science Framework"
@@ -149,6 +181,13 @@ def main():
         src = os.path.join(ROOT, f)
         if os.path.isfile(src):
             shutil.copy2(src, os.path.join(out, f)); total += 1
+    for f in ALLOW_EXTRA:
+        src = os.path.join(ROOT, f)
+        if os.path.isfile(src):
+            os.makedirs(os.path.dirname(os.path.join(out, f)), exist_ok=True)
+            shutil.copy2(src, os.path.join(out, f)); total += 1
+        else:
+            print(f"WARNING: cited file not found in the working repository: {f}")
     rdir = os.path.join(ROOT, "results")
     os.makedirs(os.path.join(out, "results"), exist_ok=True)
     for fn in sorted(os.listdir(rdir)):

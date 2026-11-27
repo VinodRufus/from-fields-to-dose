@@ -1,0 +1,56 @@
+== H4: dose-consequential errors by automatic class, run 1, non-abstention records ==
+Share = proportion of a cell's dose-consequential outputs carrying the class; clustered bootstrap over scenarios, 2,000 resamples. Classes are not mutually exclusive.
+gpt-5.5-2026-04-23       wf=B  dose-consequential outputs: 0 of 304
+gpt-5.5-2026-04-23       wf=C  dose-consequential outputs: 0 of 304
+claude-sonnet-5          wf=B  dose-consequential outputs: 5 of 304
+                           arithmetic_inconsistency            5  share=1.000 [1.000,1.000]
+                           H4 classes (dose_basis, weight_selection, extraction:weight_wrong): 0 of 5  share=0.000 [0.000,0.000]
+                           broader reading adding adult_fixed_dose_assumption:                 0 of 5  share=0.000 [0.000,0.000]
+claude-sonnet-5          wf=C  dose-consequential outputs: 0 of 304
+gemini-3.1-pro-preview   wf=B  dose-consequential outputs: 5 of 304
+                           arithmetic_inconsistency            5  share=1.000 [1.000,1.000]
+                           H4 classes (dose_basis, weight_selection, extraction:weight_wrong): 0 of 5  share=0.000 [0.000,0.000]
+                           broader reading adding adult_fixed_dose_assumption:                 0 of 5  share=0.000 [0.000,0.000]
+gemini-3.1-pro-preview   wf=C  dose-consequential outputs: 0 of 304
+deepseek-v4-pro          wf=B  dose-consequential outputs: 2 of 304
+                           arithmetic_inconsistency            2  share=1.000 [1.000,1.000]
+                           H4 classes (dose_basis, weight_selection, extraction:weight_wrong): 0 of 2  share=0.000 [0.000,0.000]
+                           broader reading adding adult_fixed_dose_assumption:                 0 of 2  share=0.000 [0.000,0.000]
+deepseek-v4-pro          wf=C  dose-consequential outputs: 0 of 304
+llama3.1:8b              wf=B  dose-consequential outputs: 196 of 304
+                           arithmetic_inconsistency          146  share=0.745 [0.684,0.806]
+                           frequency                          22  share=0.112 [0.071,0.153]
+                           dose_basis                         12  share=0.061 [0.031,0.097]
+                           extraction:dose_wrong              12  share=0.061 [0.031,0.092]
+                           extraction:weight_wrong             1  share=0.005 [0.000,0.015]
+                           H4 classes (dose_basis, weight_selection, extraction:weight_wrong): 13 of 196  share=0.066 [0.036,0.102]
+                           broader reading adding adult_fixed_dose_assumption:                 13 of 196  share=0.066 [0.036,0.102]
+llama3.1:8b              wf=C  dose-consequential outputs: 271 of 304
+                           extraction:dose_wrong             269  share=0.993 [0.982,1.000]
+                           adult_fixed_dose_assumption       261  share=0.963 [0.941,0.985]
+                           frequency                          25  share=0.092 [0.059,0.129]
+                           arithmetic_inconsistency            2  share=0.007 [0.000,0.018]
+                           H4 classes (dose_basis, weight_selection, extraction:weight_wrong): 0 of 271  share=0.000 [0.000,0.000]
+                           broader reading adding adult_fixed_dose_assumption:                 261 of 271  share=0.963 [0.941,0.985]
+
+Pooled over all cells: 479 dose-consequential outputs.
+   extraction:dose_wrong             281  0.587
+   adult_fixed_dose_assumption       261  0.545
+   arithmetic_inconsistency          160  0.334
+   frequency                          47  0.098
+   dose_basis                         12  0.025
+   extraction:weight_wrong             1  0.002
+   H4 classes together: 13 of 479 (0.027); broader reading: 274 (0.572)
+
+== Manual coding of residual extraction errors (Protocol Section 13) ==
+First pass: 288 residual errors; codes {'E1': 279, 'E2': 1, 'E3': 6, 'E5': 2}
+   E1: 279  share=0.969
+   E2: 1  share=0.003
+   E3: 6  share=0.021
+   E5: 2  share=0.007
+By file: {'scored_test_C_llama3.1_8b_run1.jsonl': 270, 'scored_test_B_llama3.1_8b_run1.jsonl': 18}
+Re-code: 28 records; agreement 25/28 = 0.893; re-code distribution {'E1': 25, 'E2': 1, 'E3': 2}
+Cohen's kappa (two passes by the same coder): 0.000 (p_o=0.893, p_e=0.893); uninformative when one pass has a single category.
+   disagreement: test-ondansetron-mg_kg_dose-toddler-L3-v1-r0  first=E1  recode=E2
+   disagreement: test-acetaminophen-mg_kg_dose-toddler-L3-v0-r0  first=E1  recode=E3
+   disagreement: test-famotidine-mg_kg_dose-toddler-L3-v0-r0  first=E1  recode=E3
